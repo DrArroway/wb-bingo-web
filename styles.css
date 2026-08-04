@@ -1,0 +1,372 @@
+:root {
+  --bg-color: #0d0f12;
+  --card-bg: #161a22;
+  --card-border: #262c36;
+  --text-main: #e6edf3;
+  --text-muted: #8b949e;
+  --accent-purple: #8a2be2;
+  --accent-purple-glow: rgba(138, 43, 226, 0.4);
+  --damage-0: #238636; /* Intact green */
+  --damage-1: #d29922; /* Minor yellow */
+  --damage-2: #db6d28; /* Small fire orange */
+  --damage-3: #f85149; /* Medium fire red */
+  --damage-4: #b62324; /* Large fire dark red */
+  --damage-5: #6e40c9; /* Total loss purple */
+}
+
+* { 
+  box-sizing: border-box; 
+  margin: 0; 
+  padding: 0; 
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  background-color: var(--bg-color);
+  color: var(--text-main);
+  padding: 24px;
+  line-height: 1.5;
+}
+
+header {
+  margin-bottom: 24px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  gap: 16px;
+  border-bottom: 1px solid var(--card-border);
+  padding-bottom: 16px;
+}
+
+.title-area h1 {
+  font-size: 1.8rem;
+  font-weight: 700;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.title-area h1 span {
+  background: linear-gradient(135deg, #a855f7, #ec4899);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.controls {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  align-items: center;
+}
+
+.control-group {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 0.85rem;
+  color: var(--text-muted);
+}
+
+select, input {
+  background: var(--card-bg);
+  color: var(--text-main);
+  border: 1px solid var(--card-border);
+  padding: 8px 12px;
+  border-radius: 6px;
+  font-size: 0.9rem;
+  outline: none;
+}
+
+select:focus, input:focus {
+  border-color: var(--accent-purple);
+  box-shadow: 0 0 0 2px var(--accent-purple-glow);
+}
+
+/* Dashboard Layout Grid */
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(290px, 1fr));
+  gap: 18px;
+}
+
+/* Card Styling */
+.card {
+  background: var(--card-bg);
+  border: 1px solid var(--card-border);
+  border-radius: 10px;
+  /* Change overflow: hidden to overflow: visible so tooltips can float freely */
+  overflow: visible;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.card:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.5);
+}
+
+/* Card Header Image Area */
+.card-header-img {
+  height: 150px;
+  width: 100%;
+  position: relative;
+  background-color: #1a1e24;
+  overflow: hidden;
+}
+
+.card-bg-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+  transition: transform 0.3s ease;
+}
+
+.card:hover .card-bg-img {
+  transform: scale(1.05);
+}
+
+/* Dynamic Fire / Damage Overlays */
+.damage-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  pointer-events: none;
+}
+
+.overlay-lvl-0 {
+  background: transparent;
+}
+
+.overlay-lvl-1 {
+  background: radial-gradient(circle at center, rgba(210, 153, 34, 0.35) 0%, rgba(0,0,0,0.2) 100%);
+  mix-blend-mode: hard-light;
+}
+
+.overlay-lvl-2 {
+  background: radial-gradient(circle at bottom right, rgba(219, 109, 40, 0.65) 0%, rgba(0,0,0,0.3) 70%);
+  mix-blend-mode: hard-light;
+}
+
+.overlay-lvl-3 {
+  background: radial-gradient(circle at center, rgba(248, 81, 73, 0.75) 10%, rgba(219, 109, 40, 0.5) 60%, rgba(0,0,0,0.5) 100%);
+  mix-blend-mode: hard-light;
+  animation: pulse-fire 3s infinite alternate ease-in-out;
+}
+
+.overlay-lvl-4 {
+  background: radial-gradient(circle at bottom, rgba(255, 0, 0, 0.85) 0%, rgba(182, 35, 36, 0.7) 50%, rgba(15, 15, 15, 0.85) 100%);
+  mix-blend-mode: hard-light;
+  animation: pulse-fire 1.8s infinite alternate ease-in-out;
+}
+
+.overlay-lvl-5 {
+  background: radial-gradient(circle at center, rgba(110, 64, 201, 0.85) 0%, rgba(30, 20, 50, 0.9) 70%, rgba(10, 10, 10, 0.95) 100%);
+  mix-blend-mode: hard-light;
+}
+
+@keyframes pulse-fire {
+  0% { opacity: 0.75; }
+  100% { opacity: 1.0; }
+}
+
+/* Badge Overlay */
+.damage-badge {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  padding: 4px 10px;
+  border-radius: 20px;
+  font-size: 0.75rem;
+  font-weight: 700;
+  color: #fff;
+  text-shadow: 0 1px 2px rgba(0,0,0,0.8);
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.5);
+  z-index: 2;
+}
+
+/* Card Content Body */
+.card-body {
+  padding: 14px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  flex-grow: 1;
+}
+
+.card-id-region {
+  display: flex;
+  justify-content: space-between;
+  font-size: 0.75rem;
+  color: var(--text-muted);
+  text-transform: uppercase;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+}
+
+.card-title {
+  font-size: 1.1rem;
+  font-weight: 700;
+  line-height: 1.3;
+  color: #ffffff;
+}
+
+.metrics-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 8px;
+  background: rgba(0, 0, 0, 0.25);
+  padding: 10px;
+  border-radius: 6px;
+  border: 1px solid rgba(255,255,255,0.05);
+}
+
+.metric-item {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+
+.metric-label {
+  font-size: 0.7rem;
+  color: var(--text-muted);
+  text-transform: uppercase;
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+
+.metric-value {
+  font-size: 0.95rem;
+  font-weight: 600;
+  color: #ffffff;
+}
+
+/* Tooltip Base & Trigger Container */
+/* Tooltip Base & Trigger Container */
+.tooltip-trigger {
+  cursor: pointer;
+  text-decoration: underline dotted var(--accent-purple);
+  position: relative;
+  /* Removed display: inline-flex to keep 2-column grid alignment uniform */
+}
+
+/* Tooltip Popup Box */
+.tooltip-popup {
+  display: none;
+  position: absolute;
+  bottom: 100%;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 260px;
+  max-height: 220px;
+  overflow-y: auto;
+  background: #1f242d;
+  border: 1px solid var(--card-border);
+  border-radius: 8px;
+  padding: 10px;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.85);
+  z-index: 1000;
+  font-size: 0.8rem;
+  color: var(--text-main);
+  text-align: left;
+  line-height: 1.4;
+
+  /* Invisible bottom border bridge that extends the mouse target down to the text */
+  border-bottom: 10px solid transparent;
+  background-clip: padding-box;
+}
+
+/* Arrow indicator */
+.tooltip-popup::after {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  transform: translateX(-50%);
+  border-width: 6px;
+  border-style: solid;
+  border-color: #1f242d transparent transparent transparent;
+  pointer-events: none;
+}
+
+/* Prevent text clipping when title is inside .tooltip-trigger */
+.name-trigger {
+  display: block;
+}
+
+/* Hover Rules */
+.tooltip-trigger:hover .tooltip-popup,
+.tooltip-popup:hover {
+  display: block;
+}
+
+.strike-event {
+  border-bottom: 1px solid var(--card-border);
+  padding-bottom: 8px;
+  margin-bottom: 8px;
+}
+
+.strike-event:last-child {
+  border-bottom: none;
+  padding-bottom: 0;
+  margin-bottom: 0;
+}
+
+.strike-date {
+  color: #f85149;
+  font-weight: 700;
+  margin-bottom: 2px;
+}
+
+/* Added styling for Sources list within tooltips */
+.tooltip-sources {
+  margin-top: 6px;
+  padding-top: 6px;
+  border-top: 1px dashed var(--card-border);
+}
+
+.tooltip-sources-title {
+  font-size: 0.7rem;
+  text-transform: uppercase;
+  color: var(--text-muted);
+  font-weight: 600;
+  margin-bottom: 4px;
+}
+
+.tooltip-sources a {
+  color: #58a6ff;
+  text-decoration: none;
+  display: block;
+  font-size: 0.75rem;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.tooltip-sources a:hover {
+  text-decoration: underline;
+}
+
+/* Confidence Badges */
+.confidence-badge {
+  display: inline-block;
+  padding: 2px 6px;
+  border-radius: 4px;
+  font-size: 0.75rem;
+  font-weight: 600;
+}
+
+.conf-Confirmed { background: rgba(35, 134, 54, 0.3); color: #3fb950; border: 1px solid #238636; }
+.conf-High { background: rgba(56, 139, 253, 0.3); color: #58a6ff; border: 1px solid #1f6feb; }
+.conf-Medium { background: rgba(210, 153, 34, 0.3); color: #d29922; border: 1px solid #9e6a03; }
+.conf-Unconfirmed { background: rgba(110, 118, 129, 0.3); color: #8b949e; border: 1px solid #484f58; }
