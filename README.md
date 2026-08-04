@@ -24,5 +24,3 @@ Data accuracy and media coverage are open to contributions:
 This project was built using AI (Gemini) for coding, CSS layout, and initial data population. 
 
 **Note on Data:** Initial dataset entries were generated via AI search and synthesis. While designed to be more detailed than static online bingo cards, the entries are currently undergoing human verification and may still contain inaccuracies until fully reviewed. Contributions to fact-check sources and telemetry are welcome!
-
-Distributed under the [MIT License](LICENSE).
