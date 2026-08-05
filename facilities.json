@@ -199,7 +199,7 @@
   },
   {
     "id": "WB-011",
-    "name": "Zelenodolsk",
+    "name": "Zelenodolsk (Kazan Hub)",
     "region": "Republic of Tatarstan",
     "footprint_m2": 150000,
     "distance_border_km": 970,
@@ -208,13 +208,14 @@
     "last_strike_date": "2026-07-31",
     "coordinates": "55.8483, 48.5414",
     "sources": [
-      { "name": "OSINT Incident Tracking", "url": "https://en.wikipedia.org/wiki/Ukrainian_strikes_on_Wildberries_warehouses" }
+      { "name": "Ukrainska Pravda Report", "url": "https://www.pravda.com.ua/eng/news/2026/07/31/8046638/" },
+      { "name": "Kyiv Post Analysis", "url": "https://www.kyivpost.com/post/81431" }
     ],
     "image_url": "",
     "strikes": [
       {
         "date": "2026-07-31",
-        "description": "Medium Fire (~40%-50% loss). Industrial zone strike resulting in heavy thermal signatures and internal fire."
+        "description": "Medium Fire (~40%-50% loss). Industrial zone UAV strike resulting in heavy thermal signatures and internal facility fires."
       }
     ]
   },
@@ -280,20 +281,6 @@
         "description": "Large Fire (~60%-75% loss). Main sorting bridge to Siberia hit; multi-bay structural fire."
       }
     ]
-  },
-  {
-    "id": "WB-015",
-    "name": "Kazan / Zelenodolsk Hub",
-    "region": "Republic of Tatarstan",
-    "footprint_m2": 130000,
-    "distance_border_km": 970,
-    "damage_level": 0,
-    "confidence": "N/A",
-    "last_strike_date": "N/A",
-    "coordinates": "55.8500, 48.5500",
-    "sources": [],
-    "image_url": "",
-    "strikes": []
   },
   {
     "id": "WB-016",
