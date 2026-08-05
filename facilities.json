@@ -241,15 +241,17 @@
     "damage_level": 5,
     "confidence": "Confirmed",
     "last_strike_date": "2026-07-22",
-    "coordinates": "45.0355, 39.1361",
+    "coordinates": "45.0549, 39.0695",
     "sources": [
+      { "name": "Meduza Strike Report", "url": "https://meduza.io/en/news/2026/07/22/ukrainian-drones-strike-two-wildberries-warehouses-in-russia-sparking-fires-and-injuring-workers" },
+      { "name": "Ukrainska Pravda Report", "url": "https://www.pravda.com.ua/eng/news/2026/07/22/8045256/" },
       { "name": "NV Business Report", "url": "https://english.nv.ua/business/drone-strikes-cripple-wildberries-hubs-and-expose-russia-s-wartime-economic-strain-50627303.html" }
     ],
     "image_url": "",
     "strikes": [
       {
         "date": "2026-07-22",
-        "description": "Totally uploaded to Cloud (~95%-100% loss). Complete roof collapse and charred framing across entire footprint."
+        "description": "Totally uploaded to Cloud (~95%-100% loss). Overnight drone barrage triggered uncontrolled fire, requiring aerial firefighting support and resulting in complete roof collapse."
       }
     ]
   },
@@ -262,9 +264,10 @@
     "damage_level": 3,
     "confidence": "Confirmed",
     "last_strike_date": "2026-07-24",
-    "coordinates": "56.8122, 35.9186",
+    "coordinates": "56.788165, 36.058538",
     "sources": [
-      { "name": "OSINT Incident Tracking", "url": "https://en.wikipedia.org/wiki/Ukrainian_strikes_on_Wildberries_warehouses" }
+      { "name": "Nasha Niva / Astra Report", "url": "https://nashaniva.com/en/401441" },
+      { "name": "Meduza Incident Tracker", "url": "https://meduza.io/en/feature/2026/08/04/ukraine-has-hit-20-wildberries-warehouses-since-mid-july" }
     ],
     "image_url": "",
     "strikes": [
@@ -283,9 +286,11 @@
     "damage_level": 4,
     "confidence": "Confirmed",
     "last_strike_date": "2026-08-02",
-    "coordinates": "53.3644, 50.3425",
+    "coordinates": "53.3877, 50.3358",
     "sources": [
-      { "name": "OSINT Incident Tracking", "url": "https://en.wikipedia.org/wiki/Ukrainian_strikes_on_Wildberries_warehouses" }
+      { "name": "Reuters / Spokesman Report", "url": "https://www.spokesman.com/stories/2026/aug/02/ukrainian-drones-kill-eight-in-russia-and-strike-w/" },
+      { "name": "The Guardian Briefing", "url": "https://www.theguardian.com/world/2026/aug/03/ukraine-war-briefing-kyiv-hit-wildberries-again" },
+      { "name": "Internazionale / TASS Assessment", "url": "https://www.internazionale.it/ultime-notizie-reuters/2026/08/04/ukraine-strikes-three-warehouses-across-russia-killing-five-local-officials-say" }
     ],
     "image_url": "",
     "strikes": [
@@ -304,15 +309,17 @@
     "damage_level": 4,
     "confidence": "Confirmed",
     "last_strike_date": "2026-07-22",
-    "coordinates": "44.6292, 41.9214",
+    "coordinates": "44.6627, 41.8960",
     "sources": [
-      { "name": "NV Business Report", "url": "https://english.nv.ua/business/drone-strikes-cripple-wildberries-hubs-and-expose-russia-s-wartime-economic-strain-50627303.html" }
+      { "name": "Astra Press OSINT Geolocation", "url": "https://astra.press/english/2026/07/22/14067/" },
+      { "name": "NV Business Report", "url": "https://english.nv.ua/business/drone-strikes-cripple-wildberries-hubs-and-expose-russia-s-wartime-economic-strain-50627303.html" },
+      { "name": "Meduza Strike Report", "url": "https://meduza.io/en/news/2026/07/22/ukrainian-drones-strike-two-wildberries-warehouses-in-russia-sparking-fires-and-injuring-workers" }
     ],
     "image_url": "",
     "strikes": [
       {
         "date": "2026-07-22",
-        "description": "Large Fire (~65%-75% loss). Heavy scorch marks and roof collapse over central hub section."
+        "description": "Large Fire (~65%-75% loss). Heavy scorch marks and roof collapse over central hub section at Timiryazeva 16."
       }
     ]
   },
@@ -339,9 +346,11 @@
     "damage_level": 5,
     "confidence": "Confirmed",
     "last_strike_date": "2026-07-18",
-    "coordinates": "52.5858, 41.5156",
+    "coordinates": "52.5768, 41.5211",
     "sources": [
-      { "name": "The Moscow Times", "url": "https://www.themoscowtimes.com/2026/07/18/ukrainian-drone-attacks-kill-7-warehouse-workers-in-russia-a93280" }
+      { "name": "Caliber / Governor Statement", "url": "https://caliber.az/en/post/seven-killed-24-injured-as-ukraine-targets-russia-s-wildberries-warehouses" },
+      { "name": "NAnews Logistics Assessment", "url": "https://nikk.agency/en/wildberries-is-no-longer-a/" },
+      { "name": "The Moscow Times Incident Report", "url": "https://www.themoscowtimes.com/2026/07/18/ukrainian-drone-attacks-kill-7-warehouse-workers-in-russia-a93280" }
     ],
     "image_url": "",
     "strikes": [
@@ -353,14 +362,14 @@
   },
   {
     "id": "WB-019",
-    "name": "Novosibirsk (Tolmachevo)",
+    "name": "Novosibirsk (PNK-Tolmachevo)",
     "region": "Novosibirsk Oblast",
-    "footprint_m2": 100000,
-    "distance_border_km": 2400,
+    "footprint_m2": 150000,
+    "distance_border_km": 3200,
     "damage_level": 0,
     "confidence": "N/A",
     "last_strike_date": "N/A",
-    "coordinates": "55.0125, 82.6603",
+    "coordinates": "55.0058, 82.5507",
     "sources": [],
     "image_url": "",
     "strikes": []
