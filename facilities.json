@@ -44,22 +44,23 @@
   },
   {
     "id": "WB-003",
-    "name": "Vorshinskoye / Khryastovo",
+    "name": "Vladimir (Vorshinskoye / Khryastovo)",
     "region": "Vladimir Oblast",
-    "footprint_m2": 175000,
-    "distance_border_km": 600,
+    "footprint_m2": 171900,
+    "distance_border_km": 580,
     "damage_level": 5,
     "confidence": "Confirmed",
     "last_strike_date": "2026-08-03",
     "coordinates": "56.0331, 40.2319",
     "sources": [
-      { "name": "OSINT Incident Tracking", "url": "https://en.wikipedia.org/wiki/Ukrainian_strikes_on_Wildberries_warehouses" }
+      { "name": "Meduza Incident Report", "url": "https://meduza.io/en/news/2026/08/03/ukraine-hits-wildberries-warehouse-in-russia-s-vladimir-region" },
+      { "name": "NV Strike Telemetry", "url": "https://english.nv.ua/nation/drones-burn-giant-wildberries-hub-700km-from-ukraine-50629303.html" }
     ],
     "image_url": "",
     "strikes": [
       {
         "date": "2026-08-03",
-        "description": "Totally uploaded to Cloud (~85%-95% loss). Massive structural fire following direct drone strikes."
+        "description": "Totally uploaded to Cloud (~85%-95% loss). FP-1 drone strike on the Sobinsky District hub triggered a multi-bay structural fire and roof collapse."
       }
     ]
   },
@@ -84,28 +85,7 @@
       }
     ]
   },
-  {
-    "id": "WB-005",
-    "name": "Sobinsky District",
-    "region": "Vladimir Oblast",
-    "footprint_m2": 171900,
-    "distance_border_km": 610,
-    "damage_level": 5,
-    "confidence": "Confirmed",
-    "last_strike_date": "2026-08-03",
-    "coordinates": "55.9872, 40.0153",
-    "sources": [
-      { "name": "OSINT Incident Tracking", "url": "https://en.wikipedia.org/wiki/Ukrainian_strikes_on_Wildberries_warehouses" }
-    ],
-    "image_url": "",
-    "strikes": [
-      {
-        "date": "2026-08-03",
-        "description": "Totally uploaded to Cloud (~85%-95% loss). Widespread roof collapse following direct drone strikes."
-      }
-    ]
-  },
-  {
+   {
     "id": "WB-006",
     "name": "Shushary",
     "region": "Leningrad Oblast",
