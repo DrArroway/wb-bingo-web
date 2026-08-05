@@ -198,15 +198,24 @@
     "id": "WB-010",
     "name": "Aleksin",
     "region": "Tula Oblast",
-    "footprint_m2": 150000,
+    "footprint_m2": 194500,
     "distance_border_km": 320,
-    "damage_level": 0,
-    "confidence": "N/A",
-    "last_strike_date": "N/A",
+    "damage_level": 4,
+    "confidence": "Confirmed",
+    "last_strike_date": "2026-08-05",
     "coordinates": "54.5122, 37.0789",
-    "sources": [],
+    "sources": [
+      { "name": "Kyiv Independent Report", "url": "https://kyivindependent.com/ukrainian-drones-reportedly-strike-wildberries-warehouse-in-russias-tula-oblast/" },
+      { "name": "Reuters / Global Banking Report", "url": "https://www.globalbankingandfinance.com/wildberries-logistics-hub-russias-tula-region-fire-drone/" },
+      { "name": "UNN OSINT Report", "url": "https://unn.ua/en/news/in-the-tula-region-one-of-the-largest-wildberries-logistics-centers-came-under-attack" }
+    ],
     "image_url": "",
-    "strikes": []
+    "strikes": [
+      {
+        "date": "2026-08-05",
+        "description": "Currently burning. Massive overnight UAV barrage triggered extensive structural fire across the 194.5k m² facility."
+      }
+    ]
   },
   {
     "id": "WB-011",
