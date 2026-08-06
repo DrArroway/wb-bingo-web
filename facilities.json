@@ -41,33 +41,34 @@
     "strikes": [
       {
         "date": "2026-07-18",
-        "description": "Totally uploaded to Cloud (~90%-95% loss). Overnight drone barrage sparked massive multi-day structural fire causing widespread roof collapse across primary sorting halls."
+        "description": "Extensive structural destruction. Overnight drone barrage sparked massive multi-day structural fire causing widespread roof collapse across primary sorting halls."
       }
     ]
   },
- {
-    "id": "WB-003",
-    "name": "Vladimir (Vorshinskoye / Khryastovo)",
-    "region": "Vladimir Oblast",
-    "footprint_m2": 171900,
-    "distance_border_km": 580,
-    "damage_level": 5,
-    "confidence": "Confirmed",
-    "last_strike_date": "2026-08-03",
-    "coordinates": "56.0507, 40.1255",
-    "sources": [
-      { "name": "Meduza Incident Report", "url": "https://meduza.io/en/news/2026/08/03/ukraine-hits-wildberries-warehouse-in-russia-s-vladimir-region" },
-      { "name": "Exilenova+ / Ukrainska Pravda", "url": "https://www.pravda.com.ua/eng/news/2026/08/03/8046963/" },
-      { "name": "NV Strike Telemetry", "url": "https://english.nv.ua/nation/drones-burn-giant-wildberries-hub-700km-from-ukraine-50629303.html" }
-    ],
-    "image_url": "",
-    "strikes": [
-      {
-        "date": "2026-08-03",
-        "description": "Totally uploaded to Cloud (~85%-95% loss). Drone strike on the Sobinsky District hub triggered a multi-bay structural fire and roof collapse."
-      }
-    ]
-  },
+{
+  "id": "WB-003",
+  "name": "Vladimir (Vorshinskoye / Khryastovo)",
+  "region": "Vladimir Oblast",
+  "footprint_m2": 171900,
+  "distance_border_km": 580,
+  "damage_level": 5,
+  "confidence": "Confirmed",
+  "last_strike_date": "2026-08-03",
+  "coordinates": "56.0507, 40.1255",
+  "sources": [
+    { "name": "Meduza Incident Report", "url": "https://meduza.io/en/news/2026/08/03/ukraine-hits-wildberries-warehouse-in-russia-s-vladimir-region" },
+    { "name": "Ukrainska Pravda Report", "url": "https://www.pravda.com.ua/eng/news/2026/08/03/8046963/" },
+    { "name": "NV Strike Telemetry", "url": "https://english.nv.ua/nation/drones-burn-giant-wildberries-hub-700km-from-ukraine-50629303.html" },
+    { "name": "Reuters Strike & Emergency Coverage", "url": "https://www.reuters.com/world/europe/russias-wildberries-says-warehouse-vladimir-region-fire-after-ukrainian-drone-2026-08-03/" }
+  ],
+  "image_url": "",
+  "strikes": [
+    {
+      "date": "2026-08-03",
+      "description": "Massive Structural Fire. Drone strike ignited a 100,000 m²+ blaze requiring 200+ firefighters; facility evacuated and logistics rerouted. Total structural loss percentage pending post-fire imagery."
+    }
+  ]
+},
   {
     "id": "WB-004",
     "name": "Tyushevo",
@@ -114,7 +115,7 @@
       },
       {
         "date": "2026-07-24",
-        "description": "Totally uploaded to Cloud (~85%-95% loss). Drone strikes caused massive multi-bay fires and structural collapse."
+        "description": "Severe structural fire rendering the facility inoperable. Drone strikes caused massive multi-bay fires and structural collapse."
       }
     ]
   },
@@ -182,7 +183,7 @@
     "strikes": [
       {
         "date": "2026-08-04",
-        "description": "Totally uploaded to Cloud (~80%-90% loss). Overnight drone strike triggered uncontrolled open structural fire across main logistics bays."
+        "description": "Catastrophic Structural Fire. Overnight drone strike triggered uncontrolled open structural fire across main logistics bays."
       }
     ]
   },
@@ -205,7 +206,7 @@
     "strikes": [
       {
         "date": "2026-08-05",
-        "description": "Totally uploaded to Cloud (~85%-95% loss). Massive overnight UAV barrage triggered extensive structural fire and roof collapse across the 194.5k m² facility."
+        "description": "Massive overnight UAV barrage triggered extensive structural fire and roof collapse across the 194.5k m² facility, Final structural assessment pending post-fire imagery."
       }
     ]
   },
