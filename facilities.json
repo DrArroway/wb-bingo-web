@@ -383,7 +383,7 @@
     "damage_level": 5,
     "confidence": "Confirmed",
     "last_strike_date": "2026-07-30",
-    "coordinates": "53.2272, 45.0031",
+    "coordinates": "53.2673, 44.7911",
     "sources": [
       { "name": "OSINT Incident Tracking", "url": "https://en.wikipedia.org/wiki/Ukrainian_strikes_on_Wildberries_warehouses" }
     ],
@@ -404,7 +404,7 @@
     "damage_level": 0,
     "confidence": "N/A",
     "last_strike_date": "N/A",
-    "coordinates": "51.5333, 46.0000",
+    "coordinates": "51.617147, 45.856712",
     "sources": [],
     "image_url": "",
     "strikes": []
@@ -418,7 +418,7 @@
     "damage_level": 0,
     "confidence": "N/A",
     "last_strike_date": "N/A",
-    "coordinates": "55.8306, 38.2778",
+    "coordinates": "55.830833, 38.246961",
     "sources": [],
     "image_url": "",
     "strikes": []
@@ -432,7 +432,7 @@
     "damage_level": 0,
     "confidence": "N/A",
     "last_strike_date": "N/A",
-    "coordinates": "55.4989, 38.1631",
+    "coordinates": "55.4875, 38.1580",
     "sources": [],
     "image_url": "",
     "strikes": []
@@ -446,7 +446,7 @@
     "damage_level": 0,
     "confidence": "N/A",
     "last_strike_date": "N/A",
-    "coordinates": "54.7388, 55.9721",
+    "coordinates": "54.641550, 55.949891",
     "sources": [],
     "image_url": "",
     "strikes": []
@@ -460,7 +460,7 @@
     "damage_level": 0,
     "confidence": "N/A",
     "last_strike_date": "N/A",
-    "coordinates": "56.7783, 36.1264",
+    "coordinates": "56.788134, 36.059548",
     "sources": [],
     "image_url": "",
     "strikes": []
@@ -474,7 +474,7 @@
     "damage_level": 0,
     "confidence": "N/A",
     "last_strike_date": "N/A",
-    "coordinates": "",
+    "coordinates": "55.336835, 37.485912",
     "sources": [],
     "image_url": "",
     "strikes": []
@@ -488,7 +488,7 @@
     "damage_level": 0,
     "confidence": "N/A",
     "last_strike_date": "N/A",
-    "coordinates": "54.9885, 73.3242",
+    "coordinates": "54.884351, 73.378415",
     "sources": [],
     "image_url": "",
     "strikes": []
@@ -502,7 +502,7 @@
     "damage_level": 3,
     "confidence": "Confirmed",
     "last_strike_date": "2026-07-30",
-    "coordinates": "56.4803, 53.8053",
+    "coordinates": "56.485450, 53.695077",
     "sources": [
       { "name": "OSINT Incident Tracking", "url": "https://en.wikipedia.org/wiki/Ukrainian_strikes_on_Wildberries_warehouses" }
     ],
@@ -523,7 +523,7 @@
     "damage_level": 0,
     "confidence": "N/A",
     "last_strike_date": "N/A",
-    "coordinates": "56.0392, 37.1897",
+    "coordinates": "56.040244, 37.153985",
     "sources": [],
     "image_url": "",
     "strikes": []
@@ -537,7 +537,7 @@
     "damage_level": 5,
     "confidence": "Confirmed",
     "last_strike_date": "2026-07-31",
-    "coordinates": "48.7080, 44.5133",
+    "coordinates": "48.750480, 44.442519",
     "sources": [
       { "name": "OSINT Incident Tracking", "url": "https://en.wikipedia.org/wiki/Ukrainian_strikes_on_Wildberries_warehouses" }
     ],
@@ -558,7 +558,7 @@
     "damage_level": 0,
     "confidence": "N/A",
     "last_strike_date": "N/A",
-    "coordinates": "56.0108, 37.8486",
+    "coordinates": "56.022853, 37.891034",
     "sources": [],
     "image_url": "",
     "strikes": []
@@ -572,7 +572,7 @@
     "damage_level": 0,
     "confidence": "N/A",
     "last_strike_date": "N/A",
-    "coordinates": "55.7231, 84.8861",
+    "coordinates": "55.729840, 84.821623",
     "sources": [],
     "image_url": "",
     "strikes": []
@@ -586,7 +586,7 @@
     "damage_level": 3,
     "confidence": "Confirmed",
     "last_strike_date": "2026-07-24",
-    "coordinates": "59.8456, 30.5089",
+    "coordinates": "59.869208, 30.521188",
     "sources": [
       { "name": "UNN / ASTRA OSINT Analysis", "url": "https://unn.ua/en/news/after-a-drone-attack-near-st-petersburg-two-wildberries-logistics-centers-suspended-operations-astra" },
       { "name": "Caliber OSINT Report", "url": "https://caliber.az/en/post/astra-drone-strikes-set-wildberries-warehouses-ablaze-near-st-petersburg" }
@@ -608,7 +608,7 @@
     "damage_level": 2,
     "confidence": "Confirmed",
     "last_strike_date": "2026-07-24",
-    "coordinates": "44.9521, 34.1024",
+    "coordinates": "45.032244, 34.045955",
     "sources": [
       { "name": "Radio Liberty / OSINT", "url": "https://korabelov.info/en/2026/07/600137/from-simferopol-to-st-petersburg-drones-set-fire-to-three-wildberries-warehouses-in-a-single-night/" }
     ],
@@ -621,48 +621,6 @@
     ]
   },
   {
-    "id": "WB-035",
-    "name": "Onega",
-    "region": "Republic of Karelia",
-    "footprint_m2": 5000,
-    "distance_border_km": 950,
-    "damage_level": 0,
-    "confidence": "N/A",
-    "last_strike_date": "N/A",
-    "coordinates": "",
-    "sources": [],
-    "image_url": "",
-    "strikes": []
-  },
-  {
-    "id": "WB-036",
-    "name": "Khanty-Mansiysk",
-    "region": "Khanty-Mansi Autonomous Okrug",
-    "footprint_m2": 3000,
-    "distance_border_km": 2100,
-    "damage_level": 0,
-    "confidence": "N/A",
-    "last_strike_date": "N/A",
-    "coordinates": "61.0042, 69.0019",
-    "sources": [],
-    "image_url": "",
-    "strikes": []
-  },
-  {
-    "id": "WB-037",
-    "name": "Nizhny Tagil",
-    "region": "Sverdlovsk Oblast",
-    "footprint_m2": 1500,
-    "distance_border_km": 1650,
-    "damage_level": 0,
-    "confidence": "N/A",
-    "last_strike_date": "N/A",
-    "coordinates": "57.9194, 59.9650",
-    "sources": [],
-    "image_url": "",
-    "strikes": []
-  },
-  {
     "id": "WB-038",
     "name": "Chekhov (Novoselki)",
     "region": "Moscow Oblast",
@@ -671,7 +629,7 @@
     "damage_level": 4,
     "confidence": "Confirmed",
     "last_strike_date": "2026-08-04",
-    "coordinates": "55.1328, 37.4939",
+    "coordinates": "55.127964, 37.535342",
     "sources": [
       { "name": "OSINT Incident Tracking", "url": "https://en.wikipedia.org/wiki/Ukrainian_strikes_on_Wildberries_warehouses" }
     ],
@@ -692,7 +650,7 @@
     "damage_level": 3,
     "confidence": "Confirmed",
     "last_strike_date": "2026-07-30",
-    "coordinates": "57.8986, 56.0275",
+    "coordinates": "57.906933, 56.261737",
     "sources": [
       { "name": "Meduza Incident Report", "url": "https://meduza.io/en/news/2026/07/30/ukrainian-drones-strike-third-wildberries-warehouse-in-russia-in-a-day" },
       { "name": "The Insider / Astra Geolocated Report", "url": "https://theins.press/en/news/295530" }
