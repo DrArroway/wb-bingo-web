@@ -259,7 +259,7 @@
   "id": "WB-013",
   "name": "Tver (Emmauss)",
   "region": "Tver Oblast",
-  "footprint_m2": 25000,
+  "footprint_m2": 77000,
   "distance_border_km": 580,
   "damage_level": 1,
   "confidence": "Confirmed",
@@ -669,7 +669,7 @@
   },
   {
     "id": "WB-040",
-    "name": "Rassvet (Tver)",
+    "name": "Rassvet (Tver Expansion)",
     "region": "Tver Oblast",
     "footprint_m2": 25000,
     "distance_border_km": 580,
@@ -683,14 +683,14 @@
   },
   {
     "id": "WB-041",
-    "name": "Tishnyakovka (Saratov)",
-    "region": "Saratov Oblast",
-    "footprint_m2": 18000,
-    "distance_border_km": 550,
+    "name": "Aksay (Rostov-on-Don)",
+    "region": "Rostov Oblast",
+    "footprint_m2": 50000,
+    "distance_border_km": 150,
     "damage_level": 0,
     "confidence": "N/A",
     "last_strike_date": "N/A",
-    "coordinates": "51.578120, 46.031250",
+    "coordinates": "47.271140, 39.865220",
     "sources": [],
     "image_url": "",
     "strikes": []
@@ -703,46 +703,20 @@
     "distance_border_km": 230,
     "damage_level": 2,
     "confidence": "Confirmed",
-    "last_strike_date": "2026-07-31",
+    "last_strike_date": "2026-07-23",
     "coordinates": "51.542310, 39.267890",
     "sources": [
+      { "name": "United24 Media Report", "url": "https://united24media.com/war-in-ukraine/ukrainian-drone-strikes-knock-out-10-of-russias-wildberries-capacity-21016" },
+      { "name": "Ukrinform / Verstka Strike Summary", "url": "https://www.ukrinform.net/rubric-ato/4149242-ukrainian-drones-hit-over-15-of-wildberries-warehouse-capacity-media.html" },
       { "name": "Anadolu Agency Market Analysis", "url": "https://www.aa.com.tr/en/eurasia/in-5-questions-why-is-ukraine-targeting-russia-s-largest-online-marketplace/4018212" }
     ],
     "image_url": "",
     "strikes": [
       {
-        "date": "2026-07-31",
-        "description": "Small Fire (~15%-25% loss). Structural roof burn scaring in exterior loading zones."
+        "date": "2026-07-23",
+        "description": "Small Fire (~15%-25% loss). Overnight UAV strike hit warehouse roof, causing structural burn damage and forcing team to suspend operations."
       }
     ]
-  },
-  {
-    "id": "WB-043",
-    "name": "Tver (Rassvet)",
-    "region": "Tver Oblast",
-    "footprint_m2": 25000,
-    "distance_border_km": 580,
-    "damage_level": 0,
-    "confidence": "N/A",
-    "last_strike_date": "N/A",
-    "coordinates": "56.782410, 36.012540",
-    "sources": [],
-    "image_url": "",
-    "strikes": []
-  },
-  {
-    "id": "WB-044",
-    "name": "Saratov (Tishnyakovka)",
-    "region": "Saratov Oblast",
-    "footprint_m2": 18000,
-    "distance_border_km": 550,
-    "damage_level": 0,
-    "confidence": "N/A",
-    "last_strike_date": "N/A",
-    "coordinates": "51.578120, 46.031250",
-    "sources": [],
-    "image_url": "",
-    "strikes": []
   }
 ]
 
