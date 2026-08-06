@@ -256,27 +256,27 @@
     ]
   },
   {
-    "id": "WB-013",
-    "name": "Tver",
-    "region": "Tver Oblast",
-    "footprint_m2": 150000,
-    "distance_border_km": 520,
-    "damage_level": 3,
-    "confidence": "Confirmed",
-    "last_strike_date": "2026-07-24",
-    "coordinates": "56.788165, 36.058538",
-    "sources": [
-      { "name": "Nasha Niva / Astra Report", "url": "https://nashaniva.com/en/401441" },
-      { "name": "Meduza Incident Tracker", "url": "https://meduza.io/en/feature/2026/08/04/ukraine-has-hit-20-wildberries-warehouses-since-mid-july" }
-    ],
-    "image_url": "",
-    "strikes": [
-      {
-        "date": "2026-07-24",
-        "description": "Medium Fire (~50%-60% loss). Intense roof fire contained to central distribution block."
-      }
-    ]
-  },
+  "id": "WB-013",
+  "name": "Tver (Emmauss)",
+  "region": "Tver Oblast",
+  "footprint_m2": 25000,
+  "distance_border_km": 580,
+  "damage_level": 1,
+  "confidence": "Confirmed",
+  "last_strike_date": "2026-08-04",
+  "coordinates": "56.788165, 36.058538",
+  "sources": [
+    { "name": "Meduza Incident Tracker", "url": "https://meduza.io/en/news/2026/08/04/ukrainian-drone-attack-kills-five-in-moscow-region-wildberries-warehouse-on-fire-in-russia-s-leningrad-region" },
+    { "name": "Astra OSINT / Telegram", "url": "https://t.me/astrapress" }
+  ],
+  "image_url": "",
+  "strikes": [
+    {
+      "date": "2026-08-04",
+      "description": "Intercepted / Near Miss (~0%-10% loss). Air defense interception over Pasynkovo/Emmauss industrial zone caused minor debris impact to perimeter wall; core warehouse structure intact."
+    }
+  ]
+},
   {
     "id": "WB-014",
     "name": "Novosemeykino",
@@ -455,28 +455,6 @@
     "strikes": []
   },
   {
-    "id": "WB-025",
-    "name": "Emmauss (Pasynkovo)",
-    "region": "Tver Oblast",
-    "footprint_m2": 77000,
-    "distance_border_km": 510,
-    "damage_level": 1,
-    "confidence": "High",
-    "last_strike_date": "2026-08-04",
-    "coordinates": "56.788134, 36.059548",
-    "sources": [
-      { "name": "Nasha Niva / Astra Report", "url": "https://nashaniva.com/en/401441" },
-      { "name": "Tver Regional Governor Statement", "url": "https://news.cgtn.com/news/2026-08-04/news-1PkDpTnjQvS/index.html" }
-    ],
-    "image_url": "",
-    "strikes": [
-      {
-        "date": "2026-08-04",
-        "description": "Attempted drone strike intercepted by air defenses near the facility; no major structural fire or main building damage reported."
-      }
-    ]
-  },
-  {
     "id": "WB-026",
     "name": "Nikolskoye-2",
     "region": "Moscow Oblast",
@@ -653,10 +631,9 @@
   "last_strike_date": "2026-08-04",
   "coordinates": "55.125659, 37.556262",
   "sources": [
-    { "name": "Meduza Incident Report", "url": "https://meduza.io/en/news/2026/08/04/ukrainian-drone-attack-kills-five-in-moscow-region-wildberries-warehouse-on-fire-in-russia-s-leningrad-region" },
+    { "name": "Meduza Strike Report (Chekhov/Novoselki)", "url": "https://meduza.io/en/news/2026/08/04/ukrainian-drone-attack-kills-five-in-moscow-region-wildberries-warehouse-on-fire-in-russia-s-leningrad-region" },
     { "name": "Censor.NET / Astra OSINT", "url": "https://censor.net/en/news/4016769/drones-attacked-warehouses-in-three-regions-of-the-russian-federation-what-is-known-so-far" },
-    { "name": "Ukrainska Pravda Report", "url": "https://www.pravda.com.ua/eng/news/2026/08/04/8047126/" },
-    { "name": "Kyiv Independent", "url": "https://kyivindependent.com/ukrainian-drones-reportedly-strike-wildberries-warehouse-in-russias-tula-oblast/" }
+    { "name": "Ukrainska Pravda Coverage", "url": "https://www.pravda.com.ua/eng/news/2026/08/04/8047126/" }
   ],
   "image_url": "",
   "strikes": [
@@ -692,48 +669,31 @@
   },
   {
     "id": "WB-040",
-    "name": "Kotovsk (Tambov)",
-    "region": "Tambov Oblast",
-    "footprint_m2": 30000,
-    "distance_border_km": 380,
-    "damage_level": 3,
-    "confidence": "Confirmed",
-    "last_strike_date": "2026-07-18",
-    "coordinates": "52.592180, 41.512410",
-    "sources": [
-      { "name": "Militarnyi Retaliatory Strike Report", "url": "https://militarnyi.com/en/news/retaliatory-strikes-against-russia-s-warehouse-infrastructure-have-begun-wildberries-terminals-in-moscow-and-tambov-regions-are-on-fire/" },
-      { "name": "Astra Telegram / OSINT Report", "url": "https://t.me/astrapress" },
-      { "name": "Anadolu Agency OSINT Summary", "url": "https://www.aa.com.tr/en/eurasia/in-5-questions-why-is-ukraine-targeting-russia-s-largest-online-marketplace/4018212" }
-    ],
+    "name": "Rassvet (Tver)",
+    "region": "Tver Oblast",
+    "footprint_m2": 25000,
+    "distance_border_km": 580,
+    "damage_level": 0,
+    "confidence": "N/A",
+    "last_strike_date": "N/A",
+    "coordinates": "56.782410, 36.012540",
+    "sources": [],
     "image_url": "",
-    "strikes": [
-      {
-        "date": "2026-07-18",
-        "description": "Medium Fire (~35%-50% loss). Overnight strike ignited fires inside processing bays at the Kotovsk industrial site."
-      }
-    ]
+    "strikes": []
   },
   {
     "id": "WB-041",
-    "name": "Nevinnomyssk",
-    "region": "Stavropol Krai",
-    "footprint_m2": 35000,
-    "distance_border_km": 540,
-    "damage_level": 2,
-    "confidence": "Confirmed",
-    "last_strike_date": "2026-07-28",
-    "coordinates": "44.629150, 41.931220",
-    "sources": [
-      { "name": "Anadolu Agency Strike Tracker", "url": "https://www.aa.com.tr/en/eurasia/in-5-questions-why-is-ukraine-targeting-russia-s-largest-online-marketplace/4018212" },
-      { "name": "Astra Telegram / OSINT", "url": "https://t.me/astrapress" }
-    ],
+    "name": "Tishnyakovka (Saratov)",
+    "region": "Saratov Oblast",
+    "footprint_m2": 18000,
+    "distance_border_km": 550,
+    "damage_level": 0,
+    "confidence": "N/A",
+    "last_strike_date": "N/A",
+    "coordinates": "51.578120, 46.031250",
+    "sources": [],
     "image_url": "",
-    "strikes": [
-      {
-        "date": "2026-07-28",
-        "description": "Small Fire (~20%-30% loss). UAV impact near peripheral sorting bays sparked a localized fire."
-      }
-    ]
+    "strikes": []
   },
   {
     "id": "WB-042",
