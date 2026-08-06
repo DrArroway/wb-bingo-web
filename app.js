@@ -112,7 +112,7 @@ const DAMAGE_TIERS = {
       <h2 class="card-title">${item.name}</h2>
       <div class="tooltip-popup">
       <strong>GPS Coordinates:</strong><br>
-      <a href="${mapsUrl}" target="_blank" rel="noopener noreferrer" style="color: #58a6ff;">${coordsText}</a>
+      <a href="${mapsUrl}" target="_blank" rel="noopener noreferrer">${coordsText}</a>
       </div>
       </div>
 
