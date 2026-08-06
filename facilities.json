@@ -10,9 +10,26 @@
     "last_strike_date": "2026-07-20",
     "coordinates": "55.3863, 37.5840",
     "sources": [
-      { "name": "Meduza Strike Tracker", "url": "https://meduza.io/en/feature/2026/07/24/ukraine-keeps-striking-wildberries-warehouses-here-s-the-toll-so-far" },
-      { "name": "Astra / Exilenova+ Geolocation", "url": "https://militarnyi.com/en/news/drone-strike-oil-depot-4-warehouses-moscow/" },
-      { "name": "Kyiv Post Incident Report", "url": "https://www.kyivpost.com/post/80644" }
+     {
+      "name": "Meduza Strike Tracker",
+      "url": "https://meduza.io/en/feature/2026/07/24/ukraine-keeps-striking-wildberries-warehouses-here-s-the-toll-so-far"
+    },
+    {
+      "name": "Astra / Exilenova+ Geolocation",
+      "url": "https://militarnyi.com/en/news/drone-strike-oil-depot-4-warehouses-moscow/"
+    },
+    {
+      "name": "Kyiv Post Incident Report",
+      "url": "https://www.kyivpost.com/post/80644"
+    },
+    {
+      "name": "The Moscow Times / Reuters Wire Service Summary",
+      "url": "https://www.themoscowtimes.com/2026/08/04/at-least-5-killed-in-ukraines-latest-drone-attacks-against-wildberries-a93406"
+    },
+    {
+      "name": "Ukrainska Pravda / Reuters Campaign Coverage",
+      "url": "https://www.pravda.com.ua/eng/news/2026/07/20/8044860/"
+    }
     ],
     "image_url": "",
     "strikes": [
@@ -33,10 +50,27 @@
     "last_strike_date": "2026-07-18",
     "coordinates": "55.7465, 38.4173",
     "sources": [
-      { "name": "Meduza Strike Report", "url": "https://meduza.io/en/feature/2026/07/22/ukraine-s-strike-on-russian-retail-giant-wildberries-warehouses-may-have-cost-sellers-at-least-150-billion-rubles" },
-      { "name": "Astra / Exilenova+ Geolocation", "url": "https://www.pravda.com.ua/eng/news/2026/07/18/8044673/" },
-      { "name": "Governor Statement / Moscow Times", "url": "https://www.themoscowtimes.com/2026/07/18/ukrainian-drone-attacks-kill-7-warehouse-workers-in-russia-a93280" }
-    ],
+    {
+      "name": "Meduza Financial Impact Analysis",
+      "url": "https://meduza.io/en/feature/2026/07/22/ukraine-s-strike-on-russian-retail-giant-wildberries-warehouses-may-have-cost-sellers-at-least-150-billion-rubles"
+    },
+    {
+      "name": "Ukrainska Pravda / Astra Field Report",
+      "url": "https://www.pravda.com.ua/eng/news/2026/07/18/8044673/"
+    },
+    {
+      "name": "New Voice of Ukraine (NV) Infrastructure Loss Breakdown",
+      "url": "https://english.nv.ua/nation/ukraine-strikes-18-wildberries-warehouses-across-russia-in-18-days-50629705.html"
+    },
+    {
+      "name": "Reuters / The Moscow Times Wire Report",
+      "url": "https://www.themoscowtimes.com/2026/07/18/ukrainian-drone-attacks-kill-7-warehouse-workers-in-russia-a93280"
+    },
+    {
+      "name": "Associated Press (AP) Campaign Overview",
+      "url": "https://apnews.com/article/russia-ukraine-war-wildberries-warehouses-drones-d2c705445dad07fced4fb8c1e3d314c5"
+    }
+  ],
     "image_url": "",
     "strikes": [
       {
@@ -45,7 +79,7 @@
       }
     ]
   },
-{
+  {
   "id": "WB-003",
   "name": "Vladimir (Vorshinskoye / Khryastovo)",
   "region": "Vladimir Oblast",
@@ -56,10 +90,30 @@
   "last_strike_date": "2026-08-03",
   "coordinates": "56.0507, 40.1255",
   "sources": [
-    { "name": "Meduza Incident Report", "url": "https://meduza.io/en/news/2026/08/03/ukraine-hits-wildberries-warehouse-in-russia-s-vladimir-region" },
-    { "name": "Ukrainska Pravda Report", "url": "https://www.pravda.com.ua/eng/news/2026/08/03/8046963/" },
-    { "name": "NV Strike Telemetry", "url": "https://english.nv.ua/nation/drones-burn-giant-wildberries-hub-700km-from-ukraine-50629303.html" },
-    { "name": "Reuters Strike & Emergency Coverage", "url": "https://www.reuters.com/world/europe/russias-wildberries-says-warehouse-vladimir-region-fire-after-ukrainian-drone-2026-08-03/" }
+    {
+      "name": "Meduza Incident Report",
+      "url": "https://meduza.io/en/news/2026/08/03/ukraine-hits-wildberries-warehouse-in-russia-s-vladimir-region"
+    },
+    {
+      "name": "Ukrainska Pravda Report",
+      "url": "https://www.pravda.com.ua/eng/news/2026/08/03/8046963/"
+    },
+    {
+      "name": "NV Strike Telemetry",
+      "url": "https://english.nv.ua/nation/drones-burn-giant-wildberries-hub-700km-from-ukraine-50629303.html"
+    },
+    {
+      "name": "Reuters / The Guardian Incident Dispatch",
+      "url": "https://www.theguardian.com/world/2026/aug/03/ukraine-war-briefing-kyiv-hit-wildberries-again"
+    },
+    {
+      "name": "Agence France-Presse (AFP) Wire Coverage",
+      "url": "https://www.bssnews.net/international/411202"
+    },
+    {
+      "name": "Associated Press (AP) / Moscow Times Report",
+      "url": "https://www.themoscowtimes.com/2026/08/03/at-least-11-killed-in-ukrainian-attacks-in-southern-russia-and-annexed-crimea-a93397"
+    }
   ],
   "image_url": "",
   "strikes": [
@@ -68,7 +122,7 @@
       "description": "Massive Structural Fire. Drone strike ignited a 100,000 m²+ blaze requiring 200+ firefighters; facility evacuated and logistics rerouted. Total structural loss percentage pending post-fire imagery."
     }
   ]
-},
+  },
   {
     "id": "WB-004",
     "name": "Tyushevo",
@@ -80,10 +134,23 @@
     "last_strike_date": "2026-07-29",
     "coordinates": "54.696342, 39.589774",
     "sources": [
-      { "name": "Meduza Incident Report", "url": "https://meduza.io/en/news/2026/07/29/wildberries-warehouse-burns-in-russia-s-ryazan-after-ukrainian-drone-attack-apartment-building-in-taganrog-damaged-one-killed" },
-      { "name": "Astra / Exilenova+ Geolocation", "url": "https://theins.press/en/news/295530" },
-      { "name": "NV Strike Telemetry", "url": "https://english.nv.ua/business/drone-strikes-cripple-wildberries-hubs-and-expose-russia-s-wartime-economic-strain-50627303.html" }
-    ],
+    {
+      "name": "Meduza Incident Report",
+      "url": "https://meduza.io/en/news/2026/07/29/wildberries-warehouse-burns-in-russia-s-ryazan-after-ukrainian-drone-attack-apartment-building-in-taganrog-damaged-one-killed"
+    },
+    {
+      "name": "Militarnyi / Astra Geolocation & Telemetry",
+      "url": "https://militarnyi.com/en/news/drones-hit-oil-refinery-and-wildberries-warehouse-in-ryazan/"
+    },
+    {
+      "name": "NV Strike Telemetry",
+      "url": "https://english.nv.ua/business/drone-strikes-cripple-wildberries-hubs-and-expose-russia-s-wartime-economic-strain-50627303.html"
+    },
+    {
+      "name": "Reuters via Internazionale Wire Service",
+      "url": "https://www.internazionale.it/ultime-notizie-reuters/2026/07/29/drones-attack-industrial-sites-in-russia-s-ryazan-wildberries-warehouse-evacuated"
+    }
+  ],
     "image_url": "",
     "strikes": [
       {
@@ -93,7 +160,7 @@
     ]
   },
    {
-    "id": "WB-006",
+    "id": "WB-005",
     "name": "Shushary",
     "region": "Saint Petersburg / Leningrad Oblast",
     "footprint_m2": 106000,
@@ -120,7 +187,7 @@
     ]
   },
   {
-    "id": "WB-007",
+    "id": "WB-006",
     "name": "Yekaterinburg",
     "region": "Sverdlovsk Oblast",
     "footprint_m2": 158000,
@@ -142,7 +209,7 @@
     ]
   },
   {
-    "id": "WB-008",
+    "id": "WB-007",
     "name": "Novaya Usman (Nechayevka)",
     "region": "Voronezh Oblast",
     "footprint_m2": 156000,
@@ -165,7 +232,7 @@
     ]
   },
   {
-    "id": "WB-009",
+    "id": "WB-008",
     "name": "Krasny Bor",
     "region": "Leningrad Oblast",
     "footprint_m2": 154000,
@@ -188,7 +255,7 @@
     ]
   },
   {
-    "id": "WB-010",
+    "id": "WB-009",
     "name": "Aleksin",
     "region": "Tula Oblast",
     "footprint_m2": 194500,
@@ -211,7 +278,7 @@
     ]
   },
   {
-    "id": "WB-011",
+    "id": "WB-010",
     "name": "Zelenodolsk (Kazan Hub)",
     "region": "Republic of Tatarstan",
     "footprint_m2": 150000,
@@ -234,7 +301,7 @@
     ]
   },
   {
-    "id": "WB-012",
+    "id": "WB-011",
     "name": "Krasnodar",
     "region": "Krasnodar Krai",
     "footprint_m2": 150000,
@@ -257,7 +324,7 @@
     ]
   },
   {
-  "id": "WB-013",
+  "id": "WB-012",
   "name": "Tver (Emmauss)",
   "region": "Tver Oblast",
   "footprint_m2": 77000,
@@ -279,7 +346,7 @@
   ]
 },
   {
-    "id": "WB-014",
+    "id": "WB-013",
     "name": "Novosemeykino",
     "region": "Samara Oblast",
     "footprint_m2": 128000,
@@ -302,7 +369,7 @@
     ]
   },
   {
-    "id": "WB-016",
+    "id": "WB-014",
     "name": "Nevinnomyssk",
     "region": "Stavropol Krai",
     "footprint_m2": 120000,
@@ -325,7 +392,7 @@
     ]
   },
   {
-    "id": "WB-017",
+    "id": "WB-015",
     "name": "White Pillars (Domodedovo)",
     "region": "Moscow Oblast",
     "footprint_m2": 120000,
@@ -339,7 +406,7 @@
     "strikes": []
   },
   {
-    "id": "WB-018",
+    "id": "WB-016",
     "name": "Kotovsk",
     "region": "Tambov Oblast",
     "footprint_m2": 108000,
@@ -362,7 +429,7 @@
     ]
   },
   {
-    "id": "WB-019",
+    "id": "WB-017",
     "name": "Novosibirsk (PNK-Tolmachevo)",
     "region": "Novosibirsk Oblast",
     "footprint_m2": 150000,
@@ -376,7 +443,7 @@
     "strikes": []
   },
   {
-    "id": "WB-020",
+    "id": "WB-018",
     "name": "Penza (Mastinovka)",
     "region": "Penza Oblast",
     "footprint_m2": 90000,
@@ -400,7 +467,7 @@
     ]
   },
   {
-    "id": "WB-021",
+    "id": "WB-019",
     "name": "Saratov",
     "region": "Saratov Oblast",
     "footprint_m2": 84000,
@@ -414,7 +481,7 @@
     "strikes": []
   },
   {
-    "id": "WB-022",
+    "id": "WB-020",
     "name": "Obukhovo",
     "region": "Moscow Oblast",
     "footprint_m2": 84000,
@@ -428,7 +495,7 @@
     "strikes": []
   },
   {
-    "id": "WB-023",
+    "id": "WB-021",
     "name": "Sofyino",
     "region": "Moscow Oblast",
     "footprint_m2": 82000,
@@ -442,7 +509,7 @@
     "strikes": []
   },
   {
-    "id": "WB-024",
+    "id": "WB-022",
     "name": "Ufa",
     "region": "Republic of Bashkortostan",
     "footprint_m2": 80000,
@@ -456,7 +523,7 @@
     "strikes": []
   },
   {
-    "id": "WB-026",
+    "id": "WB-023",
     "name": "Nikolskoye-2",
     "region": "Moscow Oblast",
     "footprint_m2": 62000,
@@ -470,7 +537,7 @@
     "strikes": []
   },
   {
-    "id": "WB-027",
+    "id": "WB-024",
     "name": "Omsk",
     "region": "Omsk Oblast",
     "footprint_m2": 63000,
@@ -484,7 +551,7 @@
     "strikes": []
   },
   {
-    "id": "WB-028",
+    "id": "WB-025",
     "name": "Sarapul",
     "region": "Udmurtia",
     "footprint_m2": 64000,
@@ -507,7 +574,7 @@
     ]
   },
   {
-    "id": "WB-029",
+    "id": "WB-026",
     "name": "Chashnikovo",
     "region": "Moscow Oblast",
     "footprint_m2": 52000,
@@ -521,7 +588,7 @@
     "strikes": []
   },
   {
-    "id": "WB-030",
+    "id": "WB-027",
     "name": "Volgograd (Dzerzhinsky)",
     "region": "Volgograd Oblast",
     "footprint_m2": 46000,
@@ -545,7 +612,7 @@
     ]
   },
   {
-    "id": "WB-031",
+    "id": "WB-028",
     "name": "Pushkino",
     "region": "Moscow Oblast",
     "footprint_m2": 46000,
@@ -559,7 +626,7 @@
     "strikes": []
   },
   {
-    "id": "WB-032",
+    "id": "WB-029",
     "name": "Yurga",
     "region": "Kemerovo Oblast",
     "footprint_m2": 40000,
@@ -573,7 +640,7 @@
     "strikes": []
   },
   {
-    "id": "WB-033",
+    "id": "WB-030",
     "name": "Utkina Zavod (Novosaratovka)",
     "region": "Leningrad Oblast",
     "footprint_m2": 18000,
@@ -596,7 +663,7 @@
     ]
   },
   {
-  "id": "WB-034",
+  "id": "WB-031",
   "name": "Simferopol",
   "region": "Crimea (Russian-occupied)",
   "footprint_m2": 6000,
@@ -622,7 +689,7 @@
   ]
   },
   {
-  "id": "WB-038",
+  "id": "WB-032",
   "name": "Chekhov (Novoselki)",
   "region": "Moscow Oblast",
   "footprint_m2": 120000,
@@ -645,7 +712,7 @@
   ]
   },
   {
-  "id": "WB-039",
+  "id": "WB-033",
   "name": "Zamulyanka (Perm)",
   "region": "Perm Krai",
   "footprint_m2": 50000,
@@ -669,7 +736,7 @@
   ]
   },
   {
-    "id": "WB-040",
+    "id": "WB-034",
     "name": "Rassvet (Tver Expansion)",
     "region": "Tver Oblast",
     "footprint_m2": 25000,
@@ -683,7 +750,7 @@
     "strikes": []
   },
   {
-    "id": "WB-041",
+    "id": "WB-035",
     "name": "Aksay (Rostov-on-Don)",
     "region": "Rostov Oblast",
     "footprint_m2": 50000,
@@ -697,7 +764,7 @@
     "strikes": []
   },
   {
-    "id": "WB-042",
+    "id": "WB-036",
     "name": "Maslovsky (Voronezh)",
     "region": "Voronezh Oblast",
     "footprint_m2": 25000,
