@@ -689,5 +689,100 @@
       "description": "Medium Fire (~30%-50% loss). Geolocated by Astra; drone strike ignited active fires across sorting center modules."
     }
   ]
-}
+  },
+  {
+    "id": "WB-040",
+    "name": "Kotovsk (Tambov)",
+    "region": "Tambov Oblast",
+    "footprint_m2": 30000,
+    "distance_border_km": 380,
+    "damage_level": 3,
+    "confidence": "Confirmed",
+    "last_strike_date": "2026-07-18",
+    "coordinates": "52.592180, 41.512410",
+    "sources": [
+      { "name": "Militarnyi Retaliatory Strike Report", "url": "https://militarnyi.com/en/news/retaliatory-strikes-against-russia-s-warehouse-infrastructure-have-begun-wildberries-terminals-in-moscow-and-tambov-regions-are-on-fire/" },
+      { "name": "Astra Telegram / OSINT Report", "url": "https://t.me/astrapress" },
+      { "name": "Anadolu Agency OSINT Summary", "url": "https://www.aa.com.tr/en/eurasia/in-5-questions-why-is-ukraine-targeting-russia-s-largest-online-marketplace/4018212" }
+    ],
+    "image_url": "",
+    "strikes": [
+      {
+        "date": "2026-07-18",
+        "description": "Medium Fire (~35%-50% loss). Overnight strike ignited fires inside processing bays at the Kotovsk industrial site."
+      }
+    ]
+  },
+  {
+    "id": "WB-041",
+    "name": "Nevinnomyssk",
+    "region": "Stavropol Krai",
+    "footprint_m2": 35000,
+    "distance_border_km": 540,
+    "damage_level": 2,
+    "confidence": "Confirmed",
+    "last_strike_date": "2026-07-28",
+    "coordinates": "44.629150, 41.931220",
+    "sources": [
+      { "name": "Anadolu Agency Strike Tracker", "url": "https://www.aa.com.tr/en/eurasia/in-5-questions-why-is-ukraine-targeting-russia-s-largest-online-marketplace/4018212" },
+      { "name": "Astra Telegram / OSINT", "url": "https://t.me/astrapress" }
+    ],
+    "image_url": "",
+    "strikes": [
+      {
+        "date": "2026-07-28",
+        "description": "Small Fire (~20%-30% loss). UAV impact near peripheral sorting bays sparked a localized fire."
+      }
+    ]
+  },
+  {
+    "id": "WB-042",
+    "name": "Maslovsky (Voronezh)",
+    "region": "Voronezh Oblast",
+    "footprint_m2": 25000,
+    "distance_border_km": 230,
+    "damage_level": 2,
+    "confidence": "Confirmed",
+    "last_strike_date": "2026-07-31",
+    "coordinates": "51.542310, 39.267890",
+    "sources": [
+      { "name": "Anadolu Agency Market Analysis", "url": "https://www.aa.com.tr/en/eurasia/in-5-questions-why-is-ukraine-targeting-russia-s-largest-online-marketplace/4018212" }
+    ],
+    "image_url": "",
+    "strikes": [
+      {
+        "date": "2026-07-31",
+        "description": "Small Fire (~15%-25% loss). Structural roof burn scaring in exterior loading zones."
+      }
+    ]
+  },
+  {
+    "id": "WB-043",
+    "name": "Tver (Rassvet)",
+    "region": "Tver Oblast",
+    "footprint_m2": 25000,
+    "distance_border_km": 580,
+    "damage_level": 0,
+    "confidence": "N/A",
+    "last_strike_date": "N/A",
+    "coordinates": "56.782410, 36.012540",
+    "sources": [],
+    "image_url": "",
+    "strikes": []
+  },
+  {
+    "id": "WB-044",
+    "name": "Saratov (Tishnyakovka)",
+    "region": "Saratov Oblast",
+    "footprint_m2": 18000,
+    "distance_border_km": 550,
+    "damage_level": 0,
+    "confidence": "N/A",
+    "last_strike_date": "N/A",
+    "coordinates": "51.578120, 46.031250",
+    "sources": [],
+    "image_url": "",
+    "strikes": []
+  }
 ]
+
