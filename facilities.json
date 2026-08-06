@@ -543,7 +543,7 @@
   },
   {
     "id": "WB-030",
-    "name": "Volgograd",
+    "name": "Volgograd (Dzerzhinsky)",
     "region": "Volgograd Oblast",
     "footprint_m2": 46000,
     "distance_border_km": 390,
@@ -552,13 +552,16 @@
     "last_strike_date": "2026-07-31",
     "coordinates": "48.750480, 44.442519",
     "sources": [
-      { "name": "OSINT Incident Tracking", "url": "https://en.wikipedia.org/wiki/Ukrainian_strikes_on_Wildberries_warehouses" }
+      { "name": "Meduza Strike Report", "url": "https://meduza.io/en/news/2026/07/31/ukraine-hits-two-more-wildberries-warehouses-in-russia" },
+      { "name": "United24 / Exilenova+ Telemetry", "url": "https://united24media.com/war-in-ukraine/wildberries-logistics-hub-and-major-lukoil-refinery-burn-after-drone-strikes-on-volgograd-21224" },
+      { "name": "Astra Telegram / OSINT", "url": "https://unn.ua/en/news/osint-analysis-confirmed-strikes-on-wildberries-warehouses-in-tatarstan-and-volgograd" },
+      { "name": "Governor Andrey Bocharov Statement", "url": "https://www.themoscowtimes.com/2026/07/31/ukraine-hits-wildberries-logistics-center-and-energy-facility-in-volgograd-killing-at-least-one-a93383" }
     ],
     "image_url": "",
     "strikes": [
       {
         "date": "2026-07-31",
-        "description": "Totally uploaded to Cloud (~95%-100% loss). Facility completely burned out to its concrete frame following the July 31 strike."
+        "description": "Totaled (~90%-100% loss). Massive overnight strike ignited uncontrollable fires across the Buzuluksky Proezd complex, leaving the primary structure completely burned out."
       }
     ]
   },
@@ -601,9 +604,10 @@
     "last_strike_date": "2026-07-24",
     "coordinates": "59.869208, 30.521188",
     "sources": [
-      { "name": "UNN / ASTRA OSINT Analysis", "url": "https://unn.ua/en/news/after-a-drone-attack-near-st-petersburg-two-wildberries-logistics-centers-suspended-operations-astra" },
-      { "name": "Caliber OSINT Report", "url": "https://caliber.az/en/post/astra-drone-strikes-set-wildberries-warehouses-ablaze-near-st-petersburg" }
-    ],
+    { "name": "Meduza Strike Report", "url": "https://meduza.io/en/news/2026/07/24/ukraine-strikes-wildberries-warehouses-in-russia-for-fourth-time-in-a-week" },
+    { "name": "Astra Telegram / OSINT Report", "url": "https://t.me/astrapress" },
+    { "name": "UNN / ASTRA OSINT Analysis", "url": "https://unn.ua/en/news/after-a-drone-attack-near-st-petersburg-two-wildberries-logistics-centers-suspended-operations-astra" }
+  ],
     "image_url": "",
     "strikes": [
       {
@@ -613,67 +617,77 @@
     ]
   },
   {
-    "id": "WB-034",
-    "name": "Simferopol",
-    "region": "Crimea (Russian-occupied)",
-    "footprint_m2": 6000,
-    "distance_border_km": 220,
-    "damage_level": 2,
-    "confidence": "Confirmed",
-    "last_strike_date": "2026-07-24",
-    "coordinates": "45.032244, 34.045955",
-    "sources": [
-      { "name": "Radio Liberty / OSINT", "url": "https://korabelov.info/en/2026/07/600137/from-simferopol-to-st-petersburg-drones-set-fire-to-three-wildberries-warehouses-in-a-single-night/" }
-    ],
-    "image_url": "",
-    "strikes": [
-      {
-        "date": "2026-07-24",
-        "description": "Small Fire (~25%-35% loss). Dark burn scars on single wing roof; main building intact."
-      }
-    ]
+  "id": "WB-034",
+  "name": "Simferopol",
+  "region": "Crimea (Russian-occupied)",
+  "footprint_m2": 6000,
+  "distance_border_km": 220,
+  "damage_level": 2,
+  "confidence": "Confirmed",
+  "last_strike_date": "2026-07-24",
+  "coordinates": "45.032244, 34.045955",
+  "sources": [
+    { "name": "Meduza Incident Report", "url": "https://meduza.io/en/news/2026/07/24/ukraine-strikes-wildberries-warehouses-in-russia-for-fourth-time-in-a-week" },
+    { "name": "Astra Telegram / OSINT Report", "url": "https://t.me/astrapress" },
+    { "name": "Militarnyi Defense News", "url": "https://militarnyi.com/en/news/drone-hit-wildberries-petersburg-simferopol/" },
+    { "name": "NV Business / Strike Report", "url": "https://english.nv.ua/russian-war/blasts-rock-wildberries-warehouses-and-suspected-crimea-oil-depot-in-coordinated-drone-raid-50626870.html" },
+    { "name": "Kyiv Independent Coverage", "url": "https://kyivindependent.com/wildberries-logistics-center-in-russian-occupied-crimea-catches-fire-after-reported-drone-strike/" },
+    { "name": "Radio Free Europe / Radio Liberty", "url": "https://www.rferl.org/a/ukraine-russia-drone-attack-wildberries-zelenskyy-trump/33817538.html" }
+  ],
+  "image_url": "",
+  "strikes": [
+    {
+      "date": "2026-07-24",
+      "description": "Small Fire (~25%-35% loss). Overnight drone hit on Kubanskaya St sorting hub ignited localized fires; company confirmed staff evacuation and contained burn damage."
+    }
+  ]
   },
   {
-    "id": "WB-038",
-    "name": "Chekhov (Novoselki)",
-    "region": "Moscow Oblast",
-    "footprint_m2": 120000,
-    "distance_border_km": 410,
-    "damage_level": 4,
-    "confidence": "Confirmed",
-    "last_strike_date": "2026-08-04",
-    "coordinates": "55.127964, 37.535342",
-    "sources": [
-      { "name": "OSINT Incident Tracking", "url": "https://en.wikipedia.org/wiki/Ukrainian_strikes_on_Wildberries_warehouses" }
-    ],
-    "image_url": "",
-    "strikes": [
-      {
-        "date": "2026-08-04",
-        "description": "Large Fire (~65%-80% loss). Drone strike set sorting bays ablaze and damaged adjacent power infrastructure."
-      }
-    ]
+  "id": "WB-038",
+  "name": "Chekhov (Novoselki)",
+  "region": "Moscow Oblast",
+  "footprint_m2": 120000,
+  "distance_border_km": 410,
+  "damage_level": 4,
+  "confidence": "Confirmed",
+  "last_strike_date": "2026-08-04",
+  "coordinates": "55.125659, 37.556262",
+  "sources": [
+    { "name": "Meduza Incident Report", "url": "https://meduza.io/en/news/2026/08/04/ukrainian-drone-attack-kills-five-in-moscow-region-wildberries-warehouse-on-fire-in-russia-s-leningrad-region" },
+    { "name": "Censor.NET / Astra OSINT", "url": "https://censor.net/en/news/4016769/drones-attacked-warehouses-in-three-regions-of-the-russian-federation-what-is-known-so-far" },
+    { "name": "Ukrainska Pravda Report", "url": "https://www.pravda.com.ua/eng/news/2026/08/04/8047126/" },
+    { "name": "Kyiv Independent", "url": "https://kyivindependent.com/ukrainian-drones-reportedly-strike-wildberries-warehouse-in-russias-tula-oblast/" }
+  ],
+  "image_url": "",
+  "strikes": [
+    {
+      "date": "2026-08-04",
+      "description": "Large Fire (~65%-80% loss). Drone strike ignited sorting bays in Novoselki zone, damaging adjacent administrative block and substation."
+    }
+  ]
   },
   {
-    "id": "WB-039",
-    "name": "Zamulyanka (Perm)",
-    "region": "Perm Krai",
-    "footprint_m2": 50000,
-    "distance_border_km": 1400,
-    "damage_level": 3,
-    "confidence": "Confirmed",
-    "last_strike_date": "2026-07-30",
-    "coordinates": "57.906933, 56.261737",
-    "sources": [
-      { "name": "Meduza Incident Report", "url": "https://meduza.io/en/news/2026/07/30/ukrainian-drones-strike-third-wildberries-warehouse-in-russia-in-a-day" },
-      { "name": "The Insider / Astra Geolocated Report", "url": "https://theins.press/en/news/295530" }
-    ],
-    "image_url": "",
-    "strikes": [
-      {
-        "date": "2026-07-30",
-        "description": "Medium Fire (~30%-50% loss). Geolocated by Astra; drone strike caused active fire across sorting center modules."
-      }
-    ]
-  }
+  "id": "WB-039",
+  "name": "Zamulyanka (Perm)",
+  "region": "Perm Krai",
+  "footprint_m2": 50000,
+  "distance_border_km": 1400,
+  "damage_level": 3,
+  "confidence": "Confirmed",
+  "last_strike_date": "2026-07-30",
+  "coordinates": "57.906933, 56.261737",
+  "sources": [
+    { "name": "Meduza Incident Report", "url": "https://meduza.io/en/news/2026/07/30/ukrainian-drones-strike-third-wildberries-warehouse-in-russia-in-a-day" },
+    { "name": "The Insider / Astra Geolocated Report", "url": "https://theins.press/en/news/295530" },
+    { "name": "United24 Long-Range Strike Analysis", "url": "https://united24media.com/war-in-ukraine/ukraines-drones-reach-1400-kilometers-into-russia-to-strike-wildberries-network-21217" },
+    { "name": "Censor.NET OSINT Coverage", "url": "https://censor.net/en/news/4016104/third-wildberries-logistics-hub-hit-in-russia-in-one-day" }
+  ],
+  "image_url": "",
+  "strikes": [
+    {
+      "date": "2026-07-30",
+      "description": "Medium Fire (~30%-50% loss). Geolocated by Astra; drone strike ignited active fires across sorting center modules."
+    }
+  ]
+}
 ]
