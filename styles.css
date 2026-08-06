@@ -14,10 +14,10 @@
   --damage-5: #6e40c9; /* Total loss purple */
 }
 
-* { 
-  box-sizing: border-box; 
-  margin: 0; 
-  padding: 0; 
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
 body {
@@ -96,7 +96,6 @@ select:focus, input:focus {
   background: var(--card-bg);
   border: 1px solid var(--card-border);
   border-radius: 10px;
-  /* Change overflow: hidden to overflow: visible so tooltips can float freely */
   overflow: visible;
   display: flex;
   flex-direction: column;
@@ -252,12 +251,10 @@ select:focus, input:focus {
 }
 
 /* Tooltip Base & Trigger Container */
-/* Tooltip Base & Trigger Container */
 .tooltip-trigger {
   cursor: pointer;
   text-decoration: underline dotted var(--accent-purple);
   position: relative;
-  /* Removed display: inline-flex to keep 2-column grid alignment uniform */
 }
 
 /* Tooltip Popup Box */
@@ -328,7 +325,7 @@ select:focus, input:focus {
   margin-bottom: 2px;
 }
 
-/* Added styling for Sources list within tooltips */
+/* Sources list container inside tooltips */
 .tooltip-sources {
   margin-top: 6px;
   padding-top: 6px;
@@ -341,20 +338,6 @@ select:focus, input:focus {
   color: var(--text-muted);
   font-weight: 600;
   margin-bottom: 4px;
-}
-
-.tooltip-sources a {
-  color: #58a6ff;
-  text-decoration: none;
-  display: block;
-  font-size: 0.75rem;
-  overflow: hidden;
-  text-overflow: ellipsis;
-  white-space: nowrap;
-}
-
-.tooltip-sources a:hover {
-  text-decoration: underline;
 }
 
 /* Confidence Badges */
@@ -370,3 +353,44 @@ select:focus, input:focus {
 .conf-High { background: rgba(56, 139, 253, 0.3); color: #58a6ff; border: 1px solid #1f6feb; }
 .conf-Medium { background: rgba(210, 153, 34, 0.3); color: #d29922; border: 1px solid #9e6a03; }
 .conf-Unconfirmed { background: rgba(110, 118, 129, 0.3); color: #8b949e; border: 1px solid #484f58; }
+
+/* --- Global & Tooltip Link Styling --- */
+
+/* Unvisited Links (Bright Blue) */
+a:link,
+.tooltip-sources a:link,
+.source-item a:link,
+.tooltip-popup a:link {
+  color: #58a6ff;
+  text-decoration: none;
+  transition: color 0.15s ease-in-out;
+}
+
+/* Visited Links (Bright Soft Cyan) */
+a:visited,
+.tooltip-sources a:visited,
+.source-item a:visited,
+.tooltip-popup a:visited {
+  color: #39c5bb;
+  text-decoration: none;
+}
+
+/* Hover & Focus State */
+a:hover,
+a:focus,
+.tooltip-sources a:hover,
+.source-item a:hover,
+.tooltip-popup a:hover {
+  color: #a5d6ff;
+  text-decoration: underline;
+}
+
+/* Link Truncation for Tooltips */
+.source-item a,
+.tooltip-sources a {
+  display: block;
+  font-size: 0.75rem;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
