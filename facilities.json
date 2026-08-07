@@ -132,7 +132,7 @@
     "damage_level": 3,
     "confidence": "Confirmed",
     "last_strike_date": "2026-07-29",
-    "coordinates": "54.696342, 39.589774",
+    "coordinates": "54.679285,39.571186",
     "sources": [
     {
       "name": "Meduza Incident Report",
@@ -356,7 +356,7 @@
     "id": "WB-013",
     "name": "Novosemeykino",
     "region": "Samara Oblast",
-    "footprint_m2": 128000,
+    "footprint_m2": 180000,
     "distance_border_km": 820,
     "damage_level": 5,
     "confidence": "Confirmed",
@@ -725,7 +725,7 @@
   "region": "Perm Krai",
   "footprint_m2": 50000,
   "distance_border_km": 1400,
-  "damage_level": 3,
+  "damage_level": 2,
   "confidence": "Confirmed",
   "last_strike_date": "2026-07-30",
   "coordinates": "57.906933, 56.261737",
@@ -739,7 +739,7 @@
   "strikes": [
     {
       "date": "2026-07-30",
-      "description": "Medium Fire. Geolocated by Astra; a drone strike ignited active fires across sorting center modules."
+      "description": "Small Fire / smoke plume reported. Geolocated by Astra; a drone strike ignited fire with visible smoke plume across sorting center modules. Damage may be low, no evidence  on satelite imagery"
     }
   ]
   },
