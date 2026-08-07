@@ -285,28 +285,28 @@
     ]
   },
   {
-    "id": "WB-010",
-    "name": "Zelenodolsk (Kazan Hub)",
-    "region": "Republic of Tatarstan",
-    "footprint_m2": 100000,
-    "distance_border_km": 970,
-    "damage_level": 3,
-    "confidence": "Confirmed",
-    "last_strike_date": "2026-07-31",
-    "coordinates": "55.848727, 48.842029",
-    "sources": [
-      { "name": "Ukrainska Pravda Report", "url": "https://www.pravda.com.ua/eng/news/2026/07/31/8046638/" },
-      { "name": "Caliber / Astra Analysis", "url": "https://caliber.az/en/post/wildberries-logistics-hub-attacked-in-russia-s-tatarstan" },
-      { "name": "The Insider Strike Summary", "url": "https://theins.press/en/news/295573" }
-    ],
-    "image_url": "",
-    "strikes": [
-      {
-        "date": "2026-07-31",
-        "description": "Medium Fire. Overnight UAV strike in the Zelenodolsk Industrial Park resulted in heavy smoke plumes and localized internal facility fires. Primary bay look intact"
-      }
-    ]
-  },
+  "id": "WB-010",
+  "name": "Zelenodolsk (Kazan Hub)",
+  "region": "Republic of Tatarstan",
+  "footprint_m2": 100000,
+  "distance_border_km": 970,
+  "damage_level": 1,
+  "confidence": "Unconfirmed",
+  "last_strike_date": "2026-07-31",
+  "coordinates": "55.848727, 48.842029",
+  "sources": [
+    { "name": "Ukrainska Pravda Initial Report", "url": "https://www.pravda.com.ua/eng/news/2026/07/31/8046638/" },
+    { "name": "Caliber / Astra Analysis", "url": "https://caliber.az/en/post/wildberries-logistics-hub-attacked-in-russia-s-tatarstan" },
+    { "name": "The Insider Strike Summary", "url": "https://theins.press/en/news/295573" }
+  ],
+  "image_url": "",
+  "strikes": [
+    {
+      "date": "2026-07-31",
+      "description": "Intercepted / Debris Only. Air defense engaged incoming UAVs in the Zelenodolsk Industrial Zone. Nearby smoke was caused by fallen intercepted debris/brush fire. No direct hit or structural damage to the primary facility verified on satellite imagery."
+    }
+  ]
+},
   {
     "id": "WB-011",
     "name": "Krasnodar",
