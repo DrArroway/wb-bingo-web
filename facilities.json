@@ -418,10 +418,10 @@
     "region": "Tambov Oblast",
     "footprint_m2": 150000,
     "distance_border_km": 380,
-    "damage_level": 4,
+    "damage_level": 3,
     "confidence": "Medium",
     "last_strike_date": "2026-07-18",
-    "coordinates": "52.648559, 41.431319",
+    "coordinates": "52.60028, 41.45455",
     "sources": [
       { "name": "Caliber / Governor Statement", "url": "https://caliber.az/en/post/seven-killed-24-injured-as-ukraine-targets-russia-s-wildberries-warehouses" },
       { "name": "NAnews Logistics Assessment", "url": "https://nikk.agency/en/wildberries-is-no-longer-a/" },
@@ -431,7 +431,7 @@
     "strikes": [
       {
         "date": "2026-07-18",
-        "description": "Conflicting evidence. Multiple independent media outlets report a major fire at a Wildberries logistics facility in Kotovsk following the July 18 strike. However, the exact facility location and reported extent of the damage have not yet been independently verified through available satellite imagery. Coordinates and facility identification require further confirmation."
+        "description": "Conflicting evidence. Multiple independent media outlets report a major fire at a Wildberries logistics facility in Kotovsk following the July 18 strike. However, reported extent of the damage does not show on satellite imagery. Possible confusion of new outlets withe the Elektrostal strike the same day"
       }
     ]
   },
