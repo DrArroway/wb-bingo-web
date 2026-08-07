@@ -43,7 +43,7 @@
     "id": "WB-002",
     "name": "Elektrostal",
     "region": "Moscow Oblast",
-    "footprint_m2": 250000,
+    "footprint_m2": 370000,
     "distance_border_km": 490,
     "damage_level": 5,
     "confidence": "Confirmed",
@@ -85,7 +85,7 @@
   "region": "Vladimir Oblast",
   "footprint_m2": 171900,
   "distance_border_km": 580,
-  "damage_level": 5,
+  "damage_level": 3,
   "confidence": "Confirmed",
   "last_strike_date": "2026-08-03",
   "coordinates": "56.0507, 40.1255",
@@ -119,7 +119,7 @@
   "strikes": [
     {
       "date": "2026-08-03",
-      "description": "Massive Structural Fire. Drone strike ignited a 100,000 m²+ blaze requiring 200+ firefighters; facility evacuated and logistics rerouted. Total structural loss percentage pending post-fire imagery."
+      "description": "Drone strike ignited fires on the south part of the facility; facility evacuated and logistics rerouted."
     }
   ]
   },
@@ -127,7 +127,7 @@
     "id": "WB-004",
     "name": "Tyushevo",
     "region": "Ryazan Oblast",
-    "footprint_m2": 173000,
+    "footprint_m2": 190000,
     "distance_border_km": 480,
     "damage_level": 3,
     "confidence": "Confirmed",
@@ -155,7 +155,7 @@
     "strikes": [
       {
         "date": "2026-07-29",
-        "description": "Medium Fire (~55%-65% loss). Fire concentrated in main sorting halls with clear thermal signatures and roof breaches."
+        "description": "Medium Fire. Fire concentrated in main sorting halls with clear thermal signatures and roof collapse on the west corner of the facility."
       }
     ]
   },
@@ -163,9 +163,9 @@
     "id": "WB-005",
     "name": "Shushary",
     "region": "Saint Petersburg / Leningrad Oblast",
-    "footprint_m2": 106000,
+    "footprint_m2": 120000,
     "distance_border_km": 1100,
-    "damage_level": 5,
+    "damage_level": 3,
     "confidence": "Confirmed",
     "last_strike_date": "2026-07-24",
     "coordinates": "59.7836, 30.4456",
@@ -182,7 +182,7 @@
       },
       {
         "date": "2026-07-24",
-        "description": "Severe structural fire rendering the facility inoperable. Drone strikes caused massive multi-bay fires and structural collapse."
+        "description": "Severe structural fire on half of the facility. Drone strikes caused massive multi-bay fires and structural collapse."
       }
     ]
   },
@@ -195,7 +195,7 @@
   "damage_level": 2,
   "confidence": "Confirmed",
   "last_strike_date": "2026-08-07",
-  "coordinates": "56.755350, 60.776148",
+  "coordinates": "56.728460, 60.577676",
   "sources": [
     { "name": "Reddit / r/UkraineWarVideoReport Strike Video", "url": "https://www.reddit.com/r/UkraineWarVideoReport/comments/1vhqqet/ukrainian_drones_hits_the_wb_warehouse_in/" },
     { "name": "Reddit / r/UkraineWarVideoReport Fire Video", "url": "https://www.reddit.com/r/UkraineWarVideoReport/comments/1vhsycn/clear_footage_showing_two_strike_points_with/" },
@@ -219,7 +219,7 @@
     "id": "WB-007",
     "name": "Novaya Usman (Nechayevka)",
     "region": "Voronezh Oblast",
-    "footprint_m2": 156000,
+    "footprint_m2": 180000,
     "distance_border_km": 210,
     "damage_level": 1,
     "confidence": "Confirmed",
@@ -234,7 +234,7 @@
     "strikes": [
       {
         "date": "2026-07-23",
-        "description": "Damaged (No Fire) (~1%-5% loss). Drones hit roof/loading vents; severe scorch marks around receiving bays but core racking remained unharmed."
+        "description": "Damaged (No Fire). Drones hit roof/loading vents; scorch marks around receiving bays but core racking remained unharmed."
       }
     ]
   },
@@ -265,12 +265,12 @@
     "id": "WB-009",
     "name": "Aleksin",
     "region": "Tula Oblast",
-    "footprint_m2": 194500,
+    "footprint_m2": 220000,
     "distance_border_km": 320,
     "damage_level": 5,
     "confidence": "Confirmed",
     "last_strike_date": "2026-08-05",
-    "coordinates": "54.49956, 37.050641",
+    "coordinates": "54.437239, 37.464906",
     "sources": [
       { "name": "Kyiv Independent Report", "url": "https://kyivindependent.com/ukrainian-drones-reportedly-strike-wildberries-warehouse-in-russias-tula-oblast/" },
       { "name": "Ukrainska Pravda / Astra Report", "url": "https://www.pravda.com.ua/eng/news/2026/08/05/8047305/" },
@@ -280,7 +280,7 @@
     "strikes": [
       {
         "date": "2026-08-05",
-        "description": "Catastrophic structural destruction. Overnight drone strike triggered an uncontrolled structural fire that destroyed the logistics complex. Ground-level imagery indicates the warehouse has been effectively destroyed."
+        "description": "Catastrophic structural destruction. Overnight drone strike triggered an uncontrolled fire that destroyed the logistics complex. Ground-level and statellite imagery indicates the warehouse has been effectively destroyed."
       }
     ]
   },
@@ -288,12 +288,12 @@
     "id": "WB-010",
     "name": "Zelenodolsk (Kazan Hub)",
     "region": "Republic of Tatarstan",
-    "footprint_m2": 150000,
+    "footprint_m2": 100000,
     "distance_border_km": 970,
     "damage_level": 3,
     "confidence": "Confirmed",
     "last_strike_date": "2026-07-31",
-    "coordinates": "55.8489, 48.8382",
+    "coordinates": "55.848727, 48.842029",
     "sources": [
       { "name": "Ukrainska Pravda Report", "url": "https://www.pravda.com.ua/eng/news/2026/07/31/8046638/" },
       { "name": "Caliber / Astra Analysis", "url": "https://caliber.az/en/post/wildberries-logistics-hub-attacked-in-russia-s-tatarstan" },
@@ -303,7 +303,7 @@
     "strikes": [
       {
         "date": "2026-07-31",
-        "description": "Medium Fire (~40%-50% loss). Overnight UAV strike in the Zelenodolsk Industrial Park resulted in heavy smoke plumes and localized internal facility fires."
+        "description": "Medium Fire. Overnight UAV strike in the Zelenodolsk Industrial Park resulted in heavy smoke plumes and localized internal facility fires. Primary bay look intact"
       }
     ]
   },
@@ -326,7 +326,7 @@
     "strikes": [
       {
         "date": "2026-07-22",
-        "description": "Totally uploaded to Cloud (~95%-100% loss). Overnight drone barrage triggered uncontrolled fire, requiring aerial firefighting support and resulting in complete roof collapse."
+        "description": "Total loss. Overnight drone barrage triggered uncontrolled fire, requiring aerial firefighting support and resulting in complete roof collapse."
       }
     ]
   },
@@ -358,7 +358,7 @@
     "region": "Samara Oblast",
     "footprint_m2": 128000,
     "distance_border_km": 820,
-    "damage_level": 4,
+    "damage_level": 5,
     "confidence": "Confirmed",
     "last_strike_date": "2026-08-02",
     "coordinates": "53.3877, 50.3358",
@@ -371,7 +371,7 @@
     "strikes": [
       {
         "date": "2026-08-02",
-        "description": "Large Fire (~60%-75% loss). Main sorting bridge to Siberia hit; multi-bay structural fire."
+        "description": "Large Fire that totaled the facility. Multi-bay structural fire with almost no remaining roof top."
       }
     ]
   },
@@ -379,9 +379,9 @@
     "id": "WB-014",
     "name": "Nevinnomyssk",
     "region": "Stavropol Krai",
-    "footprint_m2": 120000,
+    "footprint_m2": 180000,
     "distance_border_km": 420,
-    "damage_level": 4,
+    "damage_level": 3,
     "confidence": "Confirmed",
     "last_strike_date": "2026-07-22",
     "coordinates": "44.6627, 41.8960",
@@ -394,7 +394,7 @@
     "strikes": [
       {
         "date": "2026-07-22",
-        "description": "Large Fire (~65%-75% loss). Heavy scorch marks and roof collapse over central hub section at Timiryazeva 16."
+        "description": "Medium Fire. Roof collapse over the east corner of the central hub"
       }
     ]
   },
@@ -416,12 +416,12 @@
     "id": "WB-016",
     "name": "Kotovsk",
     "region": "Tambov Oblast",
-    "footprint_m2": 108000,
+    "footprint_m2": 150000,
     "distance_border_km": 380,
     "damage_level": 5,
     "confidence": "Confirmed",
     "last_strike_date": "2026-07-18",
-    "coordinates": "52.5768, 41.5211",
+    "coordinates": "52.648559, 41.431319",
     "sources": [
       { "name": "Caliber / Governor Statement", "url": "https://caliber.az/en/post/seven-killed-24-injured-as-ukraine-targets-russia-s-wildberries-warehouses" },
       { "name": "NAnews Logistics Assessment", "url": "https://nikk.agency/en/wildberries-is-no-longer-a/" },
@@ -453,9 +453,9 @@
     "id": "WB-018",
     "name": "Penza (Mastinovka)",
     "region": "Penza Oblast",
-    "footprint_m2": 90000,
+    "footprint_m2": 180000,
     "distance_border_km": 620,
-    "damage_level": 4,
+    "damage_level": 3,
     "confidence": "Confirmed",
     "last_strike_date": "2026-07-30",
     "coordinates": "53.2673, 44.7911",
@@ -469,7 +469,7 @@
     "strikes": [
       {
         "date": "2026-07-30",
-        "description": "Massive UAV strike (~15 drones) causing an open fire that consumed over 62,000 m² of the operational sorting hub. Over 200 workers evacuated."
+        "description": "Massive UAV strike (~15 drones) causing an open fire with roof collapse over half of the operational sorting hub."
       }
     ]
   },
@@ -561,9 +561,9 @@
     "id": "WB-025",
     "name": "Sarapul",
     "region": "Udmurtia",
-    "footprint_m2": 64000,
+    "footprint_m2": 50000,
     "distance_border_km": 1150,
-    "damage_level": 3,
+    "damage_level": 5,
     "confidence": "Confirmed",
     "last_strike_date": "2026-07-30",
     "coordinates": "56.485450, 53.695077",
@@ -576,7 +576,7 @@
     "strikes": [
       {
         "date": "2026-07-30",
-        "description": "Medium Fire (~50%-60% loss). Overnight Liutyi UAV strike hit the Izhevsky Trakt facility roof, triggering active fires across main sorting modules."
+        "description": "Large fire that totaled the facility. Overnight Liutyi UAV strike hit the Izhevsky Trakt facility roof, triggering uncontrolled fires across main sorting modules."
       }
     ]
   },
@@ -598,7 +598,7 @@
     "id": "WB-027",
     "name": "Volgograd (Dzerzhinsky)",
     "region": "Volgograd Oblast",
-    "footprint_m2": 46000,
+    "footprint_m2": 45000,
     "distance_border_km": 390,
     "damage_level": 5,
     "confidence": "Confirmed",
@@ -614,7 +614,7 @@
     "strikes": [
       {
         "date": "2026-07-31",
-        "description": "Totaled (~90%-100% loss). Massive overnight strike ignited uncontrollable fires across the Buzuluksky Proezd complex, leaving the primary structure completely burned out."
+        "description": "Totaled. Massive overnight strike ignited uncontrollable fires leaving the primary structure completely burned out."
       }
     ]
   },
@@ -650,7 +650,7 @@
     "id": "WB-030",
     "name": "Utkina Zavod (Novosaratovka)",
     "region": "Leningrad Oblast",
-    "footprint_m2": 18000,
+    "footprint_m2": 230000,
     "distance_border_km": 840,
     "damage_level": 3,
     "confidence": "Confirmed",
@@ -665,7 +665,7 @@
     "strikes": [
       {
         "date": "2026-07-24",
-        "description": "Medium Fire (~45%-55% loss). Scorch marks and roof breaches confined to primary processing bays."
+        "description": "Medium Fire. Roof collapse the primary bay"
       }
     ]
   },
@@ -673,9 +673,9 @@
   "id": "WB-031",
   "name": "Simferopol",
   "region": "Crimea (Russian-occupied)",
-  "footprint_m2": 6000,
+  "footprint_m2": 12000,
   "distance_border_km": 220,
-  "damage_level": 2,
+  "damage_level": 4,
   "confidence": "Confirmed",
   "last_strike_date": "2026-07-24",
   "coordinates": "45.032244, 34.045955",
@@ -691,7 +691,7 @@
   "strikes": [
     {
       "date": "2026-07-24",
-      "description": "Small Fire (~25%-35% loss). Overnight drone hit on Kubanskaya St sorting hub ignited localized fires; company confirmed staff evacuation and contained burn damage."
+      "description": "Overnight drone hit sorting hub ignited fires; statellite images confirm that at least 2/3 of the facility burn out."
     }
   ]
   },
