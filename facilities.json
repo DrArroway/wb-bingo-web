@@ -35,7 +35,7 @@
     "strikes": [
       {
         "date": "2026-07-20",
-        "description": "Minor damage (~0%-5% loss). Evacuated during overnight 400-drone regional raid; brief localized exterior smoke, facility quickly resumed normal operations."
+        "description": "Minor damage. Evacuated during overnight 400-drone regional raid; brief localized exterior smoke, facility quickly resumed normal operations."
       }
     ]
   },
@@ -280,7 +280,7 @@
     "strikes": [
       {
         "date": "2026-08-05",
-        "description": "Catastrophic structural destruction. Overnight drone strike triggered an uncontrolled fire that destroyed the logistics complex. Ground-level and statellite imagery indicates the warehouse has been effectively destroyed."
+        "description": "Catastrophic structural destruction. Overnight drone strike triggered an uncontrolled fire that destroyed the logistics complex. Ground-level and satellite imagery indicates the warehouse has been effectively destroyed."
       }
     ]
   },
@@ -348,7 +348,7 @@
   "strikes": [
     {
       "date": "2026-08-04",
-      "description": "Intercepted / Near Miss (~0%-10% loss). Air defense interception over Pasynkovo/Emmauss industrial zone caused minor debris impact to perimeter wall; core warehouse structure intact."
+      "description": "Intercepted / Near Miss. Air defense interception over Pasynkovo/Emmauss industrial zone caused minor debris impact to perimeter wall; core warehouse structure intact."
     }
   ]
 },
@@ -394,7 +394,7 @@
     "strikes": [
       {
         "date": "2026-07-22",
-        "description": "Medium Fire. Roof collapse over the east corner of the central hub"
+        "description": "Medium Fire. Roof collapse over the west corner of the central hub."
       }
     ]
   },
@@ -666,7 +666,7 @@
     "strikes": [
       {
         "date": "2026-07-24",
-        "description": "Medium Fire. Roof collapse the primary bay"
+        "description": "Medium Fire. Roof collapse in the primary bay."
       }
     ]
   },
@@ -692,7 +692,7 @@
   "strikes": [
     {
       "date": "2026-07-24",
-      "description": "Overnight drone hit sorting hub ignited fires; statellite images confirm that at least 2/3 of the facility burn out."
+      "description": "Overnight drone hit sorting hub ignited fires; satellite images confirm that at least 2/3 of the facility burned out."
     }
   ]
   },
@@ -715,7 +715,7 @@
   "strikes": [
     {
       "date": "2026-08-04",
-      "description": "Large Fire (~65%-80% loss). Drone strike ignited sorting bays in Novoselki zone, damaging adjacent administrative block and substation."
+      "description": "Large Fire. Drone strike ignited sorting bays in Novoselki zone, damaging adjacent administrative block and substation."
     }
   ]
   },
@@ -739,7 +739,7 @@
   "strikes": [
     {
       "date": "2026-07-30",
-      "description": "Medium Fire (~30%-50% loss). Geolocated by Astra; drone strike ignited active fires across sorting center modules."
+      "description": "Medium Fire. Geolocated by Astra; a drone strike ignited active fires across sorting center modules."
     }
   ]
   },
@@ -790,7 +790,7 @@
     "strikes": [
       {
         "date": "2026-07-23",
-        "description": "Small Fire (~15%-25% loss). Overnight UAV strike hit warehouse roof, causing structural burn damage and forcing team to suspend operations."
+        "description": "Small Fire. Overnight UAV strike hit warehouse roof, causing structural burn damage and forcing team to suspend operations."
       }
     ]
   }
