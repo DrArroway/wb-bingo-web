@@ -7,7 +7,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
 const DAMAGE_TIERS = {
     0: { name: "No Damage", icon: "🎯", color: "var(--damage-0)" },
-    1: { name: "Striked (No Fire)", icon: "💥", color: "var(--damage-1)" },
+    1: { name: "Struck (No Fire)", icon: "💥", color: "var(--damage-1)" },
     2: { name: "Small Fire (1-20%)", icon: "🔥", color: "var(--damage-2)" },
     3: { name: "Medium Fire (20-60%)", icon: "🔥🔥", color: "var(--damage-3)" },
     4: { name: "Large Fire (60-90%)", icon: "🔥🔥🔥", color: "var(--damage-4)" },
