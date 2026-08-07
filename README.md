@@ -21,6 +21,8 @@ Data accuracy and media coverage are open to contributions:
 
 ## AI Disclosure & Data Disclaimer
 
-This project was built using AI (Gemini) for coding, CSS layout, and initial data population. 
+This project was built using AI (Gemini) at first for coding, CSS layout, and initial data population. 
 
-**Note on Data:** Initial dataset entries were generated via AI search and synthesis. While designed to be more detailed than static online bingo cards, the entries are currently undergoing human verification and may still contain inaccuracies until fully reviewed. Contributions to fact-check sources and telemetry are welcome!
+**Note on Data:** Initial dataset entries were generated via AI search and synthesis. While designed to be more detailed than static online bingo cards, the entries was reviewed under human verification but may still contain inaccuracies until that escaped my knowledge. Contributions to fact-check sources and telemetry are welcome!
+
+Big thanks to Reddit users: WastingMyLifeToday & SamiKitlami that helped me to improve the layout and the data accuracy.
