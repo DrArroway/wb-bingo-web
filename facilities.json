@@ -187,26 +187,31 @@
     ]
   },
   {
-    "id": "WB-006",
-    "name": "Yekaterinburg",
-    "region": "Sverdlovsk Oblast",
-    "footprint_m2": 158000,
-    "distance_border_km": 1690,
-    "damage_level": 1,
-    "confidence": "Confirmed",
-    "last_strike_date": "2026-07-25",
-    "coordinates": "56.755350, 60.776148",
-    "sources": [
-      { "name": "The Moscow Times Report", "url": "https://www.themoscowtimes.com/2026/07/25/ukrainian-attacks-kill-2-in-belgorod-and-target-wildberries-warehouse-in-urals-a93338" },
-      { "name": "Exilenova+ / Cotidianul Geolocation", "url": "https://cotidianul.md/en/35155/Ukrainian-drones-attacked-a-Wildberries-warehouse-in-Yekaterinburg/" }
-    ],
-    "image_url": "",
-    "strikes": [
-      {
-        "date": "2026-07-25",
-        "description": "Damaged (No Fire) (~0%-5% loss). Strike hit adjacent parking lot, burning vehicles across 300m²; main warehouse structure remained intact and resumed operations within hours."
-      }
-    ]
+  "id": "WB-006",
+  "name": "Yekaterinburg",
+  "region": "Sverdlovsk Oblast",
+  "footprint_m2": 158000,
+  "distance_border_km": 1690,
+  "damage_level": 1,
+  "confidence": "Medium",
+  "last_strike_date": "2026-08-07",
+  "coordinates": "56.755350, 60.776148",
+  "sources": [
+    { "name": "Reddit / r/UkraineWarVideoReport Strike Video", "url": "https://www.reddit.com/r/UkraineWarVideoReport/comments/1vhqqet/ukrainian_drones_hits_the_wb_warehouse_in/" },
+    { "name": "The Moscow Times Report", "url": "https://www.themoscowtimes.com/2026/07/25/ukrainian-attacks-kill-2-in-belgorod-and-target-wildberries-warehouse-in-urals-a93338" },
+    { "name": "Exilenova+ / Cotidianul Geolocation", "url": "https://cotidianul.md/en/35155/Ukrainian-drones-attacked-a-Wildberries-warehouse-in-Yekaterinburg/" }
+  ],
+  "image_url": "",
+  "strikes": [
+    {
+      "date": "2026-08-07",
+      "description": "Strike reported via OSINT/video. Direct UAV strike reported; damage assessment pending."
+    },
+    {
+      "date": "2026-07-25",
+      "description": "Damaged (No Fire) (~0%-5% loss). Strike hit adjacent parking lot, burning vehicles across 300m²; main warehouse structure remained intact and resumed operations within hours."
+    }
+  ]
   },
   {
     "id": "WB-007",
@@ -273,7 +278,7 @@
     "strikes": [
       {
         "date": "2026-08-05",
-        "description": "Massive overnight UAV barrage triggered extensive structural fire and roof collapse across the 194.5k m² facility, Final structural assessment pending post-fire imagery."
+        "description": "Catastrophic structural destruction. Overnight drone strike triggered an uncontrolled structural fire that destroyed the logistics complex. Ground-level imagery indicates the warehouse has been effectively destroyed."
       }
     ]
   },
