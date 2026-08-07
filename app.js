@@ -52,6 +52,16 @@ const DAMAGE_TIERS = {
     });
   }
 
+
+  // Helper to check if a date string is within the last N days
+  function isRecentStrike(dateString, daysThreshold = 3) {
+    if (!dateString || dateString === 'N/A') return false;
+    const strikeDate = new Date(dateString);
+    const now = new Date();
+    const diffInDays = (now - strikeDate) / (1000 * 60 * 60 * 24);
+    return diffInDays >= 0 && diffInDays <= daysThreshold;
+  }
+
   function renderGrid() {
     const dataToRender = getSortedAndFilteredData();
     grid.innerHTML = '';
@@ -69,7 +79,15 @@ const DAMAGE_TIERS = {
       const damageInfo = DAMAGE_TIERS[item.damage_level] || { name: 'Unknown', icon: '❓', color: '#8b949e' };
       const fallbackImg = 'placeholder.jpg';
 
-      // 1. Strikes Tooltip HTML
+      // 1. Check if strike is recent (within 3 days)
+      const isNew = isRecentStrike(item.last_strike_date, 3);
+      const newRibbonHtml = isNew ? `
+      <div class="new-ribbon">
+      <span>NEW</span>
+      </div>
+      ` : '';
+
+      // 2. Strikes Tooltip HTML
       let strikesHtml = item.strikes && item.strikes.length > 0
       ? item.strikes.map(s => `
       <div class="strike-event">
@@ -79,7 +97,7 @@ const DAMAGE_TIERS = {
       `).join('')
       : '<div>No strike events reported.</div>';
 
-      // 2. Sources Tooltip HTML (Clickable Links)
+      // 3. Sources Tooltip HTML (Clickable Links)
       let sourcesHtml = item.sources && item.sources.length > 0
       ? item.sources.map(src => `
       <div class="source-item">
@@ -88,7 +106,7 @@ const DAMAGE_TIERS = {
       `).join('')
       : '<div>No external sources linked.</div>';
 
-      // 3. Coordinates Tooltip HTML
+      // 4. Coordinates Tooltip HTML
       const coordsText = item.coordinates || 'N/A';
       const mapsUrl = item.coordinates ? `https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(item.coordinates)}` : '#';
 
@@ -99,6 +117,7 @@ const DAMAGE_TIERS = {
       <div class="damage-badge" style="background-color: ${damageInfo.color}">
       ${damageInfo.icon} ${damageInfo.name}
       </div>
+      ${newRibbonHtml} <!-- Dynamic NEW ribbon -->
       </div>
 
       <div class="card-body">
