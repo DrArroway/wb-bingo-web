@@ -418,8 +418,8 @@
     "region": "Tambov Oblast",
     "footprint_m2": 150000,
     "distance_border_km": 380,
-    "damage_level": 5,
-    "confidence": "Confirmed",
+    "damage_level": 4,
+    "confidence": "Medium",
     "last_strike_date": "2026-07-18",
     "coordinates": "52.648559, 41.431319",
     "sources": [
@@ -431,7 +431,7 @@
     "strikes": [
       {
         "date": "2026-07-18",
-        "description": "Totally uploaded to Cloud (~90%-100% loss). Core facility burned completely to the concrete slab."
+        "description": "Conflicting evidence. Multiple independent media outlets report a major fire at a Wildberries logistics facility in Kotovsk following the July 18 strike. However, the exact facility location and reported extent of the damage have not yet been independently verified through available satellite imagery. Coordinates and facility identification require further confirmation."
       }
     ]
   },
