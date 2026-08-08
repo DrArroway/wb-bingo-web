@@ -5,13 +5,15 @@ document.addEventListener('DOMContentLoaded', () => {
   const sortSelect = document.getElementById('sortSelect');
   const searchInput = document.getElementById('searchInput');
 
-const DAMAGE_TIERS = {
-    0: { name: "No Damage", icon: "🎯", color: "var(--damage-0)" },
-    1: { name: "Struck (No Fire)", icon: "💥", color: "var(--damage-1)" },
-    2: { name: "Small Fire (1-20%)", icon: "🔥", color: "var(--damage-2)" },
-    3: { name: "Medium Fire (20-60%)", icon: "🔥🔥", color: "var(--damage-3)" },
-    4: { name: "Large Fire (60-90%)", icon: "🔥🔥🔥", color: "var(--damage-4)" },
-    5: { name: "Fully uploaded to Cloud (90-100%)", icon: "🔥🔥🔥🔥 ➜ ☁️", color: "var(--damage-5)" }
+  // Updated Damage Tiers without visible percentages in the display name
+  // The 'range' property provides the exact breakdown for tooltips
+  const DAMAGE_TIERS = {
+    0: { name: "No Damage", range: "0% loss", icon: "🎯", color: "var(--damage-0)" },
+                          1: { name: "Struck (No Fire)", range: "0-5% impact", icon: "💥", color: "var(--damage-1)" },
+                          2: { name: "Small Fire", range: "1-20% loss", icon: "🔥", color: "var(--damage-2)" },
+                          3: { name: "Medium Fire", range: "20-50% loss", icon: "🔥🔥", color: "var(--damage-3)" },
+                          4: { name: "Large Fire", range: "50-80% loss", icon: "🔥🔥🔥", color: "var(--damage-4)" },
+                          5: { name: "Fully uploaded to Cloud", range: "80-100% loss", icon: "🔥🔥🔥🔥 ➜ ☁️", color: "var(--damage-5)" }
   };
 
   async function loadData() {
@@ -52,7 +54,6 @@ const DAMAGE_TIERS = {
     });
   }
 
-
   // Helper to check if a date string is within the last N days
   function isRecentStrike(dateString, daysThreshold = 3) {
     if (!dateString || dateString === 'N/A') return false;
@@ -76,7 +77,7 @@ const DAMAGE_TIERS = {
       card.className = 'card';
 
       // Look up damage info using DAMAGE_TIERS
-      const damageInfo = DAMAGE_TIERS[item.damage_level] || { name: 'Unknown', icon: '❓', color: '#8b949e' };
+      const damageInfo = DAMAGE_TIERS[item.damage_level] || { name: 'Unknown', range: '', icon: '❓', color: '#8b949e' };
       const fallbackImg = 'placeholder.jpg';
 
       // 1. Check if strike is recent (within 3 days)
@@ -97,7 +98,7 @@ const DAMAGE_TIERS = {
       `).join('')
       : '<div>No strike events reported.</div>';
 
-      // 3. Sources Tooltip HTML (Clickable Links)
+      // 3. Sources Tooltip HTML
       let sourcesHtml = item.sources && item.sources.length > 0
       ? item.sources.map(src => `
       <div class="source-item">
@@ -114,10 +115,10 @@ const DAMAGE_TIERS = {
       <div class="card-header-img">
       <img src="${item.image_url || fallbackImg}" alt="${item.name}" class="card-bg-img" onerror="this.src='${fallbackImg}'">
       <div class="damage-overlay overlay-lvl-${item.damage_level}"></div>
-      <div class="damage-badge" style="background-color: ${damageInfo.color}">
+      <div class="damage-badge" style="background-color: ${damageInfo.color}" title="Estimated impact: ${damageInfo.range}">
       ${damageInfo.icon} ${damageInfo.name}
       </div>
-      ${newRibbonHtml} <!-- Dynamic NEW ribbon -->
+      ${newRibbonHtml}
       </div>
 
       <div class="card-body">
