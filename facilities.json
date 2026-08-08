@@ -207,11 +207,11 @@
   "strikes": [
     {
       "date": "2026-08-07",
-      "description": "Small Fire / Moderate Damage. Three drones struck roof of Block 1, sparking localized fire; 800 workers evacuated. Emergency crews contained blaze."
+      "description": "Roof Penetration / Localized Fire. Three drones struck the roof of Block 1, sparking localized fires beneath the roof structure; 800 workers evacuated and shipments temporarily redirected."
     },
     {
       "date": "2026-07-25",
-      "description": "Damaged (No Fire). Strike hit adjacent parking lot, burning vehicles across 300m²; main warehouse structure remained intact and resumed operations within hours."
+      "description": "External Disruption (No Fire on Building). Strike hit adjacent parking area, destroying vehicles across 300m²; primary warehouse structure remained intact."
     }
   ]
 },
@@ -239,28 +239,28 @@
     ]
   },
   {
-    "id": "WB-008",
-    "name": "Krasny Bor",
-    "region": "Leningrad Oblast",
-    "footprint_m2": 154000,
-    "distance_border_km": 830,
-    "damage_level": 5,
-    "confidence": "Confirmed",
-    "last_strike_date": "2026-08-04",
-    "coordinates": "59.683268, 30.629861",
-    "sources": [
-      { "name": "Meduza Strike Report", "url": "https://meduza.io/en/feature/2026/08/04/ukraine-has-hit-20-wildberries-warehouses-since-mid-july-photos-and-videos-show-the-aftermath-of-the-latest-strike-on-a-logistics-center-in-russia-s-leningrad-region" },
-      { "name": "Astra / Governor Drozdenko Statement", "url": "https://censor.net/en/news/4016769/drones-attacked-warehouses-in-three-regions-of-the-russian-federation-what-is-known-so-far" },
-      { "name": "NV Strike Telemetry", "url": "https://english.nv.ua/nation/ukraine-appears-to-strike-major-russian-supermarket-warehouse-for-first-time-50629878.html" }
-    ],
-    "image_url": "",
-    "strikes": [
-      {
-        "date": "2026-08-04",
-        "description": "Catastrophic Structural Fire. Overnight drone strike triggered uncontrolled open structural fire across main logistics bays."
-      }
-    ]
-  },
+  "id": "WB-008",
+  "name": "Krasny Bor",
+  "region": "Leningrad Oblast",
+  "footprint_m2": 154000,
+  "distance_border_km": 830,
+  "damage_level": 1,
+  "confidence": "Confirmed",
+  "last_strike_date": "2026-08-04",
+  "coordinates": "59.683268, 30.629861",
+  "sources": [
+    { "name": "Meduza Strike Report", "url": "https://meduza.io/en/feature/2026/08/04/ukraine-has-hit-20-wildberries-warehouses-since-mid-july-photos-and-videos-show-the-aftermath-of-the-latest-strike-on-a-logistics-center-in-russia-s-leningrad-region" },
+    { "name": "Astra / Governor Drozdenko Statement", "url": "https://censor.net/en/news/4016769/drones-attacked-warehouses-in-three-regions-of-the-russian-federation-what-is-known-so-far" },
+    { "name": "NV Strike Telemetry (Lenta DC Target)", "url": "https://english.nv.ua/nation/ukraine-appears-to-strike-major-russian-supermarket-warehouse-for-first-time-50629878.html" }
+  ],
+  "image_url": "",
+  "strikes": [
+    {
+      "date": "2026-08-04",
+      "description": "Collateral Damage / Operational Disruption. Drone impact targeted the adjacent Lenta distribution center within the same industrial park. Satellite imagery confirms the primary Wildberries roof remains intact, but the site suffered perimeter heat/smoke exposure and temporary operational suspension."
+    }
+  ]
+},
   {
     "id": "WB-009",
     "name": "Aleksin",
@@ -418,7 +418,7 @@
     "region": "Tambov Oblast",
     "footprint_m2": 150000,
     "distance_border_km": 380,
-    "damage_level": 3,
+    "damage_level": 1,
     "confidence": "Medium",
     "last_strike_date": "2026-07-18",
     "coordinates": "52.60028, 41.45455",
@@ -702,7 +702,7 @@
   "region": "Moscow Oblast",
   "footprint_m2": 120000,
   "distance_border_km": 410,
-  "damage_level": 4,
+  "damage_level": 1,
   "confidence": "Confirmed",
   "last_strike_date": "2026-08-04",
   "coordinates": "55.125659, 37.556262",
@@ -715,10 +715,10 @@
   "strikes": [
     {
       "date": "2026-08-04",
-      "description": "Large Fire. Drone strike ignited sorting bays in Novoselki zone, damaging adjacent administrative block and substation."
+      "description": "Near Miss / External Fire Misattribution. Initial media reports attributed a nearby blaze to the Wildberries facility. Geolocation and satellite imagery confirm the fire occurred at an adjacent electrical/industrial site, leaving the main warehouse structure undamaged."
     }
   ]
-  },
+},
   {
   "id": "WB-033",
   "name": "Zamulyanka (Perm)",
@@ -739,10 +739,10 @@
   "strikes": [
     {
       "date": "2026-07-30",
-      "description": "Small Fire / smoke plume reported. Geolocated by Astra; a drone strike ignited fire with visible smoke plume across sorting center modules. Damage may be low, no evidence  on satelite imagery"
+      "description": "Minor Impact / Smoke Plume. Geolocated by Astra and Agentstvo; drone strike caused localized fire and smoke plume near the facility. Primary building structure remains intact with no visible burn scars on satellite imagery."
     }
   ]
-  },
+},
   {
     "id": "WB-034",
     "name": "Rassvet (Tver Expansion)",
