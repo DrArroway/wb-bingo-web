@@ -11,7 +11,7 @@
     "coordinates": "55.3863, 37.5840",
     "sources": [
       {
-        "name": "Copernicus Sentinel-2 Imagery (Post-Strike Window: July 20-23)",
+        "name": "Copernicus Imagery",
         "url": "https://browser.dataspace.copernicus.eu/?zoom=15&lat=55.3863&lng=37.584&themeId=DEFAULT-THEME&visualizationUrl=U2FsdGVkX18aZ7FjhWZ1ePU57KHE2DokgRqVYIeeZ426ZfeglFYG%2FfKH8BtnhJ3Ipljk1lGRbyMnA6Zs8dFVKU%2BwKVXJ3MYb7Pzy%2BEX5xEDAqgm1kNVT9dRgq5iGpteS&datasetId=S2_L2A_CDAS&fromTime=2026-08-08T00%3A00%3A00.000Z&toTime=2026-08-08T23%3A59%3A59.999Z&layerId=1_TRUE_COLOR&demSource3D=%22MAPZEN%22&cloudCoverage=30&dateMode=SINGLE"
       },
       {
@@ -103,8 +103,8 @@
     "coordinates": "56.0507, 40.1255",
     "sources": [
       {
-        "name": "Copernicus Sentinel-2 Imagery (Post-Strike Window: Aug 3-6)",
-        "url": "https://browser.dataspace.copernicus.eu/?zoom=15&lat=56.0507&lng=40.1255&themeId=DEFAULT-THEME&datasetId=S2_L2A_CDAS&fromTime=2026-08-03T00%3A00%3A00.000Z&toTime=2026-08-06T23%3A59%3A59.999Z&layerId=1_TRUE_COLOR&cloudCoverage=30&dateMode=SINGLE"
+        "name": "Copernicus Imagery",
+        "url": "https://browser.dataspace.copernicus.eu/?zoom=15&lat=56.0507&lng=40.1255&themeId=DEFAULT-THEME&visualizationUrl=U2FsdGVkX18FRV9NzFCwmL82eHhybKC07gFQ3mPJcMXfcIttvLOV3aAADcygGzZJwcDq6nL1RbkZQEkGfUvf5JKPwlv14GVamUoelkQX%2F9i%2FjpxLngM%2FKCXMCO5lEG1b&datasetId=S2_L2A_CDAS&fromTime=2026-08-08T00%3A00%3A00.000Z&toTime=2026-08-08T23%3A59%3A59.999Z&layerId=1_TRUE_COLOR&demSource3D=%22MAPZEN%22&cloudCoverage=30&dateMode=SINGLE"
       },
       {
         "name": "Meduza Incident Report",
@@ -151,7 +151,7 @@
     "coordinates": "54.679285,39.571186",
     "sources": [
       {
-        "name": "Copernicus Sentinel-2 Imagery (Post-Strike Window: July 29-Aug 1)",
+        "name": "Copernicus Imagery",
         "url": "https://browser.dataspace.copernicus.eu/?zoom=15&lat=54.67929&lng=39.57119&themeId=DEFAULT-THEME&visualizationUrl=U2FsdGVkX19RAZhaXt5I39nXrXy55RkjAn14xeAbdRYk0tsKMSKodokMh7gamKlRHtnaE%2Fl6djcbAiNqGzTuOD7hCPQxvWBSCiXawqV5u%2F2Na3QLxmy%2FQizNktTYlZVG&datasetId=S2_L2A_CDAS&fromTime=2026-08-05T00%3A00%3A00.000Z&toTime=2026-08-05T23%3A59%3A59.999Z&layerId=1_TRUE_COLOR&demSource3D=%22MAPZEN%22&cloudCoverage=30&dateMode=SINGLE"
       },
       {
@@ -182,7 +182,7 @@
   {
     "id": "WB-005",
     "name": "Shushary",
-    "region": "Saint Petersburg / Leningrad Oblast",
+    "region": "Leningrad Oblast",
     "footprint_m2": 120000,
     "distance_border_km": 1100,
     "damage_level": 3,
@@ -191,8 +191,8 @@
     "coordinates": "59.7836, 30.4456",
     "sources": [
       {
-        "name": "Copernicus Sentinel-2 Imagery (Post-Strike Window: July 24-27)",
-        "url": "https://browser.dataspace.copernicus.eu/?zoom=15&lat=59.7836&lng=30.4456&themeId=DEFAULT-THEME&datasetId=S2_L2A_CDAS&fromTime=2026-07-24T00%3A00%3A00.000Z&toTime=2026-07-27T23%3A59%3A59.999Z&layerId=1_TRUE_COLOR&cloudCoverage=30&dateMode=SINGLE"
+        "name": "Copernicus Imagery",
+        "url": "https://browser.dataspace.copernicus.eu/?zoom=15&lat=59.7836&lng=30.4456&themeId=DEFAULT-THEME&visualizationUrl=U2FsdGVkX194LTyQo32nBqvJNTko5re4zwG7J0klOb2bYYcBaOnmMxaFoLnCb3Rbkqh1e6LpQ0RjQVSMnCZvRBeeqyHgkyunAC7OTvFsMN%2FUGokOAMRjWtssdrkBO2Bc&datasetId=S2_L2A_CDAS&fromTime=2026-08-08T00%3A00%3A00.000Z&toTime=2026-08-08T23%3A59%3A59.999Z&layerId=1_TRUE_COLOR&demSource3D=%22MAPZEN%22&cloudCoverage=30&dateMode=SINGLE"
       },
       { "name": "Meduza Incident Report", "url": "https://meduza.io/en/news/2026/07/24/ukraine-strikes-wildberries-warehouses-in-russia-for-fourth-time-in-a-week" },
       { "name": "ASTRA OSINT / Governor Statement", "url": "https://caliber.az/en/post/astra-drone-strikes-set-wildberries-warehouses-ablaze-near-st-petersburg" },
@@ -222,8 +222,8 @@
     "coordinates": "56.728460, 60.577676",
     "sources": [
       {
-        "name": "Copernicus Sentinel-2 Imagery (Post-Strike Window: Aug 7-10)",
-        "url": "https://browser.dataspace.copernicus.eu/?zoom=15&lat=56.728460&lng=60.577676&themeId=DEFAULT-THEME&datasetId=S2_L2A_CDAS&fromTime=2026-08-07T00%3A00%3A00.000Z&toTime=2026-08-10T23%3A59%3A59.999Z&layerId=1_TRUE_COLOR&cloudCoverage=30&dateMode=SINGLE"
+        "name": "Copernicus Imagery",
+        "url": "https://browser.dataspace.copernicus.eu/?zoom=15&lat=56.72846&lng=60.57768&themeId=DEFAULT-THEME&visualizationUrl=U2FsdGVkX1%2BdE1xEeqUJGaaZf%2FSgYz8tS30F8WvYzgqzlRTLRlNsuM2VoMrMc3i99C0NPENM2LlXe1RCC04%2BeuJkBVWzrjGz78dzPi%2B0nBZcagO2l6WRUWEpoBWMZzkW&datasetId=S2_L2A_CDAS&fromTime=2026-08-09T00%3A00%3A00.000Z&toTime=2026-08-09T23%3A59%3A59.999Z&layerId=1_TRUE_COLOR&demSource3D=%22MAPZEN%22&cloudCoverage=30&dateMode=SINGLE"
       },
       { "name": "Reddit / r/UkraineWarVideoReport Strike Video", "url": "https://www.reddit.com/r/UkraineWarVideoReport/comments/1vhqqet/ukrainian_drones_hits_the_wb_warehouse_in/" },
       { "name": "Reddit / r/UkraineWarVideoReport Fire Video", "url": "https://www.reddit.com/r/UkraineWarVideoReport/comments/1vhsycn/clear_footage_showing_two_strike_points_with/" },
@@ -235,7 +235,7 @@
     "strikes": [
       {
         "date": "2026-08-07",
-        "description": "Roof Penetration / Localized Fire. Three drones struck the roof of Block 1, sparking localized fires beneath the roof structure; 800 workers evacuated and shipments temporarily redirected."
+        "description": "Roof Penetration / Localized Fire. Three drones struck the roof of Block 1, sparking localized fires beneath the roof structure; 800 workers evacuated and shipments temporarily redirected. No obvvious damages on satellite except for couple of dark spots"
       },
       {
         "date": "2026-07-25",
@@ -255,8 +255,8 @@
     "coordinates": "51.6199, 39.3505",
     "sources": [
       {
-        "name": "Copernicus Sentinel-2 Imagery (Post-Strike Window: July 23-26)",
-        "url": "https://browser.dataspace.copernicus.eu/?zoom=15&lat=51.6199&lng=39.3505&themeId=DEFAULT-THEME&visualizationUrl=U2FsdGVkX1%2F46vTRBwamKAzRW9FQM3vIjjl6Yo%2F%2BYTbzf7rpj4R1SnmRTjEFV0XWfkf%2BiQ%2BtO6ayX4iBK1DIwXWXJZ3EG54E8vFCCuEYTRJIFOW2gG7fqF2sSszE3Ts4&datasetId=S2_L2A_CDAS&fromTime=2026-08-07T00%3A00%3A00.000Z&toTime=2026-08-07T23%3A59%3A59.999Z&layerId=1_TRUE_COLOR&demSource3D=%22MAPZEN%22&cloudCoverage=30&dateMode=SINGLE"
+        "name": "Copernicus Imagery",
+        "url": "https://browser.dataspace.copernicus.eu/?zoom=15&lat=51.6199&lng=39.3505&themeId=DEFAULT-THEME&visualizationUrl=U2FsdGVkX1%2BIRlWtqrdDs%2FnvO%2FFgJi2%2FueCLytycAd%2Bn67TPJoXMXX0quHsp04S70yETKXIQdSDSJEQAvbOjs1eijuBCBQrfN%2F0%2FOmoK4UvSHtXElu1H9WuxDbFWeu8F&datasetId=S2_L2A_CDAS&fromTime=2026-08-05T00%3A00%3A00.000Z&toTime=2026-08-05T23%3A59%3A59.999Z&layerId=1_TRUE_COLOR&demSource3D=%22MAPZEN%22&cloudCoverage=30&dateMode=SINGLE"
       },
       { "name": "Meduza Incident Report", "url": "https://meduza.io/en/short/2026/07/24/ukraine-s-armed-forces-have-now-attacked-six-wildberries-warehouses-their-combined-floor-space-is-nearly-a-million-square-meters" },
       { "name": "Mediazona Tracker", "url": "https://en.zona.media/article/2026/07/24/wildberries" },
@@ -282,7 +282,8 @@
     "coordinates": "59.683268, 30.629861",
     "sources": [
       {
-        "name": "https://browser.dataspace.copernicus.eu/?zoom=15&lat=54.43724&lng=37.46491&themeId=DEFAULT-THEME&visualizationUrl=U2FsdGVkX1%2BOYkAJdhATU%2BRuw4zjU9I7YwiFLTvoxwzzj4F1FU2u8xdQgZaP%2Fb%2Bl1x4iv3BfoZ03yQyk2yI5%2FK9ITzxgcksGQjNX8QVtA17fji%2BhS%2FhbOfsvMcHdbu0A&datasetId=S2_L2A_CDAS&fromTime=2026-08-06T00%3A00%3A00.000Z&toTime=2026-08-06T23%3A59%3A59.999Z&layerId=1_TRUE_COLOR&demSource3D=%22MAPZEN%22&cloudCoverage=30&dateMode=SINGLE"
+        "name": "Copernicus Imagery",
+        "url": "https://browser.dataspace.copernicus.eu/?zoom=15&lat=59.68327&lng=30.62986&themeId=DEFAULT-THEME&visualizationUrl=U2FsdGVkX1%2FT5twpZmeV7wOf891DCbZYjn%2F1vx9zR46GOzbdNCmQrJkjK46nEMBEVYNxrH%2FJ9FZXPcgbfExYUdn3QxkTv2qh5wyPg%2Bfbu7ZnZTVNnsB%2FaZePmuKTEsQ4&datasetId=S2_L2A_CDAS&fromTime=2026-08-08T00%3A00%3A00.000Z&toTime=2026-08-08T23%3A59%3A59.999Z&layerId=1_TRUE_COLOR&demSource3D=%22MAPZEN%22&cloudCoverage=30&dateMode=SINGLE"
       },
       { "name": "Meduza Strike Report", "url": "https://meduza.io/en/feature/2026/08/04/ukraine-has-hit-20-wildberries-warehouses-since-mid-july-photos-and-videos-show-the-aftermath-of-the-latest-strike-on-a-logistics-center-in-russia-s-leningrad-region" },
       { "name": "Astra / Governor Drozdenko Statement", "url": "https://censor.net/en/news/4016769/drones-attacked-warehouses-in-three-regions-of-the-russian-federation-what-is-known-so-far" },
@@ -292,7 +293,7 @@
     "strikes": [
       {
         "date": "2026-08-04",
-        "description": "Collateral Damage / Operational Disruption. Drone impact targeted the adjacent Lenta distribution center within the same industrial park. Satellite imagery confirms the primary Wildberries roof remains intact, but the site suffered perimeter heat/smoke exposure and temporary operational suspension."
+        "description": "Collateral Damage / Operational Disruption. Drone impact targeted the adjacent Lenta distribution center within the same industrial park. Satellite imagery confirms the primary Wildberries roof remains intact, but the site suffered perimeter heat/smoke exposure and temporary operational suspension. Not yet uncloudy images on Copernicus"
       }
     ]
   },
@@ -308,8 +309,8 @@
     "coordinates": "54.437239, 37.464906",
     "sources": [
       {
-        "name": "Copernicus Sentinel-2 Imagery (Post-Strike Window: Aug 5-8)",
-        "url": "https://browser.dataspace.copernicus.eu/?zoom=15&lat=54.437239&lng=37.464906&themeId=DEFAULT-THEME&datasetId=S2_L2A_CDAS&fromTime=2026-08-05T00%3A00%3A00.000Z&toTime=2026-08-08T23%3A59%3A59.999Z&layerId=1_TRUE_COLOR&cloudCoverage=30&dateMode=SINGLE"
+        "name": "Copernicus Imagery",
+        "url": "https://browser.dataspace.copernicus.eu/?zoom=15&lat=54.43724&lng=37.46491&themeId=DEFAULT-THEME&visualizationUrl=U2FsdGVkX1%2Blval%2BTt0bBJmZiIYvfUbdy8MUSb0QE1P1m569hbvJztALDt5bdfilyXjL9vPlbfbCu9iv7oGeaYA0Y8fIqaEXqrveOVogYynJA0N9GL1G7BLbu6ZLUkZq&datasetId=S2_L2A_CDAS&fromTime=2026-08-06T00%3A00%3A00.000Z&toTime=2026-08-06T23%3A59%3A59.999Z&layerId=1_TRUE_COLOR&demSource3D=%22MAPZEN%22&cloudCoverage=30&dateMode=SINGLE"
       },
       { "name": "Kyiv Independent Report", "url": "https://kyivindependent.com/ukrainian-drones-reportedly-strike-wildberries-warehouse-in-russias-tula-oblast/" },
       { "name": "Ukrainska Pravda / Astra Report", "url": "https://www.pravda.com.ua/eng/news/2026/08/05/8047305/" },
@@ -335,8 +336,8 @@
     "coordinates": "55.848727, 48.842029",
     "sources": [
       {
-        "name": "Copernicus Sentinel-2 Imagery (Post-Strike Window: July 31-Aug 3)",
-        "url": "https://browser.dataspace.copernicus.eu/?zoom=15&lat=55.848727&lng=48.842029&themeId=DEFAULT-THEME&datasetId=S2_L2A_CDAS&fromTime=2026-07-31T00%3A00%3A00.000Z&toTime=2026-08-03T23%3A59%3A59.999Z&layerId=1_TRUE_COLOR&cloudCoverage=30&dateMode=SINGLE"
+        "name": "Copernicus Imagery",
+        "url": "https://browser.dataspace.copernicus.eu/?zoom=15&lat=55.84873&lng=48.84203&themeId=DEFAULT-THEME&visualizationUrl=U2FsdGVkX1%2FOMduMAHez8Los2XwMoAiVbPNcSV7%2BKNP4DyYAGUjoVLCEnwqtwm%2Bx119C3LixxVzDN%2BVfTdj2tEliyEg7YWfa3wi1Mz2Omhum5s6lrr6k7MQO7r%2FHT6ZK&datasetId=S2_L2A_CDAS&fromTime=2026-08-04T00%3A00%3A00.000Z&toTime=2026-08-04T23%3A59%3A59.999Z&layerId=1_TRUE_COLOR&demSource3D=%22MAPZEN%22&cloudCoverage=30&dateMode=SINGLE"
       },
       { "name": "Ukrainska Pravda Initial Report", "url": "https://www.pravda.com.ua/eng/news/2026/07/31/8046638/" },
       { "name": "Caliber / Astra Analysis", "url": "https://caliber.az/en/post/wildberries-logistics-hub-attacked-in-russia-s-tatarstan" },
@@ -362,8 +363,8 @@
     "coordinates": "45.0549, 39.0695",
     "sources": [
       {
-        "name": "Copernicus Sentinel-2 Imagery (Post-Strike Window: July 22-25)",
-        "url": "https://browser.dataspace.copernicus.eu/?zoom=15&lat=45.0549&lng=39.0695&themeId=DEFAULT-THEME&datasetId=S2_L2A_CDAS&fromTime=2026-07-22T00%3A00%3A00.000Z&toTime=2026-07-25T23%3A59%3A59.999Z&layerId=1_TRUE_COLOR&cloudCoverage=30&dateMode=SINGLE"
+        "name": "Copernicus Imagery",
+        "url": "https://browser.dataspace.copernicus.eu/?zoom=15&lat=45.0549&lng=39.0695&themeId=DEFAULT-THEME&visualizationUrl=U2FsdGVkX1%2F%2FQUsk%2BlOqNTFCztMGNvXcA7asOjbhhtqgE9z6ExGDEFaK9meF69AbZbswrJWUSyh8z88iMKQTn%2BQni%2B8l7kC2cWyzXEJkKYPFWQZ7fqLTc5C1Io7K8oy6&datasetId=S2_L2A_CDAS&fromTime=2026-07-28T00%3A00%3A00.000Z&toTime=2026-07-28T23%3A59%3A59.999Z&layerId=1_TRUE_COLOR&demSource3D=%22MAPZEN%22&cloudCoverage=30&dateMode=SINGLE"
       },
       { "name": "Meduza Strike Report", "url": "https://meduza.io/en/news/2026/07/22/ukrainian-drones-strike-two-wildberries-warehouses-in-russia-sparking-fires-and-injuring-workers" },
       { "name": "Ukrainska Pravda Report", "url": "https://www.pravda.com.ua/eng/news/2026/07/22/8045256/" },
@@ -389,8 +390,8 @@
     "coordinates": "56.788165, 36.058538",
     "sources": [
       {
-        "name": "Copernicus Sentinel-2 Imagery (Post-Strike Window: Aug 4-7)",
-        "url": "https://browser.dataspace.copernicus.eu/?zoom=15&lat=56.788165&lng=36.058538&themeId=DEFAULT-THEME&datasetId=S2_L2A_CDAS&fromTime=2026-08-04T00%3A00%3A00.000Z&toTime=2026-08-07T23%3A59%3A59.999Z&layerId=1_TRUE_COLOR&cloudCoverage=30&dateMode=SINGLE"
+        "name": "Copernicus Imagery",
+        "url": "https://browser.dataspace.copernicus.eu/?zoom=15&lat=56.78817&lng=36.05854&themeId=DEFAULT-THEME&visualizationUrl=U2FsdGVkX1%2BDYH1LO%2Bc1CorEJHrzn%2FDnj10u7O7sQaonU5xcHySygNK4EeNmGIRigPp7AwIa6lT5hHCw4Ypwi1EyQM46GretWbs8f76LX12Q37XNDM%2BaphXwQqQqG2F6&datasetId=S2_L2A_CDAS&fromTime=2026-08-09T00%3A00%3A00.000Z&toTime=2026-08-09T23%3A59%3A59.999Z&layerId=1_TRUE_COLOR&demSource3D=%22MAPZEN%22&cloudCoverage=30&dateMode=SINGLE"
       },
       { "name": "Meduza Incident Tracker", "url": "https://meduza.io/en/news/2026/08/04/ukrainian-drone-attack-kills-five-in-moscow-region-wildberries-warehouse-on-fire-in-russia-s-leningrad-region" },
       { "name": "Astra OSINT / Telegram", "url": "https://t.me/astrapress" }
@@ -415,7 +416,7 @@
     "coordinates": "53.3877, 50.3358",
     "sources": [
       {
-        "name": "Copernicus Sentinel-2 Imagery (Post-Strike Window: Aug 2-5)",
+        "name": "Copernicus Imagery",
         "url": "https://browser.dataspace.copernicus.eu/?zoom=15&lat=53.3877&lng=50.3358&themeId=DEFAULT-THEME&datasetId=S2_L2A_CDAS&fromTime=2026-08-02T00%3A00%3A00.000Z&toTime=2026-08-05T23%3A59%3A59.999Z&layerId=1_TRUE_COLOR&cloudCoverage=30&dateMode=SINGLE"
       },
       { "name": "Reuters / Spokesman Report", "url": "https://www.spokesman.com/stories/2026/aug/02/ukrainian-drones-kill-eight-in-russia-and-strike-w/" },
