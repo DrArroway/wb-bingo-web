@@ -8,13 +8,13 @@ document.addEventListener('DOMContentLoaded', () => {
   // Updated Damage Tiers without visible percentages in the display name
   // The 'range' property provides the exact breakdown for tooltips
   const DAMAGE_TIERS = {
-    0: { name: "No Damage", range: "0% loss", icon: "🎯", color: "var(--damage-0)" },
-                          1: { name: "Struck (No Fire)", range: "0-5% impact", icon: "💥", color: "var(--damage-1)" },
-                          2: { name: "Small Fire", range: "1-20% loss", icon: "🔥", color: "var(--damage-2)" },
-                          3: { name: "Medium Fire", range: "20-50% loss", icon: "🔥🔥", color: "var(--damage-3)" },
-                          4: { name: "Large Fire", range: "50-80% loss", icon: "🔥🔥🔥", color: "var(--damage-4)" },
-                          5: { name: "Fully uploaded to Cloud", range: "80-100% loss", icon: "🔥🔥🔥🔥 ➜ ☁️", color: "var(--damage-5)" }
-  };
+  0: { name: "No Damage", range: "0% loss", icon: "⏱️", color: "var(--damage-0)" },
+  1: { name: "Targeted", range: "0-1% loss, small impact, near miss, debris fall, etc.", icon: "🎯", color: "var(--damage-1)" },
+  2: { name: "Small Fire", range: "1-20% loss", icon: "🔥", color: "var(--damage-2)" },
+  3: { name: "Medium Fire", range: "20-50% loss", icon: "🔥🔥", color: "var(--damage-3)" },
+  4: { name: "Large Fire", range: "50-80% loss", icon: "🔥🔥🔥", color: "var(--damage-4)" },
+  5: { name: "Fully uploaded to Cloud", range: "80-100% loss", icon: "🔥🔥🔥🔥 ➜ ☁️", color: "var(--damage-5)" }
+};
 
   async function loadData() {
     try {
