@@ -520,7 +520,12 @@
     "confidence": "N/A",
     "last_strike_date": "N/A",
     "coordinates": "55.0058, 82.5507",
-    "sources": [],
+    "sources": [
+     {
+        "name": "Copernicus Imagery",
+        "url": "https://browser.dataspace.copernicus.eu/?zoom=15&lat=55.0062&lng=82.54633&themeId=DEFAULT-THEME&visualizationUrl=U2FsdGVkX1%2BOIHPnvOwJL8H7OJW2eO4%2FsrPSw2UXa1ux5nG0lhyXBO%2FjRnXsnziLU3mc6Dzp09DGULV%2FwBkMzYuc%2FR1c3%2BtYmisvvvI4qzvbln44oOhBwtSmgK1wDiPe&datasetId=S2_L2A_CDAS&fromTime=2026-08-07T00%3A00%3A00.000Z&toTime=2026-08-07T23%3A59%3A59.999Z&layerId=1_TRUE_COLOR&demSource3D=%22MAPZEN%22&cloudCoverage=30&dateMode=SINGLE"
+      }
+      ],
     "image_url": "",
     "strikes": []
   },
@@ -536,8 +541,8 @@
     "coordinates": "53.2673, 44.7911",
     "sources": [
       {
-        "name": "Copernicus Sentinel-2 Imagery (Post-Strike Window: July 30-Aug 2)",
-        "url": "https://browser.dataspace.copernicus.eu/?zoom=15&lat=53.2673&lng=44.7911&themeId=DEFAULT-THEME&datasetId=S2_L2A_CDAS&fromTime=2026-07-30T00%3A00%3A00.000Z&toTime=2026-08-02T23%3A59%3A59.999Z&layerId=1_TRUE_COLOR&cloudCoverage=30&dateMode=SINGLE"
+        "name": "Copernicus Imagery",
+        "url": "https://browser.dataspace.copernicus.eu/?zoom=15&lat=53.2673&lng=44.7911&themeId=DEFAULT-THEME&visualizationUrl=U2FsdGVkX1%2BEkdie5ivb9Z1SRIU0hqsodXVDM3UT7If1wqAXIQSJgqkyvOr9HDZxH5ybGPP8h9zFOp%2B%2B8ePSV8g17ZHN4EslCxx1Q5GPhvVdPnX%2FlDqvAeQPViPsqF0j&datasetId=S2_L2A_CDAS&fromTime=2026-08-04T00%3A00%3A00.000Z&toTime=2026-08-04T23%3A59%3A59.999Z&layerId=1_TRUE_COLOR&demSource3D=%22MAPZEN%22&cloudCoverage=30&dateMode=SINGLE"
       },
       { "name": "Meduza", "url": "https://meduza.io/en/news/2026/07/30/two-more-wildberries-warehouses-burn-in-russian-regions-after-ukrainian-drone-attacks" },
       { "name": "The Insider", "url": "https://theins.press/en/news/295530" },
@@ -562,7 +567,12 @@
     "confidence": "N/A",
     "last_strike_date": "N/A",
     "coordinates": "51.617147, 45.856712",
-    "sources": [],
+    "sources": [
+      {
+        "name": "Copernicus Imagery",
+        "url": "https://browser.dataspace.copernicus.eu/?zoom=15&lat=51.617147&lng=45.856712"
+      }
+    ],
     "image_url": "",
     "strikes": []
   },
@@ -576,7 +586,12 @@
     "confidence": "N/A",
     "last_strike_date": "N/A",
     "coordinates": "55.830833, 38.246961",
-    "sources": [],
+    "sources": [
+      {
+        "name": "Copernicus Imagery",
+        "url": "https://browser.dataspace.copernicus.eu/?zoom=15&lat=55.830833&lng=38.246961"
+      }
+    ],
     "image_url": "",
     "strikes": []
   },
@@ -590,7 +605,12 @@
     "confidence": "N/A",
     "last_strike_date": "N/A",
     "coordinates": "55.501350, 38.159358",
-    "sources": [],
+    "sources": [
+      {
+        "name": "Copernicus Browser",
+        "url": "https://browser.dataspace.copernicus.eu/?zoom=15&lat=55.501350&lng=38.159358"
+      }
+    ],
     "image_url": "",
     "strikes": []
   },
@@ -604,7 +624,12 @@
     "confidence": "N/A",
     "last_strike_date": "N/A",
     "coordinates": "54.641550, 55.949891",
-    "sources": [],
+    "sources": [
+      {
+        "name": "Copernicus Imagery",
+        "url": "https://browser.dataspace.copernicus.eu/?zoom=15&lat=54.641550&lng=55.949891"
+      }
+    ],
     "image_url": "",
     "strikes": []
   },
@@ -618,7 +643,12 @@
     "confidence": "N/A",
     "last_strike_date": "N/A",
     "coordinates": "55.336835, 37.485912",
-    "sources": [],
+    "sources": [
+      {
+        "name": "Copernicus Browser",
+        "url": "https://browser.dataspace.copernicus.eu/?zoom=15&lat=55.336835&lng=37.485912"
+      }
+    ],
     "image_url": "",
     "strikes": []
   },
@@ -632,10 +662,16 @@
     "confidence": "N/A",
     "last_strike_date": "N/A",
     "coordinates": "54.884351, 73.378415",
-    "sources": [],
+    "sources": [
+      {
+        "name": "Copernicus Imagery",
+        "url": "https://browser.dataspace.copernicus.eu/?zoom=15&lat=54.884351&lng=73.378415"
+      }
+    ],
     "image_url": "",
     "strikes": []
-  },
+  }
+  ,
   {
     "id": "WB-025",
     "name": "Sarapul",
@@ -648,8 +684,8 @@
     "coordinates": "56.485450, 53.695077",
     "sources": [
       {
-        "name": "Copernicus Sentinel-2 Imagery (Post-Strike Window: July 30-Aug 2)",
-        "url": "https://browser.dataspace.copernicus.eu/?zoom=15&lat=56.485450&lng=53.695077&themeId=DEFAULT-THEME&datasetId=S2_L2A_CDAS&fromTime=2026-07-30T00%3A00%3A00.000Z&toTime=2026-08-02T23%3A59%3A59.999Z&layerId=1_TRUE_COLOR&cloudCoverage=30&dateMode=SINGLE"
+        "name": "Copernicus Imagery",
+        "url": "https://browser.dataspace.copernicus.eu/?zoom=15&lat=56.48545&lng=53.69508&themeId=DEFAULT-THEME&visualizationUrl=U2FsdGVkX1%2BPSBs9FT88Y5e1IkrUvZ%2FHxlnHmJRoh2u%2FYB0yORO76TKakgeD4jVvUEvscYxi5Q2ER6fDJ1mGbw0F9rI3HppdM8Osl0xTtF9JJVgjVFxOrEwxCcOdNX4i&datasetId=S2_L2A_CDAS&fromTime=2026-08-03T00%3A00%3A00.000Z&toTime=2026-08-03T23%3A59%3A59.999Z&layerId=1_TRUE_COLOR&demSource3D=%22MAPZEN%22&cloudCoverage=30&dateMode=SINGLE"
       },
       { "name": "Meduza Incident Report", "url": "https://meduza.io/en/news/2026/07/30/two-more-wildberries-warehouses-burn-in-russian-regions-after-ukrainian-drone-attacks" },
       { "name": "NV Business / Strike Report", "url": "https://english.nv.ua/nation/drones-attack-wildberries-logistics-hub-in-russia-s-sarapul-fire-reported-50628390.html" },
@@ -673,7 +709,12 @@
     "confidence": "N/A",
     "last_strike_date": "N/A",
     "coordinates": "56.040244, 37.153985",
-    "sources": [],
+    "sources": [
+      {
+        "name": "Copernicus Browser",
+        "url": "https://browser.dataspace.copernicus.eu/?zoom=15&lat=56.040244&lng=37.153985"
+      }
+    ],
     "image_url": "",
     "strikes": []
   },
@@ -689,8 +730,8 @@
     "coordinates": "48.750480, 44.442519",
     "sources": [
       {
-        "name": "Copernicus Sentinel-2 Imagery (Post-Strike Window: July 31-Aug 3)",
-        "url": "https://browser.dataspace.copernicus.eu/?zoom=15&lat=48.750480&lng=44.442519&themeId=DEFAULT-THEME&datasetId=S2_L2A_CDAS&fromTime=2026-07-31T00%3A00%3A00.000Z&toTime=2026-08-03T23%3A59%3A59.999Z&layerId=1_TRUE_COLOR&cloudCoverage=30&dateMode=SINGLE"
+        "name": "Copernicus Imagery",
+        "url": "https://browser.dataspace.copernicus.eu/?zoom=15&lat=48.75048&lng=44.44252&themeId=DEFAULT-THEME&visualizationUrl=U2FsdGVkX198H8G%2BRQhJC9UXxGSEVoyp5r%2FdoUjaD5dAMyug77lURNcrwWaI%2BBGXWFBMF7%2FsBiqhgENsQCyed1eyytcOujCPqvBbr2k0A%2B72dWt6OJhpHWQycOR%2FvvvN&datasetId=S2_L2A_CDAS&fromTime=2026-08-04T00%3A00%3A00.000Z&toTime=2026-08-04T23%3A59%3A59.999Z&layerId=1_TRUE_COLOR&demSource3D=%22MAPZEN%22&cloudCoverage=30&dateMode=SINGLE"
       },
       { "name": "Meduza Strike Report", "url": "https://meduza.io/en/news/2026/07/31/ukraine-hits-two-more-wildberries-warehouses-in-russia" },
       { "name": "United24 / Exilenova+ Telemetry", "url": "https://united24media.com/war-in-ukraine/wildberries-logistics-hub-and-major-lukoil-refinery-burn-after-drone-strikes-on-volgograd-21224" },
@@ -715,7 +756,12 @@
     "confidence": "N/A",
     "last_strike_date": "N/A",
     "coordinates": "56.022853, 37.891034",
-    "sources": [],
+    "sources": [
+      {
+        "name": "Copernicus Browser",
+        "url": "https://browser.dataspace.copernicus.eu/?zoom=15&lat=56.022853&lng=37.891034"
+      }
+    ],
     "image_url": "",
     "strikes": []
   },
@@ -729,7 +775,12 @@
     "confidence": "N/A",
     "last_strike_date": "N/A",
     "coordinates": "55.729840, 84.821623",
-    "sources": [],
+    "sources": [
+      {
+        "name": "Copernicus Browser",
+        "url": "https://browser.dataspace.copernicus.eu/?zoom=15&lat=55.729840&lng=84.821623"
+      }
+    ],
     "image_url": "",
     "strikes": []
   },
@@ -745,8 +796,8 @@
     "coordinates": "59.869208, 30.521188",
     "sources": [
       {
-        "name": "Copernicus Sentinel-2 Imagery (Post-Strike Window: July 24-27)",
-        "url": "https://browser.dataspace.copernicus.eu/?zoom=15&lat=59.86921&lng=30.52119&themeId=DEFAULT-THEME&visualizationUrl=U2FsdGVkX1%2FTraL%2F2%2Bn6wtNxv9VF36C%2BAEmKyksIgVL0QoOhPMpRsH0ROg3sXWzqEeMFOBrNSiWHXTxolxF%2B1DODNk%2BJDDcUJr6LOb166SErUBwAcWlvLK3ZJ%2FWK2122&datasetId=S2_L1C_CDAS&fromTime=2026-07-24T00%3A00%3A00.000Z&toTime=2026-07-24T23%3A59%3A59.999Z&layerId=1_TRUE_COLOR&demSource3D=%22MAPZEN%22&cloudCoverage=30&dateMode=SINGLE"
+        "name": "Copernicus Imagery",
+        "url": "https://browser.dataspace.copernicus.eu/?zoom=15&lat=59.86921&lng=30.52119&themeId=DEFAULT-THEME&visualizationUrl=U2FsdGVkX1%2F123sqQ52ft%2BeVV0qrxRfcELroyFGnCxCbl5hPDvhpvss7KiforhBswnD2mr4rQnKCnoWbiKv7sgGlGw%2FEFZwgFhZixJK95aD3QBJoGAkhDqiCdZRV1pSs&datasetId=S2_L1C_CDAS&fromTime=2026-07-24T00%3A00%3A00.000Z&toTime=2026-07-24T23%3A59%3A59.999Z&layerId=1_TRUE_COLOR&demSource3D=%22MAPZEN%22&cloudCoverage=30&dateMode=SINGLE"
       },
       { "name": "Meduza Strike Report", "url": "https://meduza.io/en/news/2026/07/24/ukraine-strikes-wildberries-warehouses-in-russia-for-fourth-time-in-a-week" },
       { "name": "Astra Telegram / OSINT Report", "url": "https://t.me/astrapress" },
@@ -772,7 +823,7 @@
     "coordinates": "45.032244, 34.045955",
     "sources": [
       {
-        "name": "Copernicus Sentinel-2 Imagery (Post-Strike Window: July 24-27)",
+        "name": "Copernicus Imagery",
         "url": "https://browser.dataspace.copernicus.eu/?zoom=15&lat=45.032244&lng=34.045955&themeId=DEFAULT-THEME&datasetId=S2_L2A_CDAS&fromTime=2026-07-24T00%3A00%3A00.000Z&toTime=2026-07-27T23%3A59%3A59.999Z&layerId=1_TRUE_COLOR&cloudCoverage=30&dateMode=SINGLE"
       },
       { "name": "Meduza Incident Report", "url": "https://meduza.io/en/news/2026/07/24/ukraine-strikes-wildberries-warehouses-in-russia-for-fourth-time-in-a-week" },
@@ -802,8 +853,8 @@
     "coordinates": "55.125659, 37.556262",
     "sources": [
       {
-        "name": "Copernicus Sentinel-2 Imagery (Post-Strike Window: Aug 4-7)",
-        "url": "https://browser.dataspace.copernicus.eu/?zoom=15&lat=55.125659&lng=37.556262&themeId=DEFAULT-THEME&datasetId=S2_L2A_CDAS&fromTime=2026-08-04T00%3A00%3A00.000Z&toTime=2026-08-07T23%3A59%3A59.999Z&layerId=1_TRUE_COLOR&cloudCoverage=30&dateMode=SINGLE"
+        "name": "Copernicus Imagery",
+        "url": "https://browser.dataspace.copernicus.eu/?zoom=15&lat=55.12566&lng=37.55626&themeId=DEFAULT-THEME&visualizationUrl=U2FsdGVkX18SXeDNCVvIGvyF1epqEP%2BuVxy13ZMrG%2BDMeJ%2FsCVi6DTcFwwHkJkpjkfeMu8tOoWpsVZmSl53owwzDluSw6Wr8457tueXCCZ0SKuHwxz1mMNPdGmHYwpYU&datasetId=S2_L2A_CDAS&fromTime=2026-08-08T00%3A00%3A00.000Z&toTime=2026-08-08T23%3A59%3A59.999Z&layerId=1_TRUE_COLOR&demSource3D=%22MAPZEN%22&cloudCoverage=30&dateMode=SINGLE"
       },
       { "name": "Meduza Strike Report (Chekhov/Novoselki)", "url": "https://meduza.io/en/news/2026/08/04/ukrainian-drone-attack-kills-five-in-moscow-region-wildberries-warehouse-on-fire-in-russia-s-leningrad-region" },
       { "name": "Censor.NET / Astra OSINT", "url": "https://censor.net/en/news/4016769/drones-attacked-warehouses-in-three-regions-of-the-russian-federation-what-is-known-so-far" },
@@ -829,7 +880,7 @@
     "coordinates": "57.906933, 56.261737",
     "sources": [
       {
-        "name": "Copernicus Sentinel-2 Imagery (Post-Strike Window: July 30-Aug 2)",
+        "name": "Copernicus Imagery",
         "url": "https://browser.dataspace.copernicus.eu/?zoom=15&lat=57.906933&lng=56.261737&themeId=DEFAULT-THEME&datasetId=S2_L2A_CDAS&fromTime=2026-07-30T00%3A00%3A00.000Z&toTime=2026-08-02T23%3A59%3A59.999Z&layerId=1_TRUE_COLOR&cloudCoverage=30&dateMode=SINGLE"
       },
       { "name": "Meduza Incident Report", "url": "https://meduza.io/en/news/2026/07/30/ukrainian-drones-strike-third-wildberries-warehouse-in-russia-in-a-day" },
@@ -854,8 +905,13 @@
     "damage_level": 0,
     "confidence": "N/A",
     "last_strike_date": "N/A",
-    "coordinates": "56.782410, 36.012540",
-    "sources": [],
+    "coordinates": "56.787950, 36.059880",
+    "sources": [
+      {
+        "name": "Copernicus Imagery",
+        "url": "https://browser.dataspace.copernicus.eu/?zoom=15&lat=56.787950&lng=36.059880"
+      }
+    ],
     "image_url": "",
     "strikes": []
   },
@@ -868,36 +924,41 @@
     "damage_level": 0,
     "confidence": "N/A",
     "last_strike_date": "N/A",
-    "coordinates": "47.271140, 39.865220",
-    "sources": [],
+    "coordinates": "47.326791, 39.878163",
+    "sources": [
+      {
+        "name": "Copernicus Browser",
+        "url": "https://browser.dataspace.copernicus.eu/?zoom=15&lat=47.3267910&lng=39.878163"
+      }
+    ],
     "image_url": "",
     "strikes": []
   },
   {
-    "id": "WB-036",
-    "name": "Maslovsky (Voronezh)",
-    "region": "Voronezh Oblast",
-    "footprint_m2": 25000,
-    "distance_border_km": 230,
-    "damage_level": 2,
-    "confidence": "Confirmed",
-    "last_strike_date": "2026-07-23",
-    "coordinates": "51.542310, 39.267890",
-    "sources": [
-      {
-        "name": "Copernicus Sentinel-2 Imagery (Post-Strike Window: July 23-26)",
-        "url": "https://browser.dataspace.copernicus.eu/?zoom=15&lat=51.542310&lng=39.267890&themeId=DEFAULT-THEME&datasetId=S2_L2A_CDAS&fromTime=2026-07-23T00%3A00%3A00.000Z&toTime=2026-07-26T23%3A59%3A59.999Z&layerId=1_TRUE_COLOR&cloudCoverage=30&dateMode=SINGLE"
-      },
-      { "name": "United24 Media Report", "url": "https://united24media.com/war-in-ukraine/ukrainian-drone-strikes-knock-out-10-of-russias-wildberries-capacity-21016" },
-      { "name": "Ukrinform / Verstka Strike Summary", "url": "https://www.ukrinform.net/rubric-ato/4149242-ukrainian-drones-hit-over-15-of-wildberries-warehouse-capacity-media.html" },
-      { "name": "Anadolu Agency Market Analysis", "url": "https://www.aa.com.tr/en/eurasia/in-5-questions-why-is-ukraine-targeting-russia-s-largest-online-marketplace/4018212" }
-    ],
-    "image_url": "",
-    "strikes": [
-      {
-        "date": "2026-07-23",
-        "description": "Small Fire. Overnight UAV strike hit warehouse roof, causing structural burn damage and forcing team to suspend operations."
-      }
-    ]
-  }
+  "id": "WB-036",
+  "name": "Maslovsky (Voronezh)",
+  "region": "Voronezh Oblast",
+  "footprint_m2": 25000,
+  "distance_border_km": 230,
+  "damage_level": 2,
+  "confidence": "Confirmed",
+  "last_strike_date": "2026-07-23",
+  "coordinates": "51.536780, 39.283120",
+  "sources": [
+    {
+      "name": "Copernicus)",
+      "url": "https://browser.dataspace.copernicus.eu/?zoom=16&lat=51.53865&lng=39.28464&themeId=DEFAULT-THEME&visualizationUrl=U2FsdGVkX1%2Fam6e3hSvkJcxZZgesRG%2BJJjt3fySuL%2FIgCcNoT8YIYv2q%2BkHEPfDWgxTmqH6EwWc6aHW%2Boz73YNDEau%2FhVCZAzZMMU%2BFHtpuRJxkpypEn%2FALEU3boUtVn&datasetId=S2_L2A_CDAS&fromTime=2026-08-07T00%3A00%3A00.000Z&toTime=2026-08-07T23%3A59%3A59.999Z&layerId=1_TRUE_COLOR&demSource3D=%22MAPZEN%22&cloudCoverage=30&dateMode=SINGLE"
+    },
+    { "name": "United24 Media Report", "url": "https://united24media.com/war-in-ukraine/ukrainian-drone-strikes-knock-out-10-of-russias-wildberries-capacity-21016" },
+    { "name": "Ukrinform / Verstka Strike Summary", "url": "https://www.ukrinform.net/rubric-ato/4149242-ukrainian-drones-hit-over-15-of-wildberries-warehouse-capacity-media.html" },
+    { "name": "Anadolu Agency Market Analysis", "url": "https://www.aa.com.tr/en/eurasia/in-5-questions-why-is-ukraine-targeting-russia-s-largest-online-marketplace/4018212" }
+  ],
+  "image_url": "",
+  "strikes": [
+    {
+      "date": "2026-07-23",
+      "description": "Small Fire. Overnight UAV strike hit warehouse roof, causing structural burn damage and forcing team to suspend operations."
+    }
+  ]
+}
 ]
