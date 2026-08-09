@@ -443,7 +443,7 @@
     "coordinates": "44.6627, 41.8960",
     "sources": [
       {
-        "name": "Copernicus Sentinel-2 Imagery (Post-Strike Window: July 22-25)",
+        "name": "Copernicus Imagery",
         "url": "https://browser.dataspace.copernicus.eu/?zoom=15&lat=44.6627&lng=41.8960&themeId=DEFAULT-THEME&datasetId=S2_L2A_CDAS&fromTime=2026-07-22T00%3A00%3A00.000Z&toTime=2026-07-25T23%3A59%3A59.999Z&layerId=1_TRUE_COLOR&cloudCoverage=30&dateMode=SINGLE"
       },
       { "name": "Astra Press OSINT Geolocation", "url": "https://astra.press/english/2026/07/22/14067/" },
@@ -459,33 +459,43 @@
     ]
   },
   {
-    "id": "WB-015",
-    "name": "White Pillars (Domodedovo)",
-    "region": "Moscow Oblast",
-    "footprint_m2": 120000,
-    "distance_border_km": 420,
-    "damage_level": 0,
-    "confidence": "N/A",
-    "last_strike_date": "N/A",
-    "coordinates": "55.3341, 37.8228",
-    "sources": [],
-    "image_url": "",
-    "strikes": []
-  },
+  "id": "WB-015",
+  "name": "White Pillars (Domodedovo)",
+  "region": "Moscow Oblast",
+  "footprint_m2": 120000,
+  "distance_border_km": 420,
+  "damage_level": 2,
+  "confidence": "Medium",
+  "last_strike_date": "2026-08-01",
+  "coordinates": "55.3341, 37.8228",
+  "sources": [
+   {
+   "name": "Copernicus Imagery",
+   "url": "https://browser.dataspace.copernicus.eu/?zoom=15&lat=55.3341&lng=37.8228&themeId=DEFAULT-THEME&visualizationUrl=U2FsdGVkX1%2FZuRM81RK72J5s7VNFqiCmbaRRfZd%2FUZwhGRgLP%2FKqXX64mqI4eHEWnd3LQ%2FH1cwKTm3i6zdmfW2xJ8KowBwgOD2stbie4GiPObhl4LsiuJ0o96vAUJkSS&datasetId=S2_L2A_CDAS&fromTime=2026-08-01T00%3A00%3A00.000Z&toTime=2026-08-01T23%3A59%3A59.999Z&layerId=1_TRUE_COLOR&demSource3D=%22MAPZEN%22&cloudCoverage=30&dateMode=SINGLE"
+      }
+  ],
+  "image_url": "",
+  "strikes": [
+    {
+      "date": "2026-08-01",
+      "description": "Visible limited roof collapse on satellite imagery. But no news report to be found"
+    }
+  ]
+},
   {
     "id": "WB-016",
     "name": "Kotovsk",
     "region": "Tambov Oblast",
     "footprint_m2": 150000,
     "distance_border_km": 380,
-    "damage_level": 1,
+    "damage_level": 2,
     "confidence": "Medium",
     "last_strike_date": "2026-07-18",
     "coordinates": "52.60028, 41.45455",
     "sources": [
       {
-        "name": "Copernicus Sentinel-2 Imagery (Post-Strike Window: July 18-21)",
-        "url": "https://browser.dataspace.copernicus.eu/?zoom=15&lat=52.60028&lng=41.45455&themeId=DEFAULT-THEME&datasetId=S2_L2A_CDAS&fromTime=2026-07-18T00%3A00%3A00.000Z&toTime=2026-07-21T23%3A59%3A59.999Z&layerId=1_TRUE_COLOR&cloudCoverage=30&dateMode=SINGLE"
+        "name": "Copernicus Imagery",
+        "url": "https://browser.dataspace.copernicus.eu/?zoom=15&lat=52.60028&lng=41.45455&themeId=DEFAULT-THEME&visualizationUrl=U2FsdGVkX18hU1ATFGsZjq9No%2BcCJbPapU3zogvjPeCIVyUshlf%2FQZEim7BV5CoKOcLeKq4YeUjrV4qt2sUvsSbue1Wvi9ctmAyX2U%2FIaLqi89Sttj9V9kjPVnelU5iv&datasetId=S2_L2A_CDAS&fromTime=2026-08-07T00%3A00%3A00.000Z&toTime=2026-08-07T23%3A59%3A59.999Z&layerId=1_TRUE_COLOR&demSource3D=%22MAPZEN%22&cloudCoverage=30&dateMode=SINGLE"
       },
       { "name": "Caliber / Governor Statement", "url": "https://caliber.az/en/post/seven-killed-24-injured-as-ukraine-targets-russia-s-wildberries-warehouses" },
       { "name": "NAnews Logistics Assessment", "url": "https://nikk.agency/en/wildberries-is-no-longer-a/" },
@@ -496,7 +506,7 @@
     "strikes": [
       {
         "date": "2026-07-18",
-        "description": "Conflicting evidence. Multiple independent media outlets report a major fire at a Wildberries logistics facility in Kotovsk following the July 18 strike. However, reported extent of the damage does not show on satellite imagery. Possible confusion of new outlets withe the Elektrostal strike the same day"
+        "description": "Conflicting evidence. Multiple independent media outlets report a major fire at a Wildberries logistics facility in Kotovsk following the July 18 strike. However, reported extent of the damage does not show on satellite imagery. Possible confusion of new outlets withe the Elektrostal strike the same day. Statelitte images don't show a lot, exept a single dot on the south roof and a dent on the west wall"
       }
     ]
   },
