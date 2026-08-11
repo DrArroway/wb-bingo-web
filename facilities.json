@@ -244,39 +244,62 @@
     ]
   },
   {
-    "id": "WB-007",
-    "name": "Novaya Usman (Nechayevka)",
-    "region": "Voronezh Oblast",
-    "footprint_m2": 180000,
-    "distance_border_km": 210,
-    "damage_level": 3,
-    "confidence": "Medium",
-    "last_strike_date": "2026-08-11",
-    "coordinates": "51.6199, 39.3505",
-    "sources": [
-      { "name": "Reddit link",
+  "id": "WB-007",
+  "name": "Novaya Usman (Nechayevka)",
+  "region": "Voronezh Oblast",
+  "footprint_m2": 180000,
+  "distance_border_km": 210,
+  "damage_level": 4,
+  "confidence": "High",
+  "last_strike_date": "2026-08-11",
+  "coordinates": "51.6199, 39.3505",
+  "sources": [
+    {
+      "name": "Copernicus Imagery",
+      "url": "https://browser.dataspace.copernicus.eu/?zoom=15&lat=51.6199&lng=39.3505&themeId=DEFAULT-THEME&visualizationUrl=U2FsdGVkX1%2BIRlWtqrdDs%2FnvO%2FFgJi2%2FueCLytycAd%2Bn67TPJoXMXX0quHsp04S70yETKXIQdSDSJEQAvbOjs1eijuBCBQrfN%2F0%2FOmoK4UvSHtXElu1H9WuxDbFWeu8F&datasetId=S2_L2A_CDAS&fromTime=2026-08-05T00%3A00%3A00.000Z&toTime=2026-08-05T23%3A59%3A59.999Z&layerId=1_TRUE_COLOR&demSource3D=%22MAPZEN%22&cloudCoverage=30&dateMode=SINGLE"
+    },
+    {
+      "name": "Militarnyi Strike Report",
+      "url": "https://militarnyi.com/en/news/wildberries-logistics-complex-near-voronezh-ablaze-after-drone-strike/"
+    },
+    {
+      "name": "Euromaidan Press Report",
+      "url": "https://euromaidanpress.com/2026/08/11/ukrainian-drones-set-a-newly-opened-wildberries-mega-hub-ablaze-near-voronezh/"
+    },
+    {
+      "name": "The Moscow Times Incident Report",
+      "url": "https://www.themoscowtimes.com/2026/08/11/one-killed-in-ukrainian-strike-on-wildberries-logistics-center-in-voronezh-a93454"
+    },
+    {
+      "name": "Meduza Incident Report (Aug 11)",
+      "url": "https://meduza.io/en/news/2026/08/11/ukrainian-drones-again-strike-wildberries-warehouse-in-russia-killing-one-injuring-several"
+    },
+
+    {
+      "name": "Reddit link",
       "url": "https://www.reddit.com/r/UkraineWarVideoReport/comments/1vl1c23/more_footage_from_this_early_morning_in_novaya/"
-      },
-      {
-        "name": "Copernicus Imagery",
-        "url": "https://browser.dataspace.copernicus.eu/?zoom=15&lat=51.6199&lng=39.3505&themeId=DEFAULT-THEME&visualizationUrl=U2FsdGVkX1%2BIRlWtqrdDs%2FnvO%2FFgJi2%2FueCLytycAd%2Bn67TPJoXMXX0quHsp04S70yETKXIQdSDSJEQAvbOjs1eijuBCBQrfN%2F0%2FOmoK4UvSHtXElu1H9WuxDbFWeu8F&datasetId=S2_L2A_CDAS&fromTime=2026-08-05T00%3A00%3A00.000Z&toTime=2026-08-05T23%3A59%3A59.999Z&layerId=1_TRUE_COLOR&demSource3D=%22MAPZEN%22&cloudCoverage=30&dateMode=SINGLE"
-      },
-      { "name": "Meduza Incident Report", "url": "https://meduza.io/en/short/2026/07/24/ukraine-s-armed-forces-have-now-attacked-six-wildberries-warehouses-their-combined-floor-space-is-nearly-a-million-square-meters" },
-      { "name": "Mediazona Tracker", "url": "https://en.zona.media/article/2026/07/24/wildberries" },
-      { "name": "Euromaidan Press / Verstka Damage Analysis", "url": "https://euromaidanpress.com/2026/07/29/417695/" }
-    ],
-    "image_url": "",
-    "strikes": [
-      {
-        "date": "2026-07-23",
-        "description": "Damaged (No Fire). Drones hit roof/loading vents; scorch marks around receiving bays but core racking remained unharmed."
-      },
-      {
-        "date": "2026-08-11",
-        "description": "Video with the roof on fire appeared online, waiting for more information."
-      }
-    ]
-  },
+    },
+    {
+      "name": "Reddit link 2",
+      "url": "https://www.reddit.com/r/UkraineWarVideoReport/comments/1vl908z/remains_of_the_wildberries_logistics_hub_in/"
+    },
+    {
+      "name": "Mediazona Tracker",
+      "url": "https://en.zona.media/article/2026/07/24/wildberries"
+    }
+  ],
+  "image_url": "",
+  "strikes": [
+    {
+      "date": "2026-07-23",
+      "description": "Damaged (No Fire). Drones hit roof/loading vents; scorch marks around receiving bays but core racking remained unharmed."
+    },
+    {
+      "date": "2026-08-11",
+      "description": "Overnight UAV strike triggered major fire battling across the warehouse sections; facility evacuated. Waiting for statellite imagery"
+    }
+  ]
+},
   {
     "id": "WB-008",
     "name": "Krasny Bor",
