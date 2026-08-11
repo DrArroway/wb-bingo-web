@@ -16,15 +16,51 @@ document.addEventListener('DOMContentLoaded', () => {
   5: { name: "Fully uploaded to Cloud", range: "80-100% loss", icon: "🔥🔥🔥🔥 ➜ ☁️", color: "var(--damage-5)" }
 };
 
-  async function loadData() {
-    try {
-      const response = await fetch('facilities.json');
-      facilitiesData = await response.json();
-      renderGrid();
-    } catch (err) {
-      console.error('Failed to load facility data:', err);
+async function loadData() {
+  try {
+    const response = await fetch('facilities.json');
+
+    // Extract Last-Modified header from the server response
+    const lastModifiedHeader = response.headers.get('Last-Modified');
+    const updateEl = document.getElementById('lastUpdate');
+
+    if (lastModifiedHeader && updateEl) {
+      const dateObj = new Date(lastModifiedHeader);
+
+      // Get short time zone (e.g. CEST) and long time zone (e.g. Central European Summer Time)
+      const tzShort = new Intl.DateTimeFormat('en-US', { timeZoneName: 'short' })
+      .formatToParts(dateObj)
+      .find(part => part.type === 'timeZoneName')?.value || 'Local Time';
+
+      const tzLong = new Intl.DateTimeFormat('en-US', { timeZoneName: 'long' })
+      .formatToParts(dateObj)
+      .find(part => part.type === 'timeZoneName')?.value || '';
+
+      // Format ISO-style date components
+      const year = dateObj.getFullYear();
+      const month = String(dateObj.getMonth() + 1).padStart(2, '0');
+      const day = String(dateObj.getDate()).padStart(2, '0');
+      const hours = String(dateObj.getHours()).padStart(2, '0');
+      const minutes = String(dateObj.getMinutes()).padStart(2, '0');
+
+      // Set clean header text + hover tooltip popup
+      updateEl.className = 'last-update tooltip-trigger';
+      updateEl.innerHTML = `
+      <span>Last Update ${year}-${month}-${day} ${hours}:${minutes}</span>
+      <div class="tooltip-popup">
+      <strong>Time Zone:</strong> ${tzShort}${tzLong ? ` (${tzLong})` : ''}
+      </div>
+      `;
+    } else if (updateEl) {
+      updateEl.textContent = '';
     }
+
+    facilitiesData = await response.json();
+    renderGrid();
+  } catch (err) {
+    console.error('Failed to load facility data:', err);
   }
+}
 
   function getSortedAndFilteredData() {
     const searchTerm = searchInput.value.toLowerCase().trim();
