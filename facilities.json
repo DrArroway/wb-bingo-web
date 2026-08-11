@@ -306,14 +306,14 @@
     "region": "Leningrad Oblast",
     "footprint_m2": 154000,
     "distance_border_km": 830,
-    "damage_level": 1,
+    "damage_level": 3,
     "confidence": "Confirmed",
     "last_strike_date": "2026-08-04",
     "coordinates": "59.683268, 30.629861",
     "sources": [
       {
         "name": "Copernicus Imagery",
-        "url": "https://browser.dataspace.copernicus.eu/?zoom=15&lat=59.68327&lng=30.62986&themeId=DEFAULT-THEME&visualizationUrl=U2FsdGVkX1%2FT5twpZmeV7wOf891DCbZYjn%2F1vx9zR46GOzbdNCmQrJkjK46nEMBEVYNxrH%2FJ9FZXPcgbfExYUdn3QxkTv2qh5wyPg%2Bfbu7ZnZTVNnsB%2FaZePmuKTEsQ4&datasetId=S2_L2A_CDAS&fromTime=2026-08-08T00%3A00%3A00.000Z&toTime=2026-08-08T23%3A59%3A59.999Z&layerId=1_TRUE_COLOR&demSource3D=%22MAPZEN%22&cloudCoverage=30&dateMode=SINGLE"
+        "url": "https://browser.dataspace.copernicus.eu/?zoom=15&lat=59.68327&lng=30.62986&themeId=DEFAULT-THEME&visualizationUrl=U2FsdGVkX189UHBhUyAPS7TIbpD6YRxjisLwMOt8g%2FVULdJ1wSgxYOaXKexeCI0Is6%2BdBRMEsukeUpJxXZI34Qt6ZbcH9UKmy0AfZ44i3gCd3ae7VfIGcB%2FqI4uwXBcN&datasetId=S2_L2A_CDAS&fromTime=2026-08-10T00%3A00%3A00.000Z&toTime=2026-08-10T23%3A59%3A59.999Z&layerId=1_TRUE_COLOR&demSource3D=%22MAPZEN%22&cloudCoverage=30&dateMode=SINGLE"
       },
       { "name": "Meduza Strike Report", "url": "https://meduza.io/en/feature/2026/08/04/ukraine-has-hit-20-wildberries-warehouses-since-mid-july-photos-and-videos-show-the-aftermath-of-the-latest-strike-on-a-logistics-center-in-russia-s-leningrad-region" },
       { "name": "Astra / Governor Drozdenko Statement", "url": "https://censor.net/en/news/4016769/drones-attacked-warehouses-in-three-regions-of-the-russian-federation-what-is-known-so-far" },
@@ -323,7 +323,7 @@
     "strikes": [
       {
         "date": "2026-08-04",
-        "description": "Collateral Damage / Operational Disruption. Drone impact targeted the adjacent Lenta distribution center within the same industrial park. Satellite imagery confirms the primary Wildberries roof remains intact, but the site suffered perimeter heat/smoke exposure and temporary operational suspension. Not yet uncloudy images on Copernicus"
+        "description": "Small to medium fire as satellite imagery confirms that the north corner roof of the facility is gone. it's now classified as medium fire (debatable if this is > than 20% dammage, from foot print alone: no, frome smoke and water damage)"
       }
     ]
   },
