@@ -421,8 +421,16 @@
   "sources": [
     {
       "name": "Copernicus Imagery",
-      "url": "https://browser.dataspace.copernicus.eu/?zoom=15&lat=56.78817&lng=36.05854&themeId=DEFAULT-THEME&visualizationUrl=U2FsdGVkX1%2BDYH1LO%2Bc1CorEJHrzn%2FDnj10u7O7sQaonU5xcHySygNK4EeNmGIRigPp7AwIa6lT5hHCw4Ypwi1EyQM46GretWbs8f76LX12Q37XNDM%2BaphXwQqQqG2F6&datasetId=S2_L2A_CDAS&fromTime=2026-08-09T00%3A00%3A00.000Z&toTime=2026-08-09T23%3A59%3A59.999Z&layerId=1_TRUE_COLOR&demSource3D=%22MAPZEN%22&cloudCoverage=30&dateMode=SINGLE"
+      "url": "https://browser.dataspace.copernicus.eu/?zoom=16&lat=56.78778&lng=36.05674&themeId=DEFAULT-THEME&visualizationUrl=U2FsdGVkX1%2BGixC2S5k3yE%2BiyMTq1acLnI2aRcsA0v3LBmLYZvwqQrN5isTYTbfa4Y9SEsVOQiBA%2B2%2FbSKYpjlZ35GjOYxNqnazj24Y%2F5iUZ8DWC7HbMQk%2FJ3bHH0JX9&datasetId=S2_L2A_CDAS&fromTime=2026-08-14T00%3A00%3A00.000Z&toTime=2026-08-14T23%3A59%3A59.999Z&layerId=1_TRUE_COLOR&demSource3D=%22MAPZEN%22&cloudCoverage=30&dateMode=SINGLE"
     },
+    {
+    "name": "Anadolu Agency Report",
+    "url": "https://www.aa.com.tr/en/eurasia/russia-ukraine-trade-overnight-drone-attacks-on-logistics-port-infrastructure/4027205"
+  },
+  {
+    "name": "ISW Campaign Assessment",
+    "url": "https://understandingwar.org/research/russia-ukraine/russian-offensive-campaign-assessment-august-14-2026/"
+  },
     {
       "name": "Meduza Incident Tracker",
       "url": "https://meduza.io/en/news/2026/08/04/ukrainian-drone-attack-kills-five-in-moscow-region-wildberries-warehouse-on-fire-in-russia-s-leningrad-region"
@@ -430,10 +438,6 @@
     {
       "name": "Astra OSINT / Telegram",
       "url": "https://t.me/astrapress"
-    },
-    {
-      "name": "Euromaidan Press Incident Summary",
-      "url": "https://euromaidanpress.com/2026/08/14/drones-again-target-industrial-and-logistics-sites-in-tver-region/"
     }
   ],
   "image_url": "",
@@ -444,7 +448,7 @@
     },
     {
       "date": "2026-08-14",
-      "description": "Intercepted / Exterior Damage. Overnight drone interception in Kalinin District caused debris to strike outer facade wall and localized smoke; facility sustained no internal structural or inventory damage."
+      "description": "Intercepted / Exterior Damage. Overnight drone interception in Kalinin District caused debris to strike outer facade wall and localized smoke; facility sustained no internal structural or inventory damage. No visible damage on satellite imagery"
     }
   ]
 },
@@ -1016,8 +1020,8 @@
   "last_strike_date": "2026-08-13",
   "coordinates": "54.654819, 55.474648",
   "sources": [
-     {
-      "name": "Copernicus)",
+    {
+      "name": "Copernicus Browser",
       "url": "https://browser.dataspace.copernicus.eu/?zoom=15&lat=54.65484&lng=55.47441&themeId=DEFAULT-THEME&visualizationUrl=U2FsdGVkX1%2FGQvvJSnmGBY9BOi2UZBmnwqUfAKqMDpSlHPM9CwZ7vuzh2PS3M6gy9zR2qb5vhSuaF9B85R6Kwp9izMJEpaf89XveX9QuF4mOTrEM%2F7HrFU80UPQifEqk&datasetId=S2_L2A_CDAS&fromTime=2026-08-12T00%3A00%3A00.000Z&toTime=2026-08-12T23%3A59%3A59.999Z&layerId=1_TRUE_COLOR&demSource3D=%22MAPZEN%22&cloudCoverage=30&dateMode=SINGLE"
     },
     {
@@ -1037,7 +1041,7 @@
   "strikes": [
     {
       "date": "2026-08-13",
-      "description": "Overnight UAV strike ignited a major blaze at the complex, destroyinpart the roof structure. Ka-32 firefighting helicopter deployed to assist ground teams."
+      "description": "Overnight UAV strike ignited a major blaze at the complex, destroying part of the roof structure (~30,000 m²). Ka-32 firefighting helicopter deployed to assist ground teams."
     }
   ]
 }
