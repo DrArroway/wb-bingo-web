@@ -1026,22 +1026,15 @@
     },
     {
       "name": "Militarnyi Strike Report",
-      "url": "https://militarnyi.com/en/news/drone-strike-sparks-fire-at-wildberries-hub-in-bashkortostan/"
+      "url": "https://militarnyi.com/en/news/drones-strike-wildberries-hub-in-bashkortostan/"
     },
     {
-      "name": "RBC-Ukraine Incident Report",
-      "url": "https://newsukraine.rbc.ua/news/ukrainian-drones-target-wildberries-hub-1723558000.html"
+      "name": "The Moscow Times Incident Report",
+      "url": "https://www.themoscowtimes.com/2026/08/13/ukrainian-drones-attack-wildberries-hub-and-oil-refinery-in-bashkortostan-a93480"
     },
     {
-      "name": "Radio Free Europe / Radio Liberty",
-      "url": "https://www.rferl.org/a/ukraine-russia-drone-strike-bashkortostan-wildberries/33821900.html"
-    }
-  ],
-  "image_url": "",
-  "strikes": [
-    {
-      "date": "2026-08-13",
-      "description": "Overnight UAV strike ignited a major blaze at the complex, destroying part of the roof structure (~30,000 m²). Ka-32 firefighting helicopter deployed to assist ground teams."
+      "name": "Ukrinform Report",
+      "url": "https://www.ukrinform.net/rubric-ato/4153713-drones-attack-oil-refinery-wildberries-logistics-center-in-bashkortostan-media.html"
     }
   ]
 }
