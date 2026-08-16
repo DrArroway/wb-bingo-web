@@ -4,15 +4,31 @@
     "name": "Koledino (Podolsk)",
     "region": "Moscow Oblast",
     "footprint_m2": 250000,
-    "distance_border_km": 440,
-    "damage_level": 1,
-    "confidence": "Confirmed",
-    "last_strike_date": "2026-07-20",
+    "distance_border_km": 450,
+    "damage_level": 4,
+    "confidence": "High",
+    "last_strike_date": "2026-08-16",
     "coordinates": "55.3863, 37.5840",
     "sources": [
       {
         "name": "Copernicus Imagery",
         "url": "https://browser.dataspace.copernicus.eu/?zoom=15&lat=55.3863&lng=37.584&themeId=DEFAULT-THEME&visualizationUrl=U2FsdGVkX18aZ7FjhWZ1ePU57KHE2DokgRqVYIeeZ426ZfeglFYG%2FfKH8BtnhJ3Ipljk1lGRbyMnA6Zs8dFVKU%2BwKVXJ3MYb7Pzy%2BEX5xEDAqgm1kNVT9dRgq5iGpteS&datasetId=S2_L2A_CDAS&fromTime=2026-08-08T00%3A00%3A00.000Z&toTime=2026-08-08T23%3A59%3A59.999Z&layerId=1_TRUE_COLOR&demSource3D=%22MAPZEN%22&cloudCoverage=30&dateMode=SINGLE"
+      },
+      {
+      "name": "Kyiv Independent Briefing",
+      "url": "https://kyivindependent.com/ukrainian-forces-target-moscow-oblast-damaging-wildberries-warehouse-in-major-attack/"
+      },
+      {
+      "name": "Ukrainska Pravda Report",
+      "url": "https://www.pravda.com.ua/eng/news/2026/08/16/8048855/"
+      },
+      {
+      "name": "LIGA.net Incident Coverage",
+      "url": "https://news.liga.net/en/war/news/hundreds-of-drones-headed-for-moscow-largest-wildberries-warehouse-and-domodedovo-on-fire-photos-video"
+      },
+      {
+      "name": "Nasha Niva Overview",
+      "url": "https://nashaniva.com/en/402400"
       },
       {
         "name": "Meduza Strike Tracker",
@@ -37,6 +53,10 @@
     ],
     "image_url": "",
     "strikes": [
+      {
+      "date": "2026-08-16",
+      "description": "Major fire. Overnight UAV strike directly hit Wildberries' main flagship complex, sparking large-scale fires across multiple warehouse sections. Waiting satellite to confirm damages extend"
+      },
       {
         "date": "2026-07-20",
         "description": "Minor damage. Evacuated during overnight 400-drone regional raid; brief localized exterior smoke, facility quickly resumed normal operations."
@@ -1035,6 +1055,13 @@
     {
       "name": "Ukrinform Report",
       "url": "https://www.ukrinform.net/rubric-ato/4153713-drones-attack-oil-refinery-wildberries-logistics-center-in-bashkortostan-media.html"
+    }
+  ],
+   "image_url": "",
+  "strikes": [
+    {
+      "date": "2026-08-13",
+      "description": "Fire reported. Overnight UAV strike hit warehouse roof"
     }
   ]
 }
