@@ -1064,6 +1064,34 @@
       "description": "Fire reported. Overnight UAV strike hit warehouse roof"
     }
   ]
+},
+{
+  "id": "WB-038",
+  "name": "Domodedovo",
+  "region": "Moscow Oblast",
+  "footprint_m2": 50000,
+  "distance_border_km": 420,
+  "damage_level": 3,
+  "confidence": "Medium",
+  "last_strike_date": "2026-08-16",
+  "coordinates": "55.4767, 37.7340",
+  "sources": [
+    {
+      "name": "Ukrainska Pravda Incident Report",
+      "url": "https://www.pravda.com.ua/eng/news/2026/08/16/8048855/"
+    },
+    {
+      "name": "EA WorldView Campaign Summary",
+      "url": "https://eaworldview.com/2026/08/ukraine-war-wildberries-kyiv-strikes-warehouses/"
+    }
+  ],
+  "image_url": "",
+  "strikes": [
+    {
+      "date": "2026-08-16",
+      "description": "Fire following a drone strike. Facility evacuated and fire response ongoing; structural loss not yet assessable from satellite imagery."
+    }
+  ]
 }
 
 ]
