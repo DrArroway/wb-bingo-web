@@ -431,6 +431,46 @@ a:focus,
   white-space: nowrap;
 }
 
+/* Minify Toggle Button */
+.minify-btn {
+  background: var(--card-bg);
+  color: var(--text-main);
+  border: 1px solid var(--card-border);
+  padding: 8px 14px;
+  border-radius: 6px;
+  font-size: 0.9rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.minify-btn:hover {
+  border-color: var(--accent-purple);
+}
+
+.minify-btn.active {
+  background: var(--accent-purple);
+  border-color: var(--accent-purple);
+  color: #ffffff;
+  box-shadow: 0 0 10px var(--accent-purple-glow);
+}
+
+/* Hide the metrics grid when minified */
+.grid.minified .metrics-grid {
+  display: none;
+}
+/* Hide both the ID/Region line and the metrics grid when minified */
+.grid.minified .card-id-region,
+.grid.minified .metrics-grid {
+  display: none;
+}
+
+/* Compact body spacing for minified tiles */
+.grid.minified .card-body {
+  padding: 10px 14px;
+  gap: 0;
+}
+
 /* Corner Ribbon Container */
 .new-ribbon {
   position: absolute;
