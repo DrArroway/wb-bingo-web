@@ -119,7 +119,7 @@
         "url": "https://apnews.com/article/russia-ukraine-war-wildberries-warehouses-drones-d2c705445dad07fced4fb8c1e3d314c5"
       }
     ],
-    "image_url": "img/WB-001.jpg",
+    "image_url": "img/WB-002.jpg",
     "strikes": [
       {
         "date": "2026-07-18",
@@ -167,7 +167,7 @@
         "url": "https://www.themoscowtimes.com/2026/08/03/at-least-11-killed-in-ukrainian-attacks-in-southern-russia-and-annexed-crimea-a93397"
       }
     ],
-    "image_url": "",
+    "image_url": "img/WB-003.jpg",
     "strikes": [
       {
         "date": "2026-08-03",
@@ -207,7 +207,7 @@
         "url": "https://www.internazionale.it/ultime-notizie-reuters/2026/07/29/drones-attack-industrial-sites-in-russia-s-ryazan-wildberries-warehouse-evacuated"
       }
     ],
-    "image_url": "",
+    "image_url": "img/WB-004.jpg",
     "strikes": [
       {
         "date": "2026-07-29",
@@ -234,7 +234,7 @@
       { "name": "ASTRA OSINT / Governor Statement", "url": "https://caliber.az/en/post/astra-drone-strikes-set-wildberries-warehouses-ablaze-near-st-petersburg" },
       { "name": "NV Business Report", "url": "https://english.nv.ua/business/drone-strikes-cripple-wildberries-hubs-and-expose-russia-s-wartime-economic-strain-50627303.html" }
     ],
-    "image_url": "",
+    "image_url": "img/WB-005.jpg",
     "strikes": [
       {
         "date": "2024-01-13",
@@ -267,7 +267,7 @@
       { "name": "Exilenova+ / Cotidianul Geolocation", "url": "https://cotidianul.md/en/35155/Ukrainian-drones-attacked-a-Wildberries-warehouse-in-Yekaterinburg/" },
       { "name": "Astra / Kyiv Independent Report (Aug 7)", "url": "https://kyivindependent.com/wildberries-2-000-km-from-front-line/" }
     ],
-    "image_url": "",
+    "image_url": "img/WB-006.jpg",
     "strikes": [
       {
         "date": "2026-08-07",
@@ -324,7 +324,7 @@
       "url": "https://en.zona.media/article/2026/07/24/wildberries"
     }
   ],
-  "image_url": "",
+  "image_url": "img/WB-007.jpg",
   "strikes": [
     {
       "date": "2026-07-23",
@@ -355,7 +355,7 @@
       { "name": "Astra / Governor Drozdenko Statement", "url": "https://censor.net/en/news/4016769/drones-attacked-warehouses-in-three-regions-of-the-russian-federation-what-is-known-so-far" },
       { "name": "NV Strike Telemetry (Lenta DC Target)", "url": "https://english.nv.ua/nation/ukraine-appears-to-strike-major-russian-supermarket-warehouse-for-first-time-50629878.html" }
     ],
-    "image_url": "",
+    "image_url": "img/WB-008.jpg",
     "strikes": [
       {
         "date": "2026-08-04",
@@ -382,7 +382,7 @@
       { "name": "Ukrainska Pravda / Astra Report", "url": "https://www.pravda.com.ua/eng/news/2026/08/05/8047305/" },
       { "name": "UNITED24 Media Analysis", "url": "https://united24media.com/war-in-ukraine/ukrainian-drones-strike-one-of-wildberries-largest-logistics-hubs-in-russias-tula-region-21366" }
     ],
-    "image_url": "",
+    "image_url": "img/WB-009.jpg",
     "strikes": [
       {
         "date": "2026-08-05",
@@ -409,7 +409,7 @@
       { "name": "Caliber / Astra Analysis", "url": "https://caliber.az/en/post/wildberries-logistics-hub-attacked-in-russia-s-tatarstan" },
       { "name": "The Insider Strike Summary", "url": "https://theins.press/en/news/295573" }
     ],
-    "image_url": "",
+    "image_url": "img/WB-010.jpg",
     "strikes": [
       {
         "date": "2026-07-31",
@@ -436,7 +436,7 @@
       { "name": "Ukrainska Pravda Report", "url": "https://www.pravda.com.ua/eng/news/2026/07/22/8045256/" },
       { "name": "NV Business Report", "url": "https://english.nv.ua/business/drone-strikes-cripple-wildberries-hubs-and-expose-russia-s-wartime-economic-strain-50627303.html" }
     ],
-    "image_url": "",
+    "image_url": "img/WB-011.jpg",
     "strikes": [
       {
         "date": "2026-07-22",
@@ -476,7 +476,7 @@
       "url": "https://t.me/astrapress"
     }
   ],
-  "image_url": "",
+  "image_url": "img/WB-012.jpg",
   "strikes": [
     {
       "date": "2026-08-04",
@@ -507,7 +507,7 @@
       { "name": "The Guardian Briefing", "url": "https://www.theguardian.com/world/2026/aug/03/ukraine-war-briefing-kyiv-hit-wildberries-again" },
       { "name": "Internazionale / TASS Assessment", "url": "https://www.internazionale.it/ultime-notizie-reuters/2026/08/04/ukraine-strikes-three-warehouses-across-russia-killing-five-local-officials-say" }
     ],
-    "image_url": "",
+    "image_url": "img/WB-013.jpg",
     "strikes": [
       {
         "date": "2026-08-02",
@@ -534,7 +534,7 @@
       { "name": "NV Business Report", "url": "https://english.nv.ua/business/drone-strikes-cripple-wildberries-hubs-and-expose-russia-s-wartime-economic-strain-50627303.html" },
       { "name": "Meduza Strike Report", "url": "https://meduza.io/en/news/2026/07/22/ukrainian-drones-strike-two-wildberries-warehouses-in-russia-sparking-fires-and-injuring-workers" }
     ],
-    "image_url": "",
+    "image_url": "img/WB-014.jpg",
     "strikes": [
       {
         "date": "2026-07-22",
@@ -558,7 +558,7 @@
    "url": "https://browser.dataspace.copernicus.eu/?zoom=15&lat=55.3341&lng=37.8228&themeId=DEFAULT-THEME&visualizationUrl=U2FsdGVkX1%2FZuRM81RK72J5s7VNFqiCmbaRRfZd%2FUZwhGRgLP%2FKqXX64mqI4eHEWnd3LQ%2FH1cwKTm3i6zdmfW2xJ8KowBwgOD2stbie4GiPObhl4LsiuJ0o96vAUJkSS&datasetId=S2_L2A_CDAS&fromTime=2026-08-01T00%3A00%3A00.000Z&toTime=2026-08-01T23%3A59%3A59.999Z&layerId=1_TRUE_COLOR&demSource3D=%22MAPZEN%22&cloudCoverage=30&dateMode=SINGLE"
       }
   ],
-  "image_url": "",
+  "image_url": "img/WB-015.jpg",
   "strikes": [
     {
       "date": "2026-08-01",
@@ -586,7 +586,7 @@
       { "name": "The Moscow Times Incident Report", "url": "https://www.themoscowtimes.com/2026/07/18/ukrainian-drone-attacks-kill-7-warehouse-workers-in-russia-a93280" },
       { "name": "Meduza Reopening Report", "url": "https://meduza.io/en/news/2026/07/21/a-ukrainian-drone-strike-on-two-wildberries-warehouses-killed-eight-people-this-thursday-less-than-a-week-after-the-attack-russia-s-largest-online-retailer-will-reopen-one-of-the-facilities" }
     ],
-    "image_url": "",
+    "image_url": "img/WB-016.jpg",
     "strikes": [
       {
         "date": "2026-07-18",
@@ -610,7 +610,7 @@
         "url": "https://browser.dataspace.copernicus.eu/?zoom=15&lat=55.0062&lng=82.54633&themeId=DEFAULT-THEME&visualizationUrl=U2FsdGVkX1%2BOIHPnvOwJL8H7OJW2eO4%2FsrPSw2UXa1ux5nG0lhyXBO%2FjRnXsnziLU3mc6Dzp09DGULV%2FwBkMzYuc%2FR1c3%2BtYmisvvvI4qzvbln44oOhBwtSmgK1wDiPe&datasetId=S2_L2A_CDAS&fromTime=2026-08-07T00%3A00%3A00.000Z&toTime=2026-08-07T23%3A59%3A59.999Z&layerId=1_TRUE_COLOR&demSource3D=%22MAPZEN%22&cloudCoverage=30&dateMode=SINGLE"
       }
       ],
-    "image_url": "",
+    "image_url": "img/WB-017.jpg",
     "strikes": []
   },
   {
@@ -633,7 +633,7 @@
       { "name": "Astra Telegram", "url": "https://t.me/astrapress" },
       { "name": "Governor Oleg Melnichenko Telegram Statement", "url": "https://t.me/melnichenko_58" }
     ],
-    "image_url": "",
+    "image_url": "img/WB-018.jpg",
     "strikes": [
       {
         "date": "2026-07-30",
@@ -657,7 +657,7 @@
         "url": "https://browser.dataspace.copernicus.eu/?zoom=15&lat=51.617147&lng=45.856712"
       }
     ],
-    "image_url": "",
+    "image_url": "img/WB-019.jpg",
     "strikes": []
   },
   {
@@ -676,7 +676,7 @@
         "url": "https://browser.dataspace.copernicus.eu/?zoom=15&lat=55.830833&lng=38.246961"
       }
     ],
-    "image_url": "",
+    "image_url": "img/WB-020.jpg",
     "strikes": []
   },
   {
@@ -695,7 +695,7 @@
         "url": "https://browser.dataspace.copernicus.eu/?zoom=15&lat=55.501350&lng=38.159358"
       }
     ],
-    "image_url": "",
+    "image_url": "img/WB-021.jpg",
     "strikes": []
   },
   {
@@ -714,7 +714,7 @@
         "url": "https://browser.dataspace.copernicus.eu/?zoom=15&lat=54.641550&lng=55.949891"
       }
     ],
-    "image_url": "",
+    "image_url": "img/WB-022.jpg",
     "strikes": []
   },
   {
@@ -733,7 +733,7 @@
         "url": "https://browser.dataspace.copernicus.eu/?zoom=15&lat=55.336835&lng=37.485912"
       }
     ],
-    "image_url": "",
+    "image_url": "img/WB-023.jpg",
     "strikes": []
   },
   {
@@ -752,7 +752,7 @@
         "url": "https://browser.dataspace.copernicus.eu/?zoom=15&lat=54.884351&lng=73.378415"
       }
     ],
-    "image_url": "",
+    "image_url": "img/WB-024.jpg",
     "strikes": []
   }
   ,
@@ -775,7 +775,7 @@
       { "name": "NV Business / Strike Report", "url": "https://english.nv.ua/nation/drones-attack-wildberries-logistics-hub-in-russia-s-sarapul-fire-reported-50628390.html" },
       { "name": "Astra OSINT / Governor Abramova Statement", "url": "https://t.me/astrapress" }
     ],
-    "image_url": "",
+    "image_url": "img/WB-025.jpg",
     "strikes": [
       {
         "date": "2026-07-30",
@@ -799,7 +799,7 @@
         "url": "https://browser.dataspace.copernicus.eu/?zoom=15&lat=56.040244&lng=37.153985"
       }
     ],
-    "image_url": "",
+    "image_url": "img/WB-026.jpg",
     "strikes": []
   },
   {
@@ -822,7 +822,7 @@
       { "name": "Astra Telegram / OSINT", "url": "https://unn.ua/en/news/osint-analysis-confirmed-strikes-on-wildberries-warehouses-in-tatarstan-and-volgograd" },
       { "name": "Governor Andrey Bocharov Statement", "url": "https://www.themoscowtimes.com/2026/07/31/ukraine-hits-wildberries-logistics-center-and-energy-facility-in-volgograd-killing-at-least-one-a93383" }
     ],
-    "image_url": "",
+    "image_url": "img/WB-027.jpg",
     "strikes": [
       {
         "date": "2026-07-31",
@@ -846,7 +846,7 @@
         "url": "https://browser.dataspace.copernicus.eu/?zoom=15&lat=56.022853&lng=37.891034"
       }
     ],
-    "image_url": "",
+    "image_url": "img/WB-028.jpg",
     "strikes": []
   },
   {
@@ -865,7 +865,7 @@
         "url": "https://browser.dataspace.copernicus.eu/?zoom=15&lat=55.729840&lng=84.821623"
       }
     ],
-    "image_url": "",
+    "image_url": "img/WB-029.jpg",
     "strikes": []
   },
   {
@@ -887,7 +887,7 @@
       { "name": "Astra Telegram / OSINT Report", "url": "https://t.me/astrapress" },
       { "name": "UNN / ASTRA OSINT Analysis", "url": "https://unn.ua/en/news/after-a-drone-attack-near-st-petersburg-two-wildberries-logistics-centers-suspended-operations-astra" }
     ],
-    "image_url": "",
+    "image_url": "img/WB-030.jpg",
     "strikes": [
       {
         "date": "2026-07-24",
@@ -917,7 +917,7 @@
       { "name": "Kyiv Independent Coverage", "url": "https://kyivindependent.com/wildberries-logistics-center-in-russian-occupied-crimea-catches-fire-after-reported-drone-strike/" },
       { "name": "Radio Free Europe / Radio Liberty", "url": "https://www.rferl.org/a/ukraine-russia-drone-attack-wildberries-zelenskyy-trump/33817538.html" }
     ],
-    "image_url": "",
+    "image_url": "img/WB-031.jpg",
     "strikes": [
       {
         "date": "2026-07-24",
@@ -944,7 +944,7 @@
       { "name": "Censor.NET / Astra OSINT", "url": "https://censor.net/en/news/4016769/drones-attacked-warehouses-in-three-regions-of-the-russian-federation-what-is-known-so-far" },
       { "name": "Ukrainska Pravda Coverage", "url": "https://www.pravda.com.ua/eng/news/2026/08/04/8047126/" }
     ],
-    "image_url": "",
+    "image_url": "img/WB-032.jpg",
     "strikes": [
       {
         "date": "2026-08-04",
@@ -972,7 +972,7 @@
       { "name": "United24 Long-Range Strike Analysis", "url": "https://united24media.com/war-in-ukraine/ukraines-drones-reach-1400-kilometers-into-russia-to-strike-wildberries-network-21217" },
       { "name": "Censor.NET OSINT Coverage", "url": "https://censor.net/en/news/4016104/third-wildberries-logistics-hub-hit-in-russia-in-one-day" }
     ],
-    "image_url": "",
+    "image_url": "img/WB-033.jpg",
     "strikes": [
       {
         "date": "2026-07-30",
@@ -996,7 +996,7 @@
         "url": "https://browser.dataspace.copernicus.eu/?zoom=15&lat=56.787950&lng=36.059880"
       }
     ],
-    "image_url": "",
+    "image_url": "img/WB-034.jpg",
     "strikes": []
   },
   {
@@ -1015,7 +1015,7 @@
         "url": "https://browser.dataspace.copernicus.eu/?zoom=15&lat=47.3267910&lng=39.878163"
       }
     ],
-    "image_url": "",
+    "image_url": "img/WB-035.jpg",
     "strikes": []
   },
   {
@@ -1037,7 +1037,7 @@
     { "name": "Ukrinform / Verstka Strike Summary", "url": "https://www.ukrinform.net/rubric-ato/4149242-ukrainian-drones-hit-over-15-of-wildberries-warehouse-capacity-media.html" },
     { "name": "Anadolu Agency Market Analysis", "url": "https://www.aa.com.tr/en/eurasia/in-5-questions-why-is-ukraine-targeting-russia-s-largest-online-marketplace/4018212" }
   ],
-  "image_url": "",
+  "image_url": "img/WB-036.jpg",
   "strikes": [
     {
       "date": "2026-07-23",
@@ -1073,7 +1073,7 @@
       "url": "https://www.ukrinform.net/rubric-ato/4153713-drones-attack-oil-refinery-wildberries-logistics-center-in-bashkortostan-media.html"
     }
   ],
-   "image_url": "",
+   "image_url": "img/WB-037.jpg",
   "strikes": [
     {
       "date": "2026-08-13",
@@ -1117,7 +1117,7 @@
       "url": "https://eaworldview.com/2026/08/ukraine-war-wildberries-kyiv-strikes-warehouses/"
     }
   ],
-  "image_url": "",
+  "image_url": "img/WB-038.jpg",
   "strikes": [
     {
       "date": "2026-08-16",
