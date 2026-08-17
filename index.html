@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Wildberries Logistics Hubs Dashboard</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <header>
+    <div class="title-area">
+    <h1><span>Wildberries</span> Logistics Tracking Bingo</h1>
+    <div class="last-update" id="lastUpdate">Loading last update...</div>
+  </div>
+    
+  <div class="controls">
+   <button id="minifyBtn" class="minify-btn" type="button">Minify</button>
+
+  <div class="control-group">
+      <label for="sortSelect" data-hint="Choose property to order tiles">Sort By:</label>
+        <select id="sortSelect">
+          <option value="footprint_desc">Footprint (Largest First)</option>
+          <option value="footprint_asc">Footprint (Smallest First)</option>
+          <option value="damage_desc">Damage Intensity (Most Damaged)</option>
+          <option value="damage_asc">Damage Intensity (Least Damaged)</option>
+          <option value="distance_asc">Distance (Nearer to Ukraine)</option>
+          <option value="distance_desc">Distance (Further from Ukraine)</option>
+          <option value="date_desc">Last Strike (Most Recent)</option>
+          <option value="id_asc">Facility ID</option>
+        </select>
+      </div>
+
+      <div class="control-group">
+        <label for="searchInput">Search:</label>
+        <input type="text" id="searchInput" placeholder="Filter facility name or region...">
+      </div>
+    </div>
+  </header>
+
+  <main class="grid" id="facilitiesGrid">
+    <!-- Dynamic grid tiles injected via app.js -->
+  </main>
+
+  <script src="app.js"></script>
+</body>
+</html>
