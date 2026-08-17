@@ -63,7 +63,11 @@
       "url": "https://www.pravda.com.ua/eng/news/2026/07/20/8044860/"
     }
   ],
+<<<<<<< HEAD
   "image_url": "/img/WB-001.jpg",
+=======
+  "image_url": "",
+>>>>>>> 3d0dd42f858c7498acf3c8c821cca1ebc464ed19
   "strikes": [
     {
       "date": "2026-08-16",
