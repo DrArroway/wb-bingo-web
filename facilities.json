@@ -1,5 +1,5 @@
 [
-  {
+ {
   "id": "WB-001",
   "name": "Koledino (Podolsk)",
   "region": "Moscow Oblast",
@@ -22,7 +22,7 @@
       "name": "Kyiv Independent Briefing",
       "url": "https://kyivindependent.com/ukrainian-forces-target-moscow-oblast-damaging-wildberries-warehouse-in-major-attack/"
     },
-      {
+    {
       "name": "Euromaidan Press Strike Analysis",
       "url": "https://euromaidanpress.com/2026/08/16/one-of-the-most-massive-ukrainian-drone-attacks-hits-moscow-oblast/"
     },
@@ -63,7 +63,7 @@
       "url": "https://www.pravda.com.ua/eng/news/2026/07/20/8044860/"
     }
   ],
-  "image_url": "/img/WB-001.jpg",
+  "image_url": "img/WB-001.jpg",
   "strikes": [
     {
       "date": "2026-08-16",
