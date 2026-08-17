@@ -60,6 +60,13 @@ async function loadData() {
   } catch (err) {
     console.error('Failed to load facility data:', err);
   }
+  const minifyBtn = document.getElementById('minifyBtn');
+
+  minifyBtn.addEventListener('click', () => {
+    const isMinified = grid.classList.toggle('minified');
+    minifyBtn.classList.toggle('active', isMinified);
+    minifyBtn.textContent = isMinified ? 'Expand' : 'Minify';
+  });
 }
 
   function getSortedAndFilteredData() {
