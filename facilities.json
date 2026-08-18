@@ -451,7 +451,7 @@
   "footprint_m2": 77000,
   "distance_border_km": 580,
   "damage_level": 1,
-  "confidence": "High",
+  "confidence": "Medium",
   "last_strike_date": "2026-08-14",
   "coordinates": "56.788165, 36.058538",
   "sources": [
@@ -481,10 +481,6 @@
     {
       "date": "2026-08-04",
       "description": "Intercepted / Near Miss. Air defense interception over Pasynkovo/Emmauss industrial zone caused minor debris impact to perimeter wall; core warehouse structure intact."
-    },
-    {
-      "date": "2026-08-14",
-      "description": "Intercepted / Exterior Damage. Overnight drone interception in Kalinin District caused debris to strike outer facade wall and localized smoke; facility sustained no internal structural or inventory damage. No visible damage on satellite imagery"
     }
   ]
 },
@@ -573,7 +569,7 @@
     "footprint_m2": 150000,
     "distance_border_km": 380,
     "damage_level": 2,
-    "confidence": "Medium",
+    "confidence": "High",
     "last_strike_date": "2026-07-18",
     "coordinates": "52.60028, 41.45455",
     "sources": [
@@ -1033,7 +1029,7 @@
   "footprint_m2": 25000,
   "distance_border_km": 230,
   "damage_level": 2,
-  "confidence": "Confirmed",
+  "confidence": "Medium",
   "last_strike_date": "2026-07-23",
   "coordinates": "51.536780, 39.283120",
   "sources": [
