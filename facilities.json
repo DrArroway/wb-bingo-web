@@ -285,14 +285,14 @@
   "region": "Voronezh Oblast",
   "footprint_m2": 180000,
   "distance_border_km": 210,
-  "damage_level": 4,
+  "damage_level": 3,
   "confidence": "High",
   "last_strike_date": "2026-08-11",
   "coordinates": "51.6199, 39.3505",
   "sources": [
     {
       "name": "Copernicus Imagery",
-      "url": "https://browser.dataspace.copernicus.eu/?zoom=15&lat=51.6199&lng=39.3505&themeId=DEFAULT-THEME&visualizationUrl=U2FsdGVkX1%2BIRlWtqrdDs%2FnvO%2FFgJi2%2FueCLytycAd%2Bn67TPJoXMXX0quHsp04S70yETKXIQdSDSJEQAvbOjs1eijuBCBQrfN%2F0%2FOmoK4UvSHtXElu1H9WuxDbFWeu8F&datasetId=S2_L2A_CDAS&fromTime=2026-08-05T00%3A00%3A00.000Z&toTime=2026-08-05T23%3A59%3A59.999Z&layerId=1_TRUE_COLOR&demSource3D=%22MAPZEN%22&cloudCoverage=30&dateMode=SINGLE"
+      "url": "https://browser.dataspace.copernicus.eu/?zoom=16&lat=51.61543&lng=39.34074&themeId=DEFAULT-THEME&visualizationUrl=U2FsdGVkX1%2BI7e4dhZSk%2Bh0jLsZM5clzL6u1fulOW8Gw95GIJL8B3j73a3jX3Hc9FjAwKTnKFoUMZ7NZ9PY5IB2%2B9vhS6DqdGMKlje7rm0FxNqK3QH%2BiKaerdOALjuNY&datasetId=S2_L1C_CDAS&fromTime=2026-08-17T00%3A00%3A00.000Z&toTime=2026-08-17T23%3A59%3A59.999Z&layerId=1_TRUE_COLOR&demSource3D=%22MAPZEN%22&cloudCoverage=30&dateMode=SINGLE"
     },
     {
       "name": "Militarnyi Strike Report",
@@ -332,7 +332,7 @@
     },
     {
       "date": "2026-08-11",
-      "description": "Overnight UAV strike triggered major fire battling across the warehouse sections; facility evacuated. Waiting for statellite imagery"
+      "description": "Overnight UAV strike triggered major fire battling across the warehouse sections; facility evacuated. Statellite imagery that 1/3 of facility is gone"
     }
   ]
 },
