@@ -952,33 +952,41 @@
       }
     ]
   },
-  {
-    "id": "WB-033",
-    "name": "Zamulyanka (Perm)",
-    "region": "Perm Krai",
-    "footprint_m2": 50000,
-    "distance_border_km": 1400,
-    "damage_level": 2,
-    "confidence": "Confirmed",
-    "last_strike_date": "2026-07-30",
-    "coordinates": "57.906933, 56.261737",
-    "sources": [
-      {
-        "name": "Copernicus Imagery",
-        "url": "https://browser.dataspace.copernicus.eu/?zoom=15&lat=57.906933&lng=56.261737&themeId=DEFAULT-THEME&datasetId=S2_L2A_CDAS&fromTime=2026-07-30T00%3A00%3A00.000Z&toTime=2026-08-02T23%3A59%3A59.999Z&layerId=1_TRUE_COLOR&cloudCoverage=30&dateMode=SINGLE"
-      },
-      { "name": "Meduza Incident Report", "url": "https://meduza.io/en/news/2026/07/30/ukrainian-drones-strike-third-wildberries-warehouse-in-russia-in-a-day" },
-      { "name": "The Insider / Astra Geolocated Report", "url": "https://theins.press/en/news/295530" },
-      { "name": "United24 Long-Range Strike Analysis", "url": "https://united24media.com/war-in-ukraine/ukraines-drones-reach-1400-kilometers-into-russia-to-strike-wildberries-network-21217" },
-      { "name": "Censor.NET OSINT Coverage", "url": "https://censor.net/en/news/4016104/third-wildberries-logistics-hub-hit-in-russia-in-one-day" }
-    ],
-    "image_url": "img/WB-033.jpg",
-    "strikes": [
-      {
-        "date": "2026-07-30",
-        "description": "Minor Impact / Smoke Plume. Geolocated by Astra and Agentstvo; drone strike caused localized fire and smoke plume near the facility. Primary building structure remains intact with no visible burn scars on satellite imagery."
-      }
-    ]
+ {
+  "id": "WB-033",
+  "name": "Zamulyanka (Perm)",
+  "region": "Perm Krai",
+  "footprint_m2": 50000,
+  "distance_border_km": 1400,
+  "damage_level": 2,
+  "confidence": "Medium",
+  "last_strike_date": "2026-07-30",
+  "coordinates": "57.906933, 56.261737",
+  "sources": [
+    {
+      "name": "Copernicus Imagery",
+      "url": "https://browser.dataspace.copernicus.eu/?zoom=15&lat=57.906933&lng=56.261737&themeId=DEFAULT-THEME&datasetId=S2_L2A_CDAS&fromTime=2026-07-30T00%3A00%3A00.000Z&toTime=2026-08-02T23%3A59%3A59.999Z&layerId=1_TRUE_COLOR&cloudCoverage=30&dateMode=SINGLE"
+    },
+    {
+      "name": "Meduza / Agentstvo + ASTRA Geolocation",
+      "url": "https://meduza.io/en/news/2026/07/30/ukrainian-drones-strike-third-wildberries-warehouse-in-russia-in-a-day"
+    },
+    {
+      "name": "UNITED24 Media",
+      "url": "https://united24media.com/war-in-ukraine/ukraines-drones-reach-1400-kilometers-into-russia-to-strike-wildberries-network-21217"
+    },
+    {
+      "name": "NV",
+      "url": "https://english.nv.ua/nation/wildberries-warehouse-in-perm-catches-fire-after-drone-attack-50628480.html"
+    }
+  ],
+  "image_url": "img/WB-033.jpg",
+  "strikes": [
+    {
+      "date": "2026-07-30",
+      "description": "Localized fire and smoke following the strike. ASTRA and Agentstvo geolocated the affected Wildberries sorting center to Zamulyanka. Post-strike Copernicus imagery shows no obvious major roof loss or large burn scar on the primary warehouse; damage is assessed as limited. Poor over all informations make it medium confidence"
+    }
+  ]
   },
   {
     "id": "WB-034",
